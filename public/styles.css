@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+  body {
+    background: #eee;
+    padding: 0 16px;
+  }
+  .navlogo {
+    color: #f5ba13;
+    margin: auto 60px;
+  }
+  nav {
+    background-color: white;
+    margin: auto -16px;
+    padding: 20px 32px;
+    display: flex;
+    justify-content: center;
+  }
+  .navitem {
+    margin: auto 13px;
+    padding: 8px 5px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.3em;
+    font-family: Montserrat;
+    font-weight: 500;
+  }
+  
