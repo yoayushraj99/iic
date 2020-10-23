@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-function Home() {
+function App() {
 
 }
 
-export default Home;
+export default App;
