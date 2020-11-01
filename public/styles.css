@@ -1,33 +1,214 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+}
+/*** Section Title ***/
+.sec-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 60px 0px 40px 0px;
+}
+/*** Section Content ***/
+.content {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+/*** NavBar ***/
+nav {
+  background-color: white;
+  margin: auto -16px;
+  padding: 25px 32px;
+}
+li {
+  margin: auto 6px;
+  padding: 8px 4px;
+}
+li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1em;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+/*** Latest Updates ***/
+.box {
+  margin: 1em auto;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+}
+.marquee {
+  margin: 1em 0em;
+  padding: 0 1em;
+  line-height: 1.5em;
+  font: 1em "Segoe UI", Tahoma, Helvetica, Sans-Serif;
+  top: 6em;
+  position: relative;
+  box-sizing: border-box;
+  animation: marquee 15s linear infinite;
+}
+.box > p:hover {
+  animation-play-state: paused;
+}
+/* Make it move! */
+@keyframes marquee {
+  0% {
+    top: 8em;
   }
-  html {
-    font-family: "Montserrat", sans-serif;
+  100% {
+    top: -11em;
   }
-  body {
-    background: #eee;
-    padding: 0 16px;
+}
+.divider {
+  position: relative;
+  margin-top: 40px;
+  height: 1px;
+}
+
+.div-transparent:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgb(48, 49, 51),
+    transparent
+  );
+}
+.div-dot:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -9px;
+  left: calc(50% - 9px);
+  width: 18px;
+  height: 18px;
+  background-color: goldenrod;
+  border: 1px solid rgb(48, 49, 51);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px white, 0 0 0 4px white;
+}
+/*** Achivement- Section ***/
+.achivement-wrap {
+  margin: 26px 0px;
+}
+.counter-number {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+/*** Footer ***/
+.footer-bs {
+  background-color: #3c3d41;
+  padding: 60px 40px;
+  color: rgba(255, 255, 255, 1);
+  margin: 0px -16px;
+}
+.footer-bs .footer-brand,
+.footer-bs .footer-nav,
+.footer-bs .footer-social,
+.footer-bs .footer-ns {
+  padding: 10px 25px;
+}
+.footer-bs .footer-nav,
+.footer-bs .footer-social,
+.footer-bs .footer-ns {
+  border-color: transparent;
+}
+.footer-bs .footer-brand h2 {
+  margin: 0px 0px 10px;
+}
+.footer-bs .footer-brand p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-bs .footer-nav ul.pages {
+  list-style: none;
+  padding: 0px;
+}
+.footer-bs .footer-nav ul.pages li {
+  padding: 5px 0px;
+}
+.footer-bs .footer-nav ul.pages a {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.footer-bs .footer-nav ul.pages a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+.footer-bs .footer-nav h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.footer-bs .footer-nav ul.list {
+  list-style: none;
+  padding: 0px;
+}
+.footer-bs .footer-nav ul.list li {
+  padding: 5px 0px;
+}
+.footer-bs .footer-nav ul.list a {
+  color: rgba(255, 255, 255, 0.8);
+}
+.footer-bs .footer-nav ul.list a:hover {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer-bs .footer-social ul {
+  list-style: none;
+  padding: 0px;
+}
+.footer-bs .footer-social h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.footer-bs .footer-social li {
+  padding: 5px 4px;
+}
+.footer-bs .footer-social a {
+  color: rgba(255, 255, 255, 1);
+}
+.footer-bs .footer-social a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.footer-bs .footer-ns h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+.footer-bs .footer-ns p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (min-width: 768px) {
+  .footer-bs .footer-nav,
+  .footer-bs .footer-social,
+  .footer-bs .footer-ns {
+    border-left: solid 1px rgba(255, 255, 255, 0.1);
   }
-  .navlogo {
-    color: #f5ba13;
-    margin: auto 60px;
-  }
-  nav {
-    background-color: white;
-    margin: auto -16px;
-    padding: 20px 32px;
-    display: flex;
-    justify-content: center;
-  }
-  .navitem {
-    margin: auto 13px;
-    padding: 8px 5px;
-    text-decoration: none;
-    color: #000000;
-    font-size: 1.3em;
-    font-family: Montserrat;
-    font-weight: 500;
-  }
-  
+}
