@@ -1,4 +1,5 @@
 import React from "react";
+import Divider from "../Dividers/Divider";
 
 function Achivement() {
   return (
@@ -68,6 +69,7 @@ function Achivement() {
           </div>
         </div>
       </div>
+      <Divider />
     </div>
   );
 }
