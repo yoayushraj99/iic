@@ -10,6 +10,10 @@ body {
   background: #eee;
   padding: 0 16px;
 }
+/*** Header ***/
+.header-container{
+  margin: 0 -16px;
+}
 /*** Section Title ***/
 .sec-title {
   text-align: center;
