@@ -1,19 +1,32 @@
-import React from "react";
-import Navbar from "./Nav-foot/Navbar";
-import Header from "./Home/Header";
-import About from "./Home/About";
-import Footer from "./Nav-foot/Footer";
-import Achivement from "./Home/Achivement";
+import React, { Component } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+
+import Homepage from '../components/Home/HomePage';
+import AboutUs from '../components/About-Page/AboutUs';
+import Connect from '../components/Connect-us/Connect';
+import Partners from '../components/Partners-Page/Partners';
+import Portfolio from '../components/Portfolio/Portfolio';
+import Programmes from '../components/Programmes-Page/Programmes';
+import Testimonial from '../components/Testimonial-Page/Testimonial';
+import Error from './Error';
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Header />
-      <About />
-      <Achivement />
-      <Footer />
-    </div>
+    <BrowserRouter>
+        <div>
+            <Switch>
+             <Route path="/" component={Homepage} exact/>
+             <Route path="/About" component={AboutUs}/>
+             <Route path="/Connect" component={Connect}/>
+             <Route path="/Partners" component={Partners}/>
+             <Route path="/Portfolio" component={Portfolio}/>
+             <Route path="/Programmes" component={Programmes}/>
+             <Route path="/Testimonial" component={Testimonial}/>
+             
+            <Route component={Error}/>
+           </Switch>
+        </div> 
+    </BrowserRouter>
   );
 }
 

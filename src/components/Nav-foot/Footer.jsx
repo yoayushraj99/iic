@@ -77,6 +77,7 @@ function Footer() {
               className="form-control"
               formcontrolname="useremail"
               placeholder="Enter Your Email"></input>
+              <i class="fas fa-paper-plane fa-2x"></i>
             <span className="input-group-btn">
               <button className="btn btn-default" type="button">
                 <span className="glyphicon glyphicon-envelope"></span>

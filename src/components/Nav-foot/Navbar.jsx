@@ -6,7 +6,7 @@ function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light navbar-light" style={{backgroundColor: "#303F47"}}>
       <a href="#" className="navbar-brand navlogo ">
         <img
-          src="https://nitdgp.ac.in/static/img/nitdgp_logo.png"
+          src="https://nitdgp.ac.in/static/img/nitdgp_logo_white.png"
           alt="Nit Dgp Logo"
           height="80"
         />
