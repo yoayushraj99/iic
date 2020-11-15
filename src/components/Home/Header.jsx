@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="container-fluid">
+    <div className="header-container">
       <div className="row">
         <div className="col-lg-9">
           <div
@@ -25,19 +25,19 @@ function Header() {
               <div className="carousel-item active">
                 <img
                   className="d-block w-100"
-                  src="https://via.placeholder.com/1200x600.png"
+                  src="https://cdn.luxe.digital/media/2020/09/15155224/world-best-michelin-restaurants-luxe-digital.jpg"
                   alt="First slide"></img>
               </div>
               <div className="carousel-item">
                 <img
                   className="d-block w-100"
-                  src="https://via.placeholder.com/1200x600.png"
+                  src="https://viterbischool.usc.edu/wp-content/uploads/2020/01/Hocking-hps-.jpg"
                   alt="Second slide"></img>
               </div>
               <div className="carousel-item">
                 <img
                   className="d-block w-100"
-                  src="https://via.placeholder.com/1200x600.png"
+                  src="https://www.britishathletics.org.uk/wp-content/uploads/2018/07/Hannah-Cockroft-mag.jpg"
                   alt="Third slide"></img>
               </div>
             </div>

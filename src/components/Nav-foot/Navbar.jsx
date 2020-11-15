@@ -1,9 +1,10 @@
 import React from "react";
+import { NavLink, Route } from 'react-router-dom'
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
-      <a href="#" className="navbar-brand navlogo">
+    <nav className="navbar navbar-expand-lg navbar-light navbar-light" style={{backgroundColor: "#303F47"}}>
+      <a href="#" className="navbar-brand navlogo ">
         <img
           src="https://nitdgp.ac.in/static/img/nitdgp_logo.png"
           alt="Nit Dgp Logo"
@@ -27,37 +28,37 @@ function Navbar() {
         <ul className="navbar-nav">
           <li className="nav-item">
             <a className="nav-link active" href="#">
-              Home
+            <NavLink to="/" style={{ color: 'yellow' }}>Home</NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              About
+            <NavLink to="/About" style={{ color: 'yellow' }}>About</NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              Programmes
+            <NavLink to="/Programmes" style={{ color: 'yellow' }}>Programmes</NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              Partners
+            <NavLink to="/Partners" style={{ color: 'yellow' }}>Partners</NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              Portfolio
+            <NavLink to="/Portfolio" style={{ color: 'yellow' }}>Portfolio</NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              Connect
+            <NavLink to="/Connect" style={{ color: 'yellow' }}>Connect</NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              Testimonial
+            <NavLink to="/Testimonial" style={{ color: 'yellow' }}>Testimonial</NavLink>
             </a>
           </li>
         </ul>
