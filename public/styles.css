@@ -2,9 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Lora', serif;
 }
 html {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Lora', serif;
 }
 body {
   background: #eee;
@@ -19,11 +20,12 @@ body {
   text-align: center;
   text-transform: uppercase;
   margin: 60px 0px 40px 0px;
+  font-weight: 800;
 }
 /*** Section Content ***/
 .content {
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 /*** NavBar ***/
 nav {
@@ -39,7 +41,7 @@ li a {
   text-decoration: none;
   color: #000000;
   font-size: 1em;
-  font-family: Montserrat;
+  /* font-family: Montserrat; */
   font-weight: 500;
 }
 /*** Latest Updates ***/
@@ -150,9 +152,9 @@ li a {
   background-image: -ms-linear-gradient(top, #414141, #000000);
   background-image: -o-linear-gradient(top, #414141, #000000);
   background-image: -webkit-gradient(to bottom, #414141, #000000);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
   color: #EEEEEE;
   font-family: Open Sans;
   font-size: 19px;

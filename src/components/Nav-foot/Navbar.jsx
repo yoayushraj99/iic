@@ -1,7 +1,13 @@
 import React from "react";
-import { NavLink, Route } from 'react-router-dom'
+import { NavLink, Route } from 'react-router-dom';
 
 function Navbar() {
+
+  const styleLink = {
+    color: 'yellow',
+    textDecoration: 'none'
+  }
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light navbar-light" style={{backgroundColor: "#303F47"}}>
       <a href="#" className="navbar-brand navlogo ">
@@ -28,37 +34,48 @@ function Navbar() {
         <ul className="navbar-nav">
           <li className="nav-item">
             <a className="nav-link active" href="#">
-            <NavLink to="/" style={{ color: 'yellow' }}>Home</NavLink>
+            <NavLink to="/" style={styleLink}>Home</NavLink>
+            </a>
+          </li>
+          <li className="nav-item dropdown">
+            <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown" style={styleLink}>About</a>
+              <ul className="dropdown-menu">
+                <li><a className="dropdown-item" href="#">About IIC</a></li>
+                <li><a className="dropdown-item" href="#">Facilities</a></li>
+                <li><a className="dropdown-item" href="#">Team</a></li>
+                <li><a className="dropdown-item" href="#">What we do</a></li>
+                <li><a className="dropdown-item" href="#">FaQ</a></li>
+                <li><a className="dropdown-item" href="#">GuideLines</a></li>
+              </ul>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+            <NavLink to="/Programmes" style={styleLink}>Programmes</NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-            <NavLink to="/About" style={{ color: 'yellow' }}>About</NavLink>
+            <NavLink to="/Partners" style={styleLink}>Partners</NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-            <NavLink to="/Programmes" style={{ color: 'yellow' }}>Programmes</NavLink>
+            <NavLink to="/Portfolio" style={styleLink}>Portfolio</NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-            <NavLink to="/Partners" style={{ color: 'yellow' }}>Partners</NavLink>
+            <NavLink to="/Connect" style={styleLink}>Connect</NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-            <NavLink to="/Portfolio" style={{ color: 'yellow' }}>Portfolio</NavLink>
+            <NavLink to="/Testimonial" style={styleLink}>Testimonial</NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-            <NavLink to="/Connect" style={{ color: 'yellow' }}>Connect</NavLink>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#">
-            <NavLink to="/Testimonial" style={{ color: 'yellow' }}>Testimonial</NavLink>
+            <NavLink to="/Testimonial" style={styleLink}>Tinkering Lab</NavLink>
             </a>
           </li>
         </ul>
