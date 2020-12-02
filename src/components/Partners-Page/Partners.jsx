@@ -17,36 +17,17 @@ function Partners() {
         <Container className="container">
           <Row>
             <Col xs={6} md={3}>
-              <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dbGMMxhMuBfnLPM2QvHk_51oLJm96eEBA&usqp=CAU" roundedCircle />
+            <img alt="timer" src={require('../../images/1.jpeg')} img-thumbnail />
+            
             </Col>
             <Col xs={6} md={3}>
-              <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dbGMMxhMuBfnLPM2QvHk_51oLJm96eEBA&usqp=CAU" roundedCircle />
+              <img alt="timer" src={require('../../images/2.png')} img-thumbnail />
             </Col>
             <Col xs={6} md={3}>
-              <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dbGMMxhMuBfnLPM2QvHk_51oLJm96eEBA&usqp=CAU" roundedCircle />
+              <img alt="timer" src={require('../../images/1.jpeg')} img-thumbnail />
             </Col>
             <Col xs={6} md={3}>
-              <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dbGMMxhMuBfnLPM2QvHk_51oLJm96eEBA&usqp=CAU" roundedCircle />
-            </Col>
-
-          </Row>
-        </Container>
-        <Divider />
-        <h2 className="sec-title">Supported Partners</h2>
-
-        <Container className="container">
-          <Row>
-            <Col xs={6} md={3}>
-              <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dbGMMxhMuBfnLPM2QvHk_51oLJm96eEBA&usqp=CAU" roundedCircle />
-            </Col>
-            <Col xs={6} md={3}>
-              <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dbGMMxhMuBfnLPM2QvHk_51oLJm96eEBA&usqp=CAU" roundedCircle />
-            </Col>
-            <Col xs={6} md={3}>
-              <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dbGMMxhMuBfnLPM2QvHk_51oLJm96eEBA&usqp=CAU" roundedCircle />
-            </Col>
-            <Col xs={6} md={3}>
-              <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dbGMMxhMuBfnLPM2QvHk_51oLJm96eEBA&usqp=CAU" roundedCircle />
+              <img alt="timer" src={require('../../images/6.jpeg')} img-thumbnail />
             </Col>
 
           </Row>
@@ -57,16 +38,16 @@ function Partners() {
         <Container className="container">
           <Row>
             <Col xs={6} md={3}>
-              <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dbGMMxhMuBfnLPM2QvHk_51oLJm96eEBA&usqp=CAU" roundedCircle />
+              <img alt="timer" src={require('../../images/1.jpeg')} img-thumbnail />
             </Col>
             <Col xs={6} md={3}>
-              <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dbGMMxhMuBfnLPM2QvHk_51oLJm96eEBA&usqp=CAU" roundedCircle />
+              <img alt="timer" src={require('../../images/1.jpeg')} img-thumbnail />
             </Col>
             <Col xs={6} md={3}>
-              <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dbGMMxhMuBfnLPM2QvHk_51oLJm96eEBA&usqp=CAU" roundedCircle />
+              <img alt="timer" src={require('../../images/6.jpeg')} img-thumbnail />
             </Col>
             <Col xs={6} md={3}>
-              <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dbGMMxhMuBfnLPM2QvHk_51oLJm96eEBA&usqp=CAU" roundedCircle />
+              <img alt="timer" src={require('../../images/1.jpeg')} img-thumbnail />
             </Col>
 
           </Row>
@@ -77,16 +58,36 @@ function Partners() {
         <Container className="container">
           <Row>
             <Col xs={6} md={3}>
-              <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dbGMMxhMuBfnLPM2QvHk_51oLJm96eEBA&usqp=CAU" roundedCircle />
+              <img alt="timer" src={require('../../images/1.jpeg')} img-thumbnail />
             </Col>
             <Col xs={6} md={3}>
-              <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dbGMMxhMuBfnLPM2QvHk_51oLJm96eEBA&usqp=CAU" roundedCircle />
+              <img alt="timer" src={require('../../images/6.jpeg')} img-thumbnail />
             </Col>
             <Col xs={6} md={3}>
-              <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dbGMMxhMuBfnLPM2QvHk_51oLJm96eEBA&usqp=CAU" roundedCircle />
+              <img alt="timer" src={require('../../images/1.jpeg')} img-thumbnail />
             </Col>
             <Col xs={6} md={3}>
-              <Image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dbGMMxhMuBfnLPM2QvHk_51oLJm96eEBA&usqp=CAU" roundedCircle />
+              <img alt="timer" src={require('../../images/1.jpeg')} img-thumbnail />
+            </Col>
+
+          </Row>
+        </Container>
+        <Divider />
+        <h2 className="sec-title">Supported Partners</h2>
+
+        <Container className="container">
+          <Row>
+            <Col xs={6} md={3}>
+              <img alt="timer" src={require('../../images/1.jpeg')} img-thumbnail />
+            </Col>
+            <Col xs={6} md={3}>
+              <img alt="timer" src={require('../../images/1.jpeg')} img-thumbnail />
+            </Col>
+            <Col xs={6} md={3}>
+              <img alt="timer" src={require('../../images/1.jpeg')} img-thumbnail />
+            </Col>
+            <Col xs={6} md={3}>
+              <img alt="timer" src={require('../../images/1.jpeg')} img-thumbnail />
             </Col>
 
           </Row>
