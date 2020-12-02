@@ -152,9 +152,9 @@ li a {
   background-image: -ms-linear-gradient(top, #414141, #000000);
   background-image: -o-linear-gradient(top, #414141, #000000);
   background-image: -webkit-gradient(to bottom, #414141, #000000);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
   color: #EEEEEE;
   font-family: Open Sans;
   font-size: 19px;
@@ -180,9 +180,9 @@ li a {
   background-image: -ms-linear-gradient(top, #1E62D0, #337FED);
   background-image: -o-linear-gradient(top, #1E62D0, #337FED);
   background-image: -webkit-gradient(to bottom, #1E62D0, #337FED);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
   text-decoration: none;
   color: white;
 }
@@ -279,6 +279,12 @@ li a {
 .footer-bs .footer-ns p {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.7);
+}
+.fas{
+  cursor: pointer;
+}
+.footer-address{
+  list-style-type: none;
 }
 
 @media (min-width: 768px) {

@@ -7,10 +7,14 @@ function Navbar() {
     color: 'yellow',
     textDecoration: 'none'
   }
+  const styleNavbar = {
+    boxShadow: '0 8px 6px -6px black',
+    backgroundColor: "#0f0f0f"
+  }
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light navbar-light" style={{backgroundColor: "#303F47"}}>
-      <a href="#" className="navbar-brand navlogo ">
+    <nav className="navbar navbar-expand-lg navbar-light navbar-light" style={styleNavbar}>
+      <a href="/" className="navbar-brand navlogo ">
         <img
           src="https://nitdgp.ac.in/static/img/nitdgp_logo_white.png"
           alt="Nit Dgp Logo"

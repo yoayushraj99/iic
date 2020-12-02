@@ -11,9 +11,7 @@ function Partners() {
   return (
     <div >
       <Navbar />
-      <div className="container">
-        <h1 className="sec-title">About iic</h1>
-        
+      <div className="container">        
         <h2 className="sec-title">Supported Partners</h2>
 
         <Container className="container">
