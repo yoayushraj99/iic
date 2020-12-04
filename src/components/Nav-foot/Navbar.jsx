@@ -79,7 +79,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-            <NavLink to="/Testimonial" style={styleLink}>Tinkering Lab</NavLink>
+            <NavLink to="/Tinkering" style={styleLink}>Tinkering Lab</NavLink>
             </a>
           </li>
         </ul>

@@ -9,6 +9,7 @@ function HomePage() {
   return (
     <div>
       <Navbar />
+      <br></br>
       <Header />
       <About />
       <Achivement />
