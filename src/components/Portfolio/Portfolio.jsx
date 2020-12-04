@@ -7,7 +7,7 @@ function Portfolio() {
   return (
     <div>
       <Navbar />
-      <h1>Page Under Progress - Testimonial</h1>
+      <h1>Page Under Progress - Portfolio</h1>
       <Footer />
     </div>
   );

@@ -44,12 +44,12 @@ function Navbar() {
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown" style={styleLink}>About</a>
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#">About IIC</a></li>
+                <li><a className="dropdown-item" href="/">About IIC</a></li>
                 <li><a className="dropdown-item" href="#">Facilities</a></li>
                 <li><a className="dropdown-item" href="#">Team</a></li>
                 <li><a className="dropdown-item" href="#">What we do</a></li>
                 <li><a className="dropdown-item" href="#">FaQ</a></li>
-                <li><a className="dropdown-item" href="#">GuideLines</a></li>
+                <li><a className="dropdown-item" href="/Guideline">GuideLines</a></li>
               </ul>
           </li>
           <li className="nav-item">

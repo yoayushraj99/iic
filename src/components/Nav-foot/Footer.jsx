@@ -43,7 +43,7 @@ function Footer() {
           <div className="col-md-6">
             <ul className="pages">
               <li>
-                <a href="#">NIT DURGAPUR</a>
+                <a href="https://nitdgp.ac.in/" target="_blank">NIT DURGAPUR</a>
               </li>
               <li>
                 <a href="#">Lab</a>
