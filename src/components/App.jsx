@@ -23,7 +23,6 @@ function App() {
              <Route path="/Portfolio" component={Portfolio}/>
              <Route path="/Programmes" component={Programmes}/>
              <Route path="/Testimonial" component={Testimonial}/>
-              <Route path="/Guideline" component={Guideline}/>
              <Route path="/Tinkering" component={Tinkering}/>
              
             <Route component={Error}/>
