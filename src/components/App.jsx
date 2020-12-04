@@ -9,6 +9,7 @@ import Programmes from '../components/Programmes-Page/Programmes';
 import Testimonial from '../components/Testimonial-Page/Testimonial';
 import Guideline from "../components/About/Guideline";
 import Error from './Error';
+import Tinkering from './tinkering/Tinkering'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
              <Route path="/Portfolio" component={Portfolio}/>
              <Route path="/Programmes" component={Programmes}/>
              <Route path="/Testimonial" component={Testimonial}/>
+             <Route path="/Tinkering" component={Tinkering}/>
              <Route path="/Guideline" component={Guideline}/>
             <Route component={Error}/>
            </Switch>

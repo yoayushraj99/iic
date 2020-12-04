@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <div className="header-container">
-      <div className="row">
+      <div className="row" style={{marginLeft: "10px"}}>
         <div className="col-lg-9">
           <div
             id="carouselExampleIndicators"
