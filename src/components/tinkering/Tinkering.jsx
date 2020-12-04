@@ -1,5 +1,5 @@
 import React from 'react';
-import Portfolio from './Portfolio';
+import Folio from './Folio';
 import Footer from '../Nav-foot/Footer';
 import { NavLink, Route } from 'react-router-dom';
 
@@ -112,7 +112,7 @@ function App() {
   </section>
 
   
-  <Portfolio portfolioLinks={portfolioLinks}></Portfolio>
+  <Folio portfolioLinks={portfolioLinks}></Folio>
 
   
   <section className="page-section" id="about">
