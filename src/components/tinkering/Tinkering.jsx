@@ -66,8 +66,8 @@ function App() {
   <header className="masthead">
     <div className="container">
       <div className="intro-text">
-        <div className="intro-lead-in">Welcome To Our Studio!</div>
-        <div className="intro-heading text-uppercase">It's Nice To Meet You</div>
+        <div className="intro-lead-in">Welcome To IIC</div>
+        <div className="intro-heading text-uppercase text-warning">Innovation and Incubation Cell</div>
         <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
       </div>
     </div>
@@ -78,7 +78,7 @@ function App() {
     <div className="container">
       <div className="row">
         <div className="col-lg-12 text-center">
-          <h2 className="section-heading text-uppercase">Services</h2>
+          <h2 className="section-heading text-uppercase">We Provide</h2>
           <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
@@ -88,7 +88,7 @@ function App() {
             <i className="fa fa-circle fa-stack-2x text-primary"></i>
             <i className="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 className="service-heading">E-Commerce</h4>
+          <h4 className="service-heading">Incubation</h4>
           <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
         <div className="col-md-4">
@@ -96,7 +96,7 @@ function App() {
             <i className="fa fa-circle fa-stack-2x text-primary"></i>
             <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 className="service-heading">Responsive Design</h4>
+          <h4 className="service-heading">Incubation</h4>
           <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
         <div className="col-md-4">
@@ -104,7 +104,7 @@ function App() {
             <i className="fa fa-circle fa-stack-2x text-primary"></i>
             <i className="fa fa-lock fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 className="service-heading">Web Security</h4>
+          <h4 className="service-heading">Incubation</h4>
           <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
         </div>
       </div>
@@ -207,7 +207,7 @@ function App() {
       <div className="row">
         <div className="col-sm-4">
           <div className="team-member">
-            <img className="mx-auto rounded-circle" src="img/team/1.jpg" alt=""/>
+            <img className="mx-auto rounded-circle" src="https://admin.nitdgp.ac.in/files/faculty/Sandip%20Kumar%20Lahiri/2D17395A-2BF7-474E-84BC-8EC8E26B516D_wCcppL8.jpeg" alt=""/>
             <h4>Kay Garland</h4>
             <p className="text-muted">Lead Designer</p>
             <ul className="list-inline social-buttons">
@@ -231,7 +231,7 @@ function App() {
         </div>
         <div className="col-sm-4">
           <div className="team-member">
-            <img className="mx-auto rounded-circle" src="img/team/2.jpg" alt=""/>
+            <img className="mx-auto rounded-circle" src="https://admin.nitdgp.ac.in/files/faculty/Sandip%20Kumar%20Lahiri/2D17395A-2BF7-474E-84BC-8EC8E26B516D_wCcppL8.jpeg" alt=""/>
             <h4>Larry Parker</h4>
             <p className="text-muted">Lead Marketer</p>
             <ul className="list-inline social-buttons">
@@ -255,7 +255,7 @@ function App() {
         </div>
         <div className="col-sm-4">
           <div className="team-member">
-            <img className="mx-auto rounded-circle" src="img/team/3.jpg" alt=""/>
+            <img className="mx-auto rounded-circle" src="https://admin.nitdgp.ac.in/files/faculty/Sandip%20Kumar%20Lahiri/2D17395A-2BF7-474E-84BC-8EC8E26B516D_wCcppL8.jpeg" alt=""/>
             <h4>Diana Pertersen</h4>
             <p className="text-muted">Lead Developer</p>
             <ul className="list-inline social-buttons">
