@@ -9,11 +9,8 @@ function Card(props) {
   return (
     <div class="term">
       <dt>
-        <a href={props.link} target="_blank" style={linkStyle}>
-          <h4>{props.policy}</h4>
-        </a>
         <span class="emoji" role="img">
-          {props.emoji}
+          <img src={props.emoji} alt="img"/>
         </span>
         <span>{props.name}</span>
       </dt>

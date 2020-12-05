@@ -3,7 +3,7 @@ import Divider from "../Dividers/Divider";
 
 function Achivement() {
   return (
-    <div className="container">
+    <div>
       <h1 className="sec-title">Impact</h1>
       <div className="row">
         <div className="col-lg-3 col-md-6">

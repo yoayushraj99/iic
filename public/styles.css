@@ -140,6 +140,10 @@ li a {
     top: -11em;
   }
 }
+
+
+/*** Divider Component ***/
+
 .divider {
   position: relative;
   margin-top: 40px;
@@ -267,6 +271,19 @@ li a {
   margin: 10px 0px;
 }
 
+/*** Faq Section ***/
+.accordion .card-header:after {
+  font-family: 'FontAwesome';  
+  content: "\f068";
+  float: right; 
+}
+.accordion .card-header.collapsed:after {
+  /* symbol for "collapsed" panels */
+  content: "\f067"; 
+}
+.collapse-container{
+  padding: 20px 150px;
+}
 
 /*** Footer ***/
 

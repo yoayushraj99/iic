@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../Nav-foot/Navbar";
 import Footer from "../Nav-foot/Footer";
-import Card from "../Cards/Card";
+import Card from "../Cards/GuidelineCard";
 import guideline from "../../guidelineData";
 
 function CreateGuidelineCard(policy){

@@ -8,6 +8,7 @@ import Portfolio from '../components/Portfolio/Portfolio';
 import Programmes from '../components/Programmes-Page/Programmes';
 import Testimonial from '../components/Testimonial-Page/Testimonial';
 import Guideline from "../components/About/Guideline";
+import Faq from "../components/About/Faq";
 import Error from './Error';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
              <Route path="/Programmes" component={Programmes}/>
              <Route path="/Testimonial" component={Testimonial}/>
              <Route path="/Guideline" component={Guideline}/>
+             <Route path="/Faq" component={Faq}/>
             <Route component={Error}/>
            </Switch>
         </div> 
