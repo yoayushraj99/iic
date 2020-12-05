@@ -11,23 +11,88 @@ body {
   background: #eee;
   padding: 0 16px;
 }
+/*** Card Component ***/
+
+.dictionary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 4rem auto;
+  max-width: 90%;
+}
+.dictionary > .term {
+  text-align: center;
+  max-width: 20rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 3px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: all 100ms ease-in-out;
+}
+.dictionary > .term > dt {
+  margin-bottom: 1rem;
+}
+dt {
+  color: #00000;
+  line-height: 1;
+}
+dt span {
+  font-size: 200%;
+  font-weight: 900;
+}
+.emoji {
+  margin: 0 auto 20px;
+  display: block;
+  font-size: 400%;
+}
+dd {
+  font-size: 92.5%;
+  margin-left: 0;
+}
+dd dt {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-size: inherit;
+}
+dd dl {
+  font-size: 90%;
+  margin: 1rem auto 0 auto;
+  letter-spacing: 0.33px;
+  max-width: 15rem;
+}
+dd dl .term {
+  margin-bottom: 1rem;
+}
+
+
 /*** Header ***/
+
 .header-container{
   margin: 0 -16px;
 }
+
+
 /*** Section Title ***/
+
 .sec-title {
   text-align: center;
   text-transform: uppercase;
   margin: 60px 0px 40px 0px;
   font-weight: 800;
 }
+
+
 /*** Section Content ***/
+
 .content {
   text-align: center;
-  /* font-family: "Montserrat", sans-serif; */
 }
+
+
 /*** NavBar ***/
+
 nav {
   background-color: white;
   margin: auto -16px;
@@ -41,10 +106,12 @@ li a {
   text-decoration: none;
   color: #000000;
   font-size: 1em;
-  /* font-family: Montserrat; */
   font-weight: 500;
 }
+
+
 /*** Latest Updates ***/
+
 .box {
   margin: 1em auto;
   overflow: hidden;
@@ -73,6 +140,10 @@ li a {
     top: -11em;
   }
 }
+
+
+/*** Divider Component ***/
+
 .divider {
   position: relative;
   margin-top: 40px;
@@ -107,7 +178,10 @@ li a {
   border-radius: 50%;
   box-shadow: inset 0 0 0 2px white, 0 0 0 4px white;
 }
+
+
 /*** Achivement- Section ***/
+
 .achivement-wrap {
   margin: 26px 0px;
 }
@@ -116,15 +190,15 @@ li a {
   font-weight: 900;
 }
 
+
 /*** Connect Page ***/
 
 /* Responsive HeaderImgae */
+
 .responsive-img{
   width: 100%;
   height: auto;
   border-radius: 10px;
-}
-.connect-img{
   margin: 10px 0px;
 }
 .map-responsive{
@@ -186,7 +260,33 @@ li a {
   text-decoration: none;
   color: white;
 }
+
+
+/*** Guideline Page ***/
+
+.guideline-img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+
+/*** Faq Section ***/
+.accordion .card-header:after {
+  font-family: 'FontAwesome';  
+  content: "\f068";
+  float: right; 
+}
+.accordion .card-header.collapsed:after {
+  /* symbol for "collapsed" panels */
+  content: "\f067"; 
+}
+.collapse-container{
+  padding: 20px 150px;
+}
+
 /*** Footer ***/
+
 .footer-bs {
   background-color: #3c3d41;
   padding: 60px 40px;

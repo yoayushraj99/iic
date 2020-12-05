@@ -3,7 +3,7 @@ import About from "../Home/About"
 import Navbar from "../Nav-foot/Navbar";
 import Footer from "../Nav-foot/Footer";
 import Header from "../Home/Header";
-import Achivement from "../Home/Achivement";
+import Container from "./Container";
 
 function HomePage() {
   return (
@@ -12,7 +12,7 @@ function HomePage() {
       <br></br>
       <Header />
       <About />
-      <Achivement />
+      <Container />
       <Footer />
     </div>
   );

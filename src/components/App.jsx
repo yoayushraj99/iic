@@ -8,6 +8,7 @@ import Portfolio from '../components/Portfolio/Portfolio';
 import Programmes from '../components/Programmes-Page/Programmes';
 import Testimonial from '../components/Testimonial-Page/Testimonial';
 import Guideline from "../components/About/Guideline";
+import Faq from "../components/About/Faq";
 import Error from './Error';
 import Tinkering from './tinkering/Tinkering'
 
@@ -24,9 +25,11 @@ function App() {
              <Route path="/Testimonial" component={Testimonial}/>
              <Route path="/Tinkering" component={Tinkering}/>
              <Route path="/Guideline" component={Guideline}/>
+             <Route path="/Faq" component={Faq}/>
+
             <Route component={Error}/>
            </Switch>
-        </div> 
+        </div>
     </BrowserRouter>
   );
 }

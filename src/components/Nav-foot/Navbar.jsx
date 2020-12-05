@@ -48,7 +48,7 @@ function Navbar() {
                 <li><a className="dropdown-item" href="#">Facilities</a></li>
                 <li><a className="dropdown-item" href="#">Team</a></li>
                 <li><a className="dropdown-item" href="#">What we do</a></li>
-                <li><a className="dropdown-item" href="#">FaQ</a></li>
+                <li><a className="dropdown-item" href="/Faq">FaQ</a></li>
                 <li><a className="dropdown-item" href="/Guideline">GuideLines</a></li>
               </ul>
           </li>

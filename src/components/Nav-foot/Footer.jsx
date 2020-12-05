@@ -62,7 +62,7 @@ function Footer() {
           <div className="col-md-6">
             <ul className="list">
               <li>
-                <a href="#">About Us</a>
+                <a href="/">About Us</a>
               </li>
               <li>
                 <a href="#">Contacts</a>
