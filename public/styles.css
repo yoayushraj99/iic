@@ -9,7 +9,7 @@ html {
 }
 body {
   background: #eee;
-  padding: 0 16px;
+  
 }
 /*** Card Component ***/
 
@@ -398,9 +398,9 @@ li a {
 
 /* tinkering */
 
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
