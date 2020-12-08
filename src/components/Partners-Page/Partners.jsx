@@ -5,13 +5,15 @@ import Navbar from "../Nav-foot/Navbar";
 import Footer from "../Nav-foot/Footer";
 import Divider from "../Dividers/Divider"
 import Image from 'react-bootstrap/Image'
+import under_c from '../../assets/img/under_c.png';
 
 
 function Partners() {
   return (
     <div >
       <Navbar />
-      <div className="container">        
+      <img className="w-50" src={under_c} style={{marginLeft: "20%"}} alt="Webpage under construction" />
+      {/* <div className="container">        
         <h2 className="sec-title">Supported Partners</h2>
 
         <Container className="container">
@@ -94,7 +96,7 @@ function Partners() {
         </Container>
 
       </div>
-      <br></br>
+      <br></br> */}
       <Footer />
     </div>
   );
