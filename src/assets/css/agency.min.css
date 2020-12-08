@@ -1,10 +1,4 @@
-/*!
- * Start Bootstrap - Agency v5.2.1 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
- */
-
- body {
+body {
 	overflow-x: hidden;
 	
 }
@@ -654,7 +648,7 @@ section#contact :-ms-input-placeholder {
 
 .footer {
 	padding: 25px 0;
-	text-align: center
+	text-align: left
 }
 
 .footer span.copyright {

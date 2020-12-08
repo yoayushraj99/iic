@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <div className="header-container">
-      <div className="row" style={{marginLeft: "10px"}}>
+      <div className="row" >
         <div className="col-lg-9">
           <div
             id="carouselExampleIndicators"
@@ -25,20 +25,22 @@ function Header() {
               <div className="carousel-item active">
                 <img
                   className="d-block w-100"
-                  src="https://cdn.luxe.digital/media/2020/09/15155224/world-best-michelin-restaurants-luxe-digital.jpg"
+                  src={require('../../images/carousel-1.jpg')}
+                  
                   alt="First slide"></img>
               </div>
               <div className="carousel-item">
                 <img
                   className="d-block w-100"
-                  src="https://viterbischool.usc.edu/wp-content/uploads/2020/01/Hocking-hps-.jpg"
+                  src={require('../../images/carousel-2.jpg')}
                   alt="Second slide"></img>
               </div>
+              
               <div className="carousel-item">
                 <img
                   className="d-block w-100"
-                  src="https://www.britishathletics.org.uk/wp-content/uploads/2018/07/Hannah-Cockroft-mag.jpg"
-                  alt="Third slide"></img>
+                  src={require('../../images/carousel-3.jpg')}
+                  alt="Fourth slide"></img>
               </div>
             </div>
             <a

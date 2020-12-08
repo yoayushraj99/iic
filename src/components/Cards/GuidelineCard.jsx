@@ -4,6 +4,7 @@ function GuidelineCard(props) {
   
   const linkStyle = {
     textDecoration: "none",
+    color: "#892cdc"
   };
 
   return (

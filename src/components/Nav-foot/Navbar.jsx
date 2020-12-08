@@ -14,7 +14,7 @@ function Navbar() {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light navbar-light" style={styleNavbar}>
-      <a href="/" className="navbar-brand navlogo ">
+      <a href="https://nitdgp.ac.in/" className="navbar-brand navlogo ">
         <img
           src="https://nitdgp.ac.in/static/img/nitdgp_logo_white.png"
           alt="Nit Dgp Logo"
@@ -47,9 +47,7 @@ function Navbar() {
                 <li><a className="dropdown-item" href="/">About IIC</a></li>
                 <li><a className="dropdown-item" href="#">Facilities</a></li>
                 <li><a className="dropdown-item" href="#">Team</a></li>
-                <li><a className="dropdown-item" href="#">What we do</a></li>
                 <li><a className="dropdown-item" href="/Faq">FaQ</a></li>
-                <li><a className="dropdown-item" href="/Guideline">GuideLines</a></li>
               </ul>
           </li>
           <li className="nav-item">
@@ -64,7 +62,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-            <NavLink to="/Portfolio" style={styleLink}>Portfolio</NavLink>
+            <NavLink to="/Guideline" style={styleLink}>GuideLines</NavLink>
             </a>
           </li>
           <li className="nav-item">
