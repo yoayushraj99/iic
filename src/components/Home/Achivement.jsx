@@ -2,6 +2,7 @@ import React from "react";
 import Divider from "../Dividers/Divider";
 
 function Achivement() {
+
   return (
     <div>
       <h1 className="sec-title">Impact</h1>
