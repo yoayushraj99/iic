@@ -1,10 +1,6 @@
 import React from "react";
 
 function Card(props) {
-  
-  const linkStyle = {
-    textDecoration: "none",
-  };
 
   return (
     <div class="term">

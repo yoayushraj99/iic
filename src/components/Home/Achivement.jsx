@@ -8,7 +8,7 @@ function Achivement() {
       <h1 className="sec-title">Impact</h1>
       <div className="row">
         <div className="col-lg-3 col-md-6">
-          <div className="content">
+          <div className="text-center">
             <div>
               <i className="fas fa-city fa-6x"></i>
             </div>
@@ -23,7 +23,7 @@ function Achivement() {
           </div>
         </div>
         <div className="col-lg-3 col-md-6">
-          <div className="content">
+          <div className="text-center">
             <div>
               <i className="fas fa-user-tie fa-6x"></i>
             </div>
@@ -38,7 +38,7 @@ function Achivement() {
           </div>
         </div>
         <div className="col-lg-3 col-md-6">
-          <div className="content">
+          <div className="text-center">
             <div>
               <i className="fas fa-users fa-6x"></i>
             </div>
@@ -53,7 +53,7 @@ function Achivement() {
           </div>
         </div>
         <div className="col-lg-3 col-md-6">
-          <div className="content">
+          <div className="text-center">
             <div>
               <i className="fas fa-hand-holding-usd fa-6x"></i>
             </div>

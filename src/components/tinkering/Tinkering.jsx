@@ -1,9 +1,10 @@
 import React from 'react';
 import Folio from './Folio';
 import Footer from '../Nav-foot/Footer';
-import { NavLink, Route } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function App() {
+
   const portfolioLinks = [
     {
       title: 'Threads',

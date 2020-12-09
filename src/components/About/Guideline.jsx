@@ -20,7 +20,7 @@ function Guideline() {
         <div>
             <Navbar/>
             <div className="container">
-                <img src={require("../../images/guidelines1.jpg")} alt="GuideLine" className="guideline-img"/>
+                <img src={require("../../images/policy.png")} alt="GuideLine" className="guideline-img"/>
                 <div>
                     <dl class="dictionary">
                         {guideline.map(CreateGuidelineCard)}

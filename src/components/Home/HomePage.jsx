@@ -4,12 +4,13 @@ import Navbar from "../Nav-foot/Navbar";
 import Footer from "../Nav-foot/Footer";
 import Header from "../Home/Header";
 import Container from "./Container";
+import IncubationNAv from "../Nav-foot/IncubationNav";
 
 function HomePage() {
   return (
     <div>
+      <IncubationNAv/>
       <Navbar />
-      <br></br>
       <Header />
       <About />
       <Container />

@@ -7,7 +7,7 @@ function Connect() {
     <div>
       <Navbar/>
       <div className="container">
-      <img src="http://www.rdplast.in/wp-content/uploads/2018/01/contact-us-banner-1024x303.jpg" alt="connect-us" className="responsive-img connect-img"></img>
+      <img src={require("../../images/handshake.jpg")} alt="connect-us" className="responsive-img connect-img"></img>
       <div className="button-section">
         <a href="#" class="BUTTON_FKX">Incubation Registration</a>
         <a href="#" class="BUTTON_FKX">Join IIC</a>
