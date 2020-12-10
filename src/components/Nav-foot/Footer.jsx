@@ -102,7 +102,7 @@ function Footer() {
               type="text"
               className="form-control"
               formcontrolname="useremail"
-              placeholder="Enter Your Email"
+              placeholder="Currently Inactive"
             ></input>
             <i class="fas fa-paper-plane fa-2x"></i>
             <span className="input-group-btn">

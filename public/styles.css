@@ -242,9 +242,9 @@ li a {
   font-size: 19px;
   font-weight: 300;
   padding: 10px;
-  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  /* -webkit-box-shadow: 1px 1px 20px 0 #000000;
   -moz-box-shadow: 1px 1px 20px 0 #000000;
-  box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000; */
   text-shadow: 1px 1px 20px #000000;
   border: solid #337fed 1px;
   text-decoration: none;
