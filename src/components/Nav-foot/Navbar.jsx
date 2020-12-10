@@ -15,13 +15,6 @@ function Navbar() {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light navbar-light" style={styleNavbar}>
-      <a href="https://nitdgp.ac.in/" className="navbar-brand navlogo ">
-        <img
-          src="https://nitdgp.ac.in/static/img/nitdgp_logo_white.png"
-          alt="Nit Dgp Logo"
-          height="80"
-        />
-      </a>
       <button
         className="navbar-toggler"
         type="button"
@@ -45,7 +38,7 @@ function Navbar() {
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown" style={styleLink}>About</a>
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="/">About IIC</a></li>
+                <li><a className="dropdown-item" href="/">About IIIC</a></li>
                 <li><a className="dropdown-item" href="#">Facilities</a></li>
                 <li><a className="dropdown-item" href="#">Team</a></li>
                 <li><a className="dropdown-item" href="/Faq">FaQ</a></li>
