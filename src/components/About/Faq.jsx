@@ -3,21 +3,19 @@ import Navbar from "../Nav-foot/Navbar";
 import Footer from "../Nav-foot/Footer";
 
 function Faq() {
-
-    const styleLink = {
-        color: 'black',
-        textDecoration: 'none',
-        fontWeight: "800",
-        cursor: "pointer"
-      }
-
+  const styleLink = {
+    color: "black",
+    textDecoration: "none",
+    fontWeight: "800",
+    cursor: "pointer",
+  };
 
   return (
     <div>
       <Navbar />
       <div className="container">
         <img
-          src="https://globalaffairs.fiu.edu/wp-content/uploads/sites/40/2020/03/faq-banner.jpeg"
+          src={require("../../images/faq-img.jpeg")}
           alt="Faq"
           className="guideline-img"
         />
@@ -30,25 +28,52 @@ function Faq() {
               data-toggle="collapse"
               href="#collapseOne"
             >
-              <a class="card-title" style={styleLink}>Who can Apply ?</a>
+              <a class="card-title" style={styleLink}>
+                Who can Apply ?
+              </a>
             </div>
             <div
               id="collapseOne"
               class="card-body collapse"
               data-parent="#accordion"
             >
-              <p>
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table, raw denim aesthetic synth nesciunt you probably
-                haven't heard of them accusamus labore sustainable VHS.{" "}
-              </p>
+              <ul>
+                <li>
+                  Any person desirous of availing incubation facilities has to
+                  incorporate a private/public limited company under the Indian
+                  Companies Act/ Udyog Aadhar Registration and apply in the
+                  prescribed format along with the required documents. No
+                  application for incubation shall be entertained if the
+                  applicant has not incorporated a private/public limited
+                  company under the Companies Act / Udyog Aadhar Registration.
+                </li>
+                <li>
+                  The companies promoted by Faculty of NIT Durgapur shall be
+                  governed by Faculty Entrepreneurship Policy as approved by the
+                  Institute. The companies promoted by students enrolled for
+                  full-time Degree at an educational institute shall not be
+                  offered incubation if the student is holding an Executive
+                  position; however, companies promoted by students are eligible
+                  to apply for incubation provided the student is not actively
+                  engaged with the company beyond any engagement which may be
+                  permitted by the Institute.
+                </li>
+                <li>
+                  A company, if promoted by regular staff or employee of an
+                  organization, shall be granted incubation only upon submission
+                  of 'No Objection Certificate' from the competent authority or
+                  employer. However, companies having employees as shareholders
+                  are eligible to apply for incubation.
+                </li>
+                <li>
+                  Any company that is engaged or proposing to be engaged in
+                  imparting educational courses and/or training programs
+                  including vocational training or is planning to undertake such
+                  activities during or after its incubation at IIIC, Durgapur is
+                  not deemed eligible for incubation and their application will
+                  not be entertained.
+                </li>
+              </ul>
             </div>
             <div
               class="card-header collapsed"
@@ -56,121 +81,23 @@ function Faq() {
               data-parent="#accordion"
               href="#collapseTwo"
             >
-              <a class="card-title" style={styleLink}> What kind of support do I get ?</a>
+              <a class="card-title" style={styleLink}>
+                What will be the tenure of incubation ?
+              </a>
             </div>
             <div
               id="collapseTwo"
               class="card-body collapse"
               data-parent="#accordion"
             >
-              <p>
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table, raw denim aesthetic synth nesciunt you probably
-                haven't heard of them accusamus labore sustainable VHS.{" "}
-              </p>
-            </div>
-            <div
-              class="card-header collapsed"
-              data-toggle="collapse"
-              data-parent="#accordion"
-              href="#collapseThree"
-            >
-              <a class="card-title" style={styleLink}> What is the process of qualifying for incubation? </a>
-            </div>
-            <div id="collapseThree" class="collapse" data-parent="#accordion">
-              <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. samus labore sustainable VHS.{" "}
-              </div>
-            </div>
-            <div
-              class="card-header collapsed"
-              data-toggle="collapse"
-              data-parent="#accordion"
-              href="#collapseTwo"
-            >
-              <a class="card-title" style={styleLink}> What does the Incubator expect from the incubatee? </a>
-            </div>
-            <div
-              id="collapseTwo"
-              class="card-body collapse"
-              data-parent="#accordion"
-            >
-              <p>
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table, raw denim aesthetic synth nesciunt you probably
-                haven't heard of them accusamus labore sustainable VHS.{" "}
-              </p>
-            </div>
-            <div
-              class="card-header collapsed"
-              data-toggle="collapse"
-              data-parent="#accordion"
-              href="#collapseTwo"
-            >
-              <a class="card-title" style={styleLink}> What will be the duration of incubation provided ? </a>
-            </div>
-            <div
-              id="collapseTwo"
-              class="card-body collapse"
-              data-parent="#accordion"
-            >
-              <p>
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table, raw denim aesthetic synth nesciunt you probably
-                haven't heard of them accusamus labore sustainable VHS.{" "}
-              </p>
-            </div>
-            <div
-              class="card-header collapsed"
-              data-toggle="collapse"
-              data-parent="#accordion"
-              href="#collapseTwo"
-            >
-              <a class="card-title" style={styleLink}> How do I apply if the criteria are met? </a>
-            </div>
-            <div
-              id="collapseTwo"
-              class="card-body collapse"
-              data-parent="#accordion"
-            >
-              <p>
-                Anim pariatur cliche reprehenderit, enim eiusmod high life
-                accusamus terry richardson ad squid. 3 wolf moon officia aute,
-                non cupidatat skateboard dolor brunch. Food truck quinoa
-                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
-                put a bird on it squid single-origin coffee nulla assumenda
-                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-                wes anderson cred nesciunt sapiente ea proident. Ad vegan
-                excepteur butcher vice lomo. Leggings occaecat craft beer
-                farm-to-table, raw denim aesthetic synth nesciunt you probably
-                haven't heard of them accusamus labore sustainable VHS.{" "}
-              </p>
+              <ul>
+                <li>
+                  The companies will be permitted to stay in the incubator for a
+                  period of two years. They may be granted maximum two
+                  extensions for 6 months each at a time at the sole discretion
+                  of the Institute.
+                </li>
+              </ul>
             </div>
           </div>
         </div>

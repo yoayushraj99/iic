@@ -7,13 +7,12 @@ function About() {
       <div className="container">
         <h1 className="sec-title">About iic</h1>
         <h5 className="content">
-          Sed vulputate urna vel sem pellentesque finibus. Nunc dictum laoreet
-          ex ac sodales. In ultricies sapien ac quam vestibulum, a laoreet
-          ligula posuere. Nullam id nibh sit amet mi varius molestie porttitor
-          gravida sapien. Nulla est elit, venenatis ac venenatis nec, molestie
-          sit amet elit. Nam semper ut velit in dignissim. Donec sed massa ac
-          felis tempor commodo eu a ipsum. Integer id leo tempus magna molestie
-          accumsan vel sit amet risus.
+          Institute for Innovation and Incubation Centre is an interface
+          organization to foster innovation, explore the trends in the digital
+          world and promote commercialization and technology. The IIIC group of
+          interdisciplinary researchers, developers, educationalists and budding
+          entrepreneurs makes it a gifted asset for the institute to prepare it
+          for the digital future.
         </h5>
       </div>
       <Divider />

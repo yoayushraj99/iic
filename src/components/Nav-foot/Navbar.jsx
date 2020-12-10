@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, Route } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
 
@@ -9,7 +9,8 @@ function Navbar() {
   }
   const styleNavbar = {
     boxShadow: '0 8px 6px -6px black',
-    backgroundColor: "#0f0f0f"
+    backgroundColor: "#0f0f0f",
+    marginBottom: "10px" 
   }
 
   return (

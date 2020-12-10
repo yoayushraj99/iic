@@ -25,14 +25,14 @@ function Header() {
               <div className="carousel-item active">
                 <img
                   className="d-block w-100"
-                  src={require('../../images/carousel-1.jpg')}
+                  src={require('../../images/carousel-1.png')}
                   
                   alt="First slide"></img>
               </div>
               <div className="carousel-item">
                 <img
                   className="d-block w-100"
-                  src={require('../../images/carousel-2.jpg')}
+                  src={require('../../images/carousel-4.jpg')}
                   alt="Second slide"></img>
               </div>
               

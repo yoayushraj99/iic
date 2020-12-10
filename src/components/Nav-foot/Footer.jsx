@@ -19,6 +19,7 @@ function Footer() {
               <a
                 target="_blank"
                 href="https://www.google.com/maps/place/N+I+T+Durgapur+Office+%26+Lab./@23.5476717,87.2909496,17z/data=!4m12!1m6!3m5!1s0x39f772081cede5e9:0x33fb9ccb243dfa5!2sNational+Institute+of+Technology!8m2!3d23.5476717!4d87.2931383!3m4!1s0x39f772080b442349:0x1dad2f8b160b2f08!8m2!3d23.5479595!4d87.2914168"
+                rel="noopener noreferrer"
               >
                 <i
                   className="fas fa-map-marker-alt text-danger mr-2"
@@ -43,7 +44,7 @@ function Footer() {
           <div className="col-md-6">
             <ul className="pages">
               <li>
-                <a href="https://nitdgp.ac.in/" target="_blank">NIT DURGAPUR</a>
+                <a href="https://nitdgp.ac.in/" target="_blank" rel="noopener noreferrer">NIT DURGAPUR</a>
               </li>
               <li>
                 <a href="#">Lab</a>

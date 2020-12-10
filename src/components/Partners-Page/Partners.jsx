@@ -1,10 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Col } from 'react-bootstrap';
+// import { Container, Row, Col } from 'react-bootstrap';
 import Navbar from "../Nav-foot/Navbar";
 import Footer from "../Nav-foot/Footer";
-import Divider from "../Dividers/Divider"
-import Image from 'react-bootstrap/Image'
+// import Divider from "../Dividers/Divider"
+// import Image from 'react-bootstrap/Image'
 import under_c from '../../assets/img/under_c.png';
 
 
