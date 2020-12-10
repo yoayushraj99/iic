@@ -11,7 +11,7 @@ function GuidelineCard(props) {
     <div class="term">
       <dt>
         <a href={props.link} target="_blank" style={linkStyle} rel="noopener noreferrer">
-          <h4>{props.policy}</h4>
+          <h4 className="text-uppercase">{props.policy}</h4>
         </a>
       </dt>
     </div>

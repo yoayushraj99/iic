@@ -65,24 +65,13 @@ function Header() {
             </a>
           </div>
         </div>
-        <div className="col-lg-3">
+        <div className="col-lg-3 update-box">
           <i className="fas fa-bell fa-3x d-flex justify-content-center pb-1 pt-4"></i>
           <p className="content pt-2 font-weight-bold">Updates & Events</p>
           <div className="box">
-            <p className="marquee">
-              <i className="fas fa-arrow-circle-right"></i>
-              Praesent ut felis id velit vehicula dapibus. Nullam bibendum nisl
-              nibh, tincidunt bibendum massa lacinia eu.
-            </p>
-            <p className="marquee">
-              <i className="fas fa-arrow-circle-right"></i>
-              Praesent ut felis id velit vehicula dapibus. Nullam bibendum nisl
-              nibh, tincidunt bibendum massa lacinia eu.
-            </p>
-            <p className="marquee">
-              <i className="fas fa-arrow-circle-right"></i>
-              Praesent ut felis id velit vehicula dapibus. Nullam bibendum nisl
-              nibh, tincidunt bibendum massa lacinia eu.
+            <p className="blink">
+              <i className="fas fa-arrow-circle-right fa-sm mr-1"></i>
+              Will be updated Soon.
             </p>
           </div>
         </div>

@@ -10,7 +10,7 @@ function Connect() {
       <img src={require("../../images/handshake.jpg")} alt="connect-us" className="responsive-img connect-img"></img>
       <div className="button-section">
         <a href="#" class="BUTTON_FKX">Incubation Registration</a>
-        <a href="#" class="BUTTON_FKX">Join IIC</a>
+        <a href="#" class="BUTTON_FKX">Join IIIC</a>
       </div>
       <div className="map-responsive">
       <iframe

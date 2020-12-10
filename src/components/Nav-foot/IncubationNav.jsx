@@ -12,10 +12,10 @@ function IncubationNav() {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-6">
-                    <img src={require("../../images/NITLogo.jpeg")} alt="iic" style={styleImg}/>
+                    <img src={require("../../images/NITLogo.jpeg")} alt="iiic" style={styleImg}/>
                 </div>
                 <div className="col-md-6">
-                <img src={require("../../images/IIC.jpeg")} alt="iic" style={styleImg}/>
+                <img src={require("../../images/IIC.jpeg")} alt="iiic" style={styleImg}/>
                 </div>
             </div>
         </div>
