@@ -74,6 +74,11 @@ function Navbar() {
             <NavLink to="/Tinkering" style={styleLink}>Tinkering Lab</NavLink>
             </a>
           </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+            <NavLink to="/AshokSen" style={styleLink}>AshokSen-DC</NavLink>
+            </a>
+          </li>
         </ul>
       </div>
     </nav>

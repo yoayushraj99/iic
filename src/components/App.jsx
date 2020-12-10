@@ -11,6 +11,7 @@ import Guideline from "../components/About/Guideline";
 import Faq from "../components/About/Faq";
 import Error from './Error';
 import Tinkering from './tinkering/Tinkering'
+import AshokSen from './AshokSen/AshokSen';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
              <Route path="/Programmes" component={Programmes}/>
              <Route path="/Testimonial" component={Testimonial}/>
              <Route path="/Tinkering" component={Tinkering}/>
+             <Route path="/AshokSen" component={AshokSen}/>
              <Route path="/Guideline" component={Guideline}/>
              <Route path="/Faq" component={Faq}/>
 

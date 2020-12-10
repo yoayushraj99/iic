@@ -2,8 +2,10 @@ import React from 'react';
 import Folio from './Folio';
 import Footer from '../Nav-foot/Footer';
 import { NavLink } from 'react-router-dom';
-
+import '../../assets/css-tinkering/agency.min2.css';
 function App() {
+
+  
 
   const portfolioLinks = [
     {
@@ -52,6 +54,7 @@ function App() {
         <div className="intro-lead-in">Welcome To IIIC</div>
         <div className="intro-heading text-uppercase text-warning">Innovation and Incubation Cell</div>
         <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+        
       </div>
     </div>
   </header>
@@ -62,43 +65,43 @@ function App() {
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading text-uppercase">We Provide</h2>
-          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <br></br>
         </div>
       </div>
       <div className="row text-center">
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
             <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            <i className="fa fa-balance-scale-left fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 className="service-heading">Incubation</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <h4 className="service-heading">Basic Mechanical fabrication facility</h4>
+          
         </div>
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
             <i className="fa fa-circle fa-stack-2x text-primary"></i>
             <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 className="service-heading">Incubation</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <h4 className="service-heading">Computers, internet& collaborative meeting space</h4>
+          
         </div>
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
             <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-lock fa-stack-1x fa-inverse"></i>
+            <i className="fa fa-balance-scale-right fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 className="service-heading">Incubation</h4>
-          <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+          <h4 className="service-heading">Basic Electronics and Electrical Equipment facility</h4>
+          
         </div>
       </div>
     </div>
   </section>
 
   
-  <Folio portfolioLinks={portfolioLinks}></Folio>
+  {/* <Folio portfolioLinks={portfolioLinks}></Folio> */}
 
   
-  <section className="page-section" id="about">
+  {/* <section className="page-section" id="about">
     <div className="container">
       <div className="row">
         <div className="col-lg-12 text-center">
@@ -176,15 +179,15 @@ function App() {
         </div>
       </div>
     </div>
-  </section>
+  </section> */}
 
   
-  <section className="bg-light page-section" id="team">
+  {/* <section className="bg-light page-section" id="team">
     <div className="container">
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading text-uppercase">Our Amazing Team</h2>
-          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <br></br>
         </div>
       </div>
       <div className="row">
@@ -267,7 +270,7 @@ function App() {
         </div>
       </div>
     </div>
-  </section>
+  </section> */}
 
   
   <section className="py-5">
