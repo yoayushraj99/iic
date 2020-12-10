@@ -5,9 +5,7 @@ import { NavLink } from 'react-router-dom';
 import '../../assets/css-tinkering/agency.min2.css';
 function App() {
 
-  const spacinggap = {
-    marginBottom: "250px" 
-  }
+  
 
   const portfolioLinks = [
     {
@@ -53,8 +51,9 @@ function App() {
   <header className="masthead">
     <div className="container">
       <div className="intro-text">
-        <div className="intro-lead-in" style={spacinggap}>Welcome To</div>
-        <div className="intro-heading text-uppercase text-warning">Tinkering Lab</div>
+        <div className="intro-lead-in">Welcome To IIIC</div>
+        <div className="intro-heading text-uppercase text-warning">Innovation and Incubation Cell</div>
+        <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
         
       </div>
     </div>
