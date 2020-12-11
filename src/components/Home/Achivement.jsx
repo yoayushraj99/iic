@@ -14,7 +14,7 @@ function Achivement() {
             </div>
             <div className="achivement-wrap">
               <h4>
-                <span className="counter-number">30 +</span>
+                <span className="counter-number">---</span>
               </h4>
               <p style={{ fontWeight: "600" }} className="pt-1">
                 STARTUPS
@@ -29,7 +29,7 @@ function Achivement() {
             </div>
             <div className="achivement-wrap">
               <h4>
-                <span className="counter-number">50 +</span>
+                <span className="counter-number">---</span>
               </h4>
               <p style={{ fontWeight: "600" }} className="pt-1">
                 ENTREPRENEURS
@@ -44,7 +44,7 @@ function Achivement() {
             </div>
             <div className="achivement-wrap">
               <h4>
-                <span className="counter-number">150 +</span>
+                <span className="counter-number">---</span>
               </h4>
               <p style={{ fontWeight: "600" }} className="pt-1">
                 EMPLOYMENT
@@ -59,7 +59,7 @@ function Achivement() {
             </div>
             <div className="achivement-wrap">
               <h4>
-                <span className="counter-number">INR 50 Cr.</span>
+                <span className="counter-number">---</span>
               </h4>
               <p className="pt-1" style={{ fontWeight: "600" }}>
                 FUNDS RAISED

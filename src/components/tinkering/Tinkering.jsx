@@ -51,9 +51,11 @@ function App() {
   <header className="masthead">
     <div className="container">
       <div className="intro-text">
-        <div className="intro-lead-in">Welcome To IIIC</div>
-        <div className="intro-heading text-uppercase text-warning">Innovation and Incubation Cell</div>
-        <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+        <div className="mt-5">
+        <div className="intro-lead-in">Welcome To</div>
+        <div className="intro-heading text-uppercase text-warning">Tinkering Lab</div>
+        </div>
+        {/* <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a> */}
         
       </div>
     </div>
@@ -72,7 +74,7 @@ function App() {
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
             <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-balance-scale-left fa-stack-1x fa-inverse"></i>
+            <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
           </span>
           <h4 className="service-heading">Basic Mechanical fabrication facility</h4>
           
@@ -88,7 +90,7 @@ function App() {
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
             <i className="fa fa-circle fa-stack-2x text-primary"></i>
-            <i className="fa fa-balance-scale-right fa-stack-1x fa-inverse"></i>
+            <i class="fas fa-bolt fa-stack-1x fa-inverse"></i>
           </span>
           <h4 className="service-heading">Basic Electronics and Electrical Equipment facility</h4>
           

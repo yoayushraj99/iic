@@ -14,7 +14,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light navbar-light" style={styleNavbar}>
+    <nav className="navbar navbar-expand-lg navbar-light navbar-light py-3" style={styleNavbar}>
       <button
         className="navbar-toggler"
         type="button"
@@ -49,11 +49,11 @@ function Navbar() {
             <NavLink to="/Programmes" style={styleLink}>Programmes</NavLink>
             </a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a className="nav-link" href="#">
             <NavLink to="/Partners" style={styleLink}>Partners</NavLink>
             </a>
-          </li>
+          </li> */}
           <li className="nav-item">
             <a className="nav-link" href="#">
             <NavLink to="/Guideline" style={styleLink}>GuideLines</NavLink>

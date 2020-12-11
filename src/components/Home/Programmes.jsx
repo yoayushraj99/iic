@@ -7,9 +7,9 @@ function CreateProgramCard(program) {
   return (
     <Card
       key={program.id}
-      emoji={program.emoji}
+      // emoji={program.emoji}
       name={program.name}
-      meaning={program.meaning}
+      // meaning={program.meaning}
     />
   );
 }
