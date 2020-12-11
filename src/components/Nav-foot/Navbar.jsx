@@ -40,7 +40,7 @@ function Navbar() {
               <ul className="dropdown-menu">
                 <li><a className="dropdown-item" href="/">About IIIC</a></li>
                 <li><a className="dropdown-item" href="#">Facilities</a></li>
-                <li><a className="dropdown-item" href="#">Team</a></li>
+                <li><a className="dropdown-item" href="/Team">Team</a></li>
                 <li><a className="dropdown-item" href="/Faq">FaQ</a></li>
               </ul>
           </li>
