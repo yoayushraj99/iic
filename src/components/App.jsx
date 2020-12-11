@@ -12,6 +12,7 @@ import Faq from "../components/About/Faq";
 import Error from './Error';
 import Tinkering from './tinkering/Tinkering'
 import AshokSen from './AshokSen/AshokSen';
+import Team from './Team/Team';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
              <Route path="/Testimonial" component={Testimonial}/>
              <Route path="/Tinkering" component={Tinkering}/>
              <Route path="/AshokSen" component={AshokSen}/>
+             <Route path="/Team" component={Team}/>
              <Route path="/Guideline" component={Guideline}/>
              <Route path="/Faq" component={Faq}/>
 
