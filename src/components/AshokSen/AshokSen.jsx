@@ -13,7 +13,7 @@ function App() {
       >
         <div className="container">
           <a className="navbar-brand js-scroll-trigger" href="#page-top">
-            <NavLink to="/">Back to IIC</NavLink>
+            <NavLink to="/">Back to IIIC</NavLink>
           </a>
           <button
             className="navbar-toggler navbar-toggler-right"
