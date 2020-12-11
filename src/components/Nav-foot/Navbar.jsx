@@ -76,7 +76,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-            <NavLink to="/AshokSen" style={styleLink}>AshokSen-DC</NavLink>
+            <NavLink to="/AshokSen" style={styleLink}>AshokSen-DIC</NavLink>
             </a>
           </li>
         </ul>

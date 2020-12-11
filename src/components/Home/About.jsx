@@ -7,7 +7,7 @@ function About() {
       <div className="container">
         <h1 className="sec-title">About iiic</h1>
         <h5 className="content px-5">
-          Institute for Innovation and Incubation Centre is an interface
+          Institute Innovation and Incubation Centre is an interface
           organization to foster innovation, explore the trends in the digital
           world and promote commercialization and technology. The IIIC group of
           interdisciplinary researchers, developers, educationalists and budding
