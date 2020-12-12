@@ -69,7 +69,7 @@ function App() {
           <div className="row text-center">
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                <i className="fa fa-circle fa-stack-2x text-primary"></i>
+                <i className="fa fa-circle fa-stack-2x text-warning"></i>
                 <i className="fas fa-brain fa-stack-1x fa-inverse"></i>
               </span>
               <h4 className="service-heading">Ideation</h4>
@@ -80,7 +80,7 @@ function App() {
             </div>
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                <i className="fa fa-circle fa-stack-2x text-primary"></i>
+                <i className="fa fa-circle fa-stack-2x text-warning"></i>
                 <i className="fas fa-dna fa-stack-1x fa-inverse"></i>
               </span>
               <h4 className="service-heading">Innovation</h4>
@@ -91,7 +91,7 @@ function App() {
             </div>
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                <i className="fa fa-circle fa-stack-2x text-primary"></i>
+                <i className="fa fa-circle fa-stack-2x text-warning"></i>
                 <i className="fas fa-hands fa-stack-1x fa-inverse"></i>
               </span>
               <h4 className="service-heading">Incubation</h4>
@@ -105,7 +105,7 @@ function App() {
           <div className="row text-center">
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                <i className="fa fa-circle fa-stack-2x text-primary"></i>
+                <i className="fa fa-circle fa-stack-2x text-warning"></i>
                 <i className="fas fa-brain fa-stack-1x fa-inverse"></i>
               </span>
               <h4 className="service-heading">Ideation</h4>
@@ -118,7 +118,7 @@ function App() {
             </div>
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                <i className="fa fa-circle fa-stack-2x text-primary"></i>
+                <i className="fa fa-circle fa-stack-2x text-warning"></i>
                 <i className="fas fa-dna fa-stack-1x fa-inverse"></i>
               </span>
               <h4 className="service-heading">Innovation</h4>
@@ -130,7 +130,7 @@ function App() {
             </div>
             <div className="col-md-4">
               <span className="fa-stack fa-4x">
-                <i className="fa fa-circle fa-stack-2x text-primary"></i>
+                <i className="fa fa-circle fa-stack-2x text-warning"></i>
                 <i className="fas fa-hands fa-stack-1x fa-inverse"></i>
               </span>
               <h4 className="service-heading">Incubation</h4>
