@@ -38,7 +38,7 @@ function App() {
     <div className="App">
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div className="container">
-      <a className="navbar-brand js-scroll-trigger" href="#page-top"><NavLink to="/">Back to IIIC</NavLink></a>
+      <a className="navbar-brand js-scroll-trigger" href="#page-top"><NavLink to="/">Back to IIC</NavLink></a>
     </div>
   </nav>
   <header className="masthead">

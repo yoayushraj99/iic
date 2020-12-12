@@ -22,7 +22,7 @@ function Connect() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Join IIIC
+            Join IIC
           </a>
         </div>
         <div className="map-responsive">
