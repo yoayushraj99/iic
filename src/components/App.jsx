@@ -11,7 +11,7 @@ import Guideline from "../components/About/Guideline";
 import Faq from "../components/About/Faq";
 import Error from './Error';
 import Tinkering from './tinkering/Tinkering'
-import AshokSen from './AshokSen/AshokSen';
+import AsokeSen from './AsokeSen/AsokeSen';
 import Team from './Team/Team';
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
              <Route path="/Programmes" component={Programmes}/>
              <Route path="/Testimonial" component={Testimonial}/>
              <Route path="/Tinkering" component={Tinkering}/>
-             <Route path="/AshokSen" component={AshokSen}/>
+             <Route path="/AsokeSen" component={AsokeSen}/>
              <Route path="/Team" component={Team}/>
              <Route path="/Guideline" component={Guideline}/>
              <Route path="/Faq" component={Faq}/>

@@ -12,7 +12,7 @@ function IncubationNav() {
         <div className="container-fluid">
             <div className="row">
                 <div className="col-md-6">
-                    <a href="https://nitdgp.ac.in/" target="_blank"><img src={require("../../images/NITLogo.jpeg")} alt="iiic" style={styleImg}/></a>
+                    <a href="https://nitdgp.ac.in/" target="_blank" rel="noopener noreferrer"><img src={require("../../images/NITLogo.jpeg")} alt="iiic" style={styleImg}/></a>
                 </div>
                 <div className="col-md-6">
                 <img src={require("../../images/IIC_new.jpeg")} alt="iiic" style={styleImg}/>

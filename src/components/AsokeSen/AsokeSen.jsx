@@ -1,10 +1,10 @@
 import React from "react";
 import Footer from "../Nav-foot/Footer";
-import { NavLink, Route } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../../assets/css-ashoksen/agency.min1.css";
 import Divider from "../Dividers/Divider";
 
-function App() {
+function AsokeSen() {
   return (
     <div className="App">
       <nav
@@ -151,4 +151,4 @@ function App() {
   );
 }
 
-export default App;
+export default AsokeSen;
