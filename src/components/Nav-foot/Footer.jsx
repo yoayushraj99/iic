@@ -30,14 +30,14 @@ function Footer() {
             </li>
             <li>
               <i className="fas fa-envelope mr-2" style={iconStyle}></i>
-              iicnitdgp@gmail.com
+              iic@che.nitdgp.ac.in
             </li>
-            <li>
+            {/* <li>
               <i className="fas fa-phone mr-2" style={iconStyle}></i>
               +012-212-0123
-            </li>
+            </li> */}
           </ul>
-          <p>All rights reserved</p>
+          <p>Copyright © 2020 : IIIC , NIT DGP. All Rights Reserved</p>
         </div>
         <div className="col-md-4 footer-nav animated fadeInUp">
           <h4>Menu —</h4>
