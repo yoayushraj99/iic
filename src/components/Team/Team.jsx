@@ -232,7 +232,7 @@ function Team() {
         </div>
 
         
-        <h1 className="team_text">WEB-Development Team</h1>
+        <h1 className="team_text">Web Development Team</h1>
         <div className="card-wrapper">
           <div className="card-team">
             <img
