@@ -14,7 +14,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light navbar-light py-3" style={styleNavbar}>
+    <nav className="navbar navbar-expand-lg navbar-light py-3" style={styleNavbar}>
       <button
         className="navbar-toggler"
         type="button"
@@ -23,7 +23,7 @@ function Navbar() {
         aria-controls="navbarNav"
         aria-expanded="false"
         aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon bg-warning"></span>
       </button>
       <div
         className="collapse navbar-collapse"
