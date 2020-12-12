@@ -73,7 +73,7 @@ function App() {
       <div className="row text-center">
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
-            <i className="fa fa-circle fa-stack-2x text-primary"></i>
+            <i className="fa fa-circle fa-stack-2x text-warning"></i>
             <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
           </span>
           <h4 className="service-heading">Basic Mechanical fabrication facility</h4>
@@ -81,7 +81,7 @@ function App() {
         </div>
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
-            <i className="fa fa-circle fa-stack-2x text-primary"></i>
+            <i className="fa fa-circle fa-stack-2x text-warning"></i>
             <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
           <h4 className="service-heading">Computers, internet& collaborative meeting space</h4>
@@ -89,7 +89,7 @@ function App() {
         </div>
         <div className="col-md-4">
           <span className="fa-stack fa-4x">
-            <i className="fa fa-circle fa-stack-2x text-primary"></i>
+            <i className="fa fa-circle fa-stack-2x text-warning"></i>
             <i class="fas fa-bolt fa-stack-1x fa-inverse"></i>
           </span>
           <h4 className="service-heading">Basic Electronics and Electrical Equipment facility</h4>
