@@ -37,7 +37,7 @@ function Footer() {
               +012-212-0123
             </li> */}
           </ul>
-          <p>Copyright © 2020 : IIIC , NIT DGP. All Rights Reserved</p>
+          <p>Copyright © 2020 : IIC , NIT DGP. All Rights Reserved</p>
         </div>
         <div className="col-md-4 footer-nav animated fadeInUp">
           <h4>Menu —</h4>

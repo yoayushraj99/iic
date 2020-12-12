@@ -44,6 +44,62 @@ function Team() {
             </ul>
           </div>
         </div>
+
+        <h1 className="team_text">Advisory Committee</h1>
+        <div className="card-wrapper">
+          <div className="card-team">
+            <img
+              src={require("./images/2.jpg")}
+              alt="card background"
+              className="card-img"
+            ></img>
+            <img
+              src={require("./images/subrata_bannerjee.jpg")}
+              alt="profile"
+              className="profile-img"
+            ></img>
+            <h1>Prof. Subrata Bannerjee(EE)</h1>
+            <p className="job-title">Advisor</p>
+            <ul className="social-media">
+              <li>
+                <a
+                  href="https://nitdgp.ac.in/faculty/a4d97a0c-0811-4640-81ad-8e3e7b65b127"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-user-circle" style={styleIcon}></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="card-team">
+            <img
+              src={require("./images/2.jpg")}
+              alt="card background"
+              className="card-img"
+            ></img>
+            <img
+              src={require("./images/Sudit_Sekhar_Mukhopadhyay.jpg")}
+              alt="profile"
+              className="profile-img"
+            ></img>
+            <h1>Prof. Sudit Sekhar M.(BT)</h1>
+            <p className="job-title">Advisor</p>
+            <ul className="social-media">
+              <li>
+                <a
+                  href="https://nitdgp.ac.in/faculty/def47b6b-94fc-458b-b959-d748166145e2"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fas fa-user-circle" style={styleIcon}></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
         <h1 className="team_text">Executive Committee</h1>
         <div className="card-wrapper">
           <div className="card-team">
@@ -175,60 +231,8 @@ function Team() {
           </div>
         </div>
 
-        <h1 className="team_text">Advisory Committee</h1>
-        <div className="card-wrapper">
-          <div className="card-team">
-            <img
-              src={require("./images/2.jpg")}
-              alt="card background"
-              className="card-img"
-            ></img>
-            <img
-              src={require("./images/subrata_bannerjee.jpg")}
-              alt="profile"
-              className="profile-img"
-            ></img>
-            <h1>Prof. Subrata Bannerjee(EE)</h1>
-            <p className="job-title">Advisor</p>
-            <ul className="social-media">
-              <li>
-                <a
-                  href="https://nitdgp.ac.in/faculty/a4d97a0c-0811-4640-81ad-8e3e7b65b127"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="fas fa-user-circle" style={styleIcon}></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="card-team">
-            <img
-              src={require("./images/2.jpg")}
-              alt="card background"
-              className="card-img"
-            ></img>
-            <img
-              src={require("./images/Sudit_Sekhar_Mukhopadhyay.jpg")}
-              alt="profile"
-              className="profile-img"
-            ></img>
-            <h1>Prof. Sudit Sekhar M.(BT)</h1>
-            <p className="job-title">Advisor</p>
-            <ul className="social-media">
-              <li>
-                <a
-                  href="https://nitdgp.ac.in/faculty/def47b6b-94fc-458b-b959-d748166145e2"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="fas fa-user-circle" style={styleIcon}></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <h1 className="team_text">Development Team</h1>
+        
+        <h1 className="team_text">WEB-Development Team</h1>
         <div className="card-wrapper">
           <div className="card-team">
             <img

@@ -38,7 +38,7 @@ function Navbar() {
           <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" data-toggle="dropdown" style={styleLink}>About</a>
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="/">About IIIC</a></li>
+                <li><a className="dropdown-item" href="/">About IIC</a></li>
                 <li><a className="dropdown-item" href="#">Facilities</a></li>
                 <li><a className="dropdown-item" href="/Team">Team</a></li>
                 <li><a className="dropdown-item" href="/Faq">FaQ</a></li>
