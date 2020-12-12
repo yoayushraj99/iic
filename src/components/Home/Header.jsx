@@ -39,7 +39,7 @@ function Header() {
               <div className="carousel-item">
                 <img
                   className="d-block w-100"
-                  src={require('../../images/Apj.PNG')}
+                  src={require('../../images/Apj.png')}
                   alt="Fourth slide"></img>
               </div>
             </div>

@@ -30,7 +30,7 @@ function Footer() {
             </li>
             <li>
               <i className="fas fa-envelope mr-2" style={iconStyle}></i>
-              iic@che.nitdgp.ac.in
+              <a href="mailto:iic@che.nitdgp.ac.in" className="text-white">iic@che.nitdgp.ac.in</a>
             </li>
             {/* <li>
               <i className="fas fa-phone mr-2" style={iconStyle}></i>
