@@ -29,15 +29,44 @@ function AsokeSen() {
         </div>
       </header>
       <div className="container">
-        <div className="container">
-          <h1 className="sec-title">Vision</h1>
-          <h5 className="content">
-            To be a globally recognised centre of excellence in the field of
-            product design and engineering imparting quality training,
-            interdisciplinary research and innovative design of products,
-            processes, services, and technologies for the betterment of our
-            society.
+        <div className="cheena">
+          <div className="container col-lg-6">
+            <h1 className="sec-title">Vision</h1>
+            <h5 className="content">
+              To be a globally recognised centre of excellence in the field of
+              product design and engineering imparting quality training,
+              interdisciplinary research and innovative design of products,
+              processes, services, and technologies for the betterment of our
+              society.
           </h5>
+          </div>
+
+          <div className="container col-lg-6">
+          
+            <ul className="gall">
+              <li className="gall-li">
+                <span className="spa">New York</span>
+                <img className="img-sha" src='http://i1276.photobucket.com/albums/y465/gaeowyn/new_york_city_2-wallpaper-960x540_zpsce336d7f.jpg' /></li>
+
+              <li className="gall-li">
+                <span className="spa">London</span>
+                <img className="img-sha" src='http://i1276.photobucket.com/albums/y465/gaeowyn/london_in_black_and_white-wallpaper-960x540_zpsa7fa9d45.jpg' /></li>
+
+              <li className="gall-li">
+                <span className="spa">Poznań</span>
+                <img className="img-sha" src='http://i1276.photobucket.com/albums/y465/gaeowyn/poznan_poland-wallpaper-960x540_zps6a5470ed.jpg' /></li>
+
+              <li className="gall-li">
+                <span className="spa">Chicago</span>
+                <img className="img-sha" src='http://i1276.photobucket.com/albums/y465/gaeowyn/cityscape_skyline_chicago_sculpture-wallpaper-960x540_zps19c2d09d.jpg' />
+              </li>
+
+              <li className="gall-li">
+                <span className="spa">Golden Gate</span>
+                <img className="img-sha" src='http://i1276.photobucket.com/albums/y465/gaeowyn/golden_gate_in_fog-wallpaper-960x540_zps1f6fc1af.jpg' />
+              </li>
+            </ul>
+          </div>
         </div>
         <Divider />
       </div>
