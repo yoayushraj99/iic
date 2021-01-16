@@ -28,48 +28,42 @@ function AsokeSen() {
           </div>
         </div>
       </header>
-      <div className="container">
-        <div className="gall-posi">
-          <div className="container col-lg-6">
-            <h1 className="sec-title">Vision</h1>
-            <h5 className="content">
-              To be a globally recognised centre of excellence in the field of
-              product design and engineering imparting quality training,
-              interdisciplinary research and innovative design of products,
-              processes, services, and technologies for the betterment of our
-              society.
+
+      <div className="gall-posi py-3">
+        <div className="container col-lg-5">
+          <h1 className="sec-title">Vision</h1>
+          <h5 className="content">
+            To be a globally recognised centre of excellence in the field of
+            product design and engineering imparting quality training,
+            interdisciplinary research and innovative design of products,
+            processes, services, and technologies for the betterment of our
+            society.
             </h5>
-          </div>
-
-          <div className="container col-lg-6">
-            <ul className="gall">
-              <li className="gall-li">
-                <span className="spa">ashok_01</span>
-                <img className="img-sha" src="../../images/ashok_01.JPG" />
-              </li>
-
-              <li className="gall-li">
-                <span className="spa">ashok_02</span>
-                <img className="img-sha" src="../../images/ashok_02.JPG" />
-              </li>
-
-              <li className="gall-li">
-                <span className="spa">ashok_03</span>
-                <img className="img-sha" src="../../images/ashok_03.JPG" />
-              </li>
-
-              <li className="gall-li">
-                <span className="spa">Chicago</span>
-                <img
-                  className="img-sha"
-                  src="http://i1276.photobucket.com/albums/y465/gaeowyn/cityscape_skyline_chicago_sculpture-wallpaper-960x540_zps19c2d09d.jpg"
-                />
-              </li>
-            </ul>
-          </div>
         </div>
-        <Divider />
+
+        <div className="col-lg-7">
+          <ul className="gall">
+            <li className="gall-li">
+              <span className="spa">ashok_01</span>
+              <img className="img-sha" src={require('../../images/ashok_01.JPG')} />
+            </li>
+
+            <li className="gall-li">
+              <span className="spa">ashok_02</span>
+              <img className="img-sha" src={require('../../images/ashok_02.JPG')} />
+            </li>
+
+            <li className="gall-li">
+              <span className="spa">ashok_03</span>
+              <img className="img-sha" src={require('../../images/ashok_03.JPG')} />
+            </li>
+          </ul>
+        </div>
+
+
       </div>
+      <Divider />
+
       <div className="container">
         <div className="container">
           <h1 className="sec-title">About the Centre</h1>
