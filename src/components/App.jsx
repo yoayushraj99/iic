@@ -1,18 +1,18 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import Homepage from '../components/Home/HomePage';
-import Connect from '../components/Connect-us/Connect';
-import Partners from '../components/Partners-Page/Partners';
-import Portfolio from '../components/Portfolio/Portfolio';
-import Programmes from '../components/Programmes-Page/Programmes';
-import Testimonial from '../components/Testimonial-Page/Testimonial';
-import Guideline from "../components/About/Guideline";
-import Faq from "../components/About/Faq";
+import Homepage from './Home/HomePage';
+import Connect from './Connect-us/Connect';
+import Partners from './Partners-Page/Partners';
+import Portfolio from './Portfolio/Portfolio';
+import Programmes from './Programmes-Page/Programmes';
+import Guideline from "./About/Guideline";
+import Faq from "./About/Faq";
 import Error from './Error';
 import Tinkering from './tinkering/Tinkering'
 import AsokeSen from './AsokeSen/AsokeSen';
 import Team from './Team/Team';
+import Events from './Event/Events';
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
              <Route path="/Partners" component={Partners}/>
              <Route path="/Portfolio" component={Portfolio}/>
              <Route path="/Programmes" component={Programmes}/>
-             <Route path="/Testimonial" component={Testimonial}/>
+             <Route path="/Events" component={Events}/>
              <Route path="/Tinkering" component={Tinkering}/>
              <Route path="/AsokeSen" component={AsokeSen}/>
              <Route path="/Team" component={Team}/>
