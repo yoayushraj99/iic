@@ -29,7 +29,7 @@ function AsokeSen() {
         </div>
       </header>
       <div className="container">
-        <div className="cheena">
+        <div className="gall-posi">
           <div className="container col-lg-6">
             <h1 className="sec-title">Vision</h1>
             <h5 className="content">
@@ -38,32 +38,32 @@ function AsokeSen() {
               interdisciplinary research and innovative design of products,
               processes, services, and technologies for the betterment of our
               society.
-          </h5>
+            </h5>
           </div>
 
           <div className="container col-lg-6">
-          
             <ul className="gall">
               <li className="gall-li">
-                <span className="spa">New York</span>
-                <img className="img-sha" src='http://i1276.photobucket.com/albums/y465/gaeowyn/new_york_city_2-wallpaper-960x540_zpsce336d7f.jpg' /></li>
-
-              <li className="gall-li">
-                <span className="spa">London</span>
-                <img className="img-sha" src='http://i1276.photobucket.com/albums/y465/gaeowyn/london_in_black_and_white-wallpaper-960x540_zpsa7fa9d45.jpg' /></li>
-
-              <li className="gall-li">
-                <span className="spa">Poznań</span>
-                <img className="img-sha" src='http://i1276.photobucket.com/albums/y465/gaeowyn/poznan_poland-wallpaper-960x540_zps6a5470ed.jpg' /></li>
-
-              <li className="gall-li">
-                <span className="spa">Chicago</span>
-                <img className="img-sha" src='http://i1276.photobucket.com/albums/y465/gaeowyn/cityscape_skyline_chicago_sculpture-wallpaper-960x540_zps19c2d09d.jpg' />
+                <span className="spa">ashok_01</span>
+                <img className="img-sha" src="../../images/ashok_01.JPG" />
               </li>
 
               <li className="gall-li">
-                <span className="spa">Golden Gate</span>
-                <img className="img-sha" src='http://i1276.photobucket.com/albums/y465/gaeowyn/golden_gate_in_fog-wallpaper-960x540_zps1f6fc1af.jpg' />
+                <span className="spa">ashok_02</span>
+                <img className="img-sha" src="../../images/ashok_02.JPG" />
+              </li>
+
+              <li className="gall-li">
+                <span className="spa">ashok_03</span>
+                <img className="img-sha" src="../../images/ashok_03.JPG" />
+              </li>
+
+              <li className="gall-li">
+                <span className="spa">Chicago</span>
+                <img
+                  className="img-sha"
+                  src="http://i1276.photobucket.com/albums/y465/gaeowyn/cityscape_skyline_chicago_sculpture-wallpaper-960x540_zps19c2d09d.jpg"
+                />
               </li>
             </ul>
           </div>
