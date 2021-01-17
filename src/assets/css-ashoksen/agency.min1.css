@@ -696,8 +696,8 @@ ul.social-buttons li a:hover {
 	/* display: flex; */
 	margin:auto;
 	list-style:none;
-	width:955px;
-	height:450px;
+	widows: 50rem;
+	height:29rem;
 	border-radius:3px;
 	overflow-x:hidden;
 	box-shadow:1px 1px 3px 1px;
@@ -714,6 +714,7 @@ ul.social-buttons li a:hover {
 	-moz-transition:all 0.7s;
 	transition:all 0.7s;
 	box-shadow:-2px 0 10px 2px;
+	/* overflow: hidden; */
   }
   
 .gall-li:first-child {
