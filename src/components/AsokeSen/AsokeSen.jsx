@@ -29,8 +29,8 @@ function AsokeSen() {
         </div>
       </header>
 
-      <div className="gall-posi py-3">
-        <div className="container col-lg-5">
+      <div className="gall-posi">
+        <div className="container col-lg-7">
           <h1 className="sec-title">Vision</h1>
           <h5 className="content">
             To be a globally recognised centre of excellence in the field of
@@ -41,23 +41,66 @@ function AsokeSen() {
             </h5>
         </div>
 
-        <div className="col-lg-7">
-          <ul className="gall">
-            <li className="gall-li">
-              <span className="spa">ashok_01</span>
-              <img className="img-sha" src={require('../../images/ashok_01.JPG')} alt="Ashok_Sen01"/>
-            </li>
+        <div className="col-lg-5 py-1">
+          <div
+            id="carouselExampleIndicators"
+            className="carousel slide"
+            data-ride="carousel">
+            <ol className="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                className="active"></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"></li>
+            </ol>
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <img
+                  className="d-block w-100"
+                  src={require('../../images/ashok_01.JPG')}
 
-            <li className="gall-li">
-              <span className="spa">ashok_02</span>
-              <img className="img-sha" src={require('../../images/ashok_02.JPG')} alt="Ashok_Sen02"/>
-            </li>
+                  alt="First slide"></img>
+              </div>
+              <div className="carousel-item">
+                <img
+                  className="d-block w-100"
+                  src={require('../../images/ashok_02.JPG')}
+                  alt="Second slide"></img>
+              </div>
 
-            <li className="gall-li">
-              <span className="spa">ashok_03</span>
-              <img className="img-sha" src={require('../../images/ashok_03.JPG')} alt="Ashok_Sen03"/>
-            </li>
-          </ul>
+              <div className="carousel-item">
+                <img
+                  className="d-block w-100"
+                  src={require('../../images/ashok_03.JPG')}
+                  alt="Fourth slide"></img>
+              </div>
+            </div>
+            <a
+              className="carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev">
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"></span>
+              <span className="sr-only">Previous</span>
+            </a>
+            <a
+              className="carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next">
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"></span>
+              <span className="sr-only">Next</span>
+            </a>
+          </div>
         </div>
 
 
