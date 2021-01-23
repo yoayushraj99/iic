@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../Nav-foot/Footer";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../../assets/css-ashoksen/agency.min1.css";
 import Divider from "../Dividers/Divider";
 
@@ -13,7 +13,7 @@ function AsokeSen() {
       >
         <div className="container">
           <a className="navbar-brand js-scroll-trigger" href="#page-top">
-            <NavLink to="/">Back to IIC</NavLink>
+            <Link to="/">Back to IIC</Link>
           </a>
         </div>
       </nav>
@@ -45,17 +45,17 @@ function AsokeSen() {
           <ul className="gall">
             <li className="gall-li">
               <span className="spa">ashok_01</span>
-              <img className="img-sha" src={require('../../images/ashok_01.JPG')} />
+              <img className="img-sha" src={require('../../images/ashok_01.JPG')} alt="Ashok_Sen01"/>
             </li>
 
             <li className="gall-li">
               <span className="spa">ashok_02</span>
-              <img className="img-sha" src={require('../../images/ashok_02.JPG')} />
+              <img className="img-sha" src={require('../../images/ashok_02.JPG')} alt="Ashok_Sen02"/>
             </li>
 
             <li className="gall-li">
               <span className="spa">ashok_03</span>
-              <img className="img-sha" src={require('../../images/ashok_03.JPG')} />
+              <img className="img-sha" src={require('../../images/ashok_03.JPG')} alt="Ashok_Sen03"/>
             </li>
           </ul>
         </div>
