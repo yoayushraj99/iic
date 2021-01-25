@@ -318,6 +318,17 @@ li a {
 margin-top: auto;
 }
 
+/*** Event Details ***/
+.boxShadow {
+  width: 55%;
+	margin: 2rem 1rem; 
+	padding: 10px 40px;
+	margin: 1rem auto;
+  
+  background: #f7f7f7;
+	box-shadow: -6px -7px 51px #dadada;
+}
+
 /*** Footer ***/
 
 .footer-bs {
