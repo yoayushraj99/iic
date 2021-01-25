@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../Nav-foot/Footer";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../../assets/css-ashoksen/agency.min1.css";
 import Divider from "../Dividers/Divider";
 
@@ -13,7 +13,7 @@ function AsokeSen() {
       >
         <div className="container">
           <a className="navbar-brand js-scroll-trigger" href="#page-top">
-            <NavLink to="/">Back to IIC</NavLink>
+            <Link to="/">Back to IIC</Link>
           </a>
         </div>
       </nav>

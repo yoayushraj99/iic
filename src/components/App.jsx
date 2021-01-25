@@ -13,6 +13,8 @@ import Tinkering from './tinkering/Tinkering'
 import AsokeSen from './AsokeSen/AsokeSen';
 import Team from './Team/Team';
 import Events from './Event/Events';
+import Events01 from './Event/Event01';
+import Events02 from './Event/Event02';
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
              <Route path="/Team" component={Team}/>
              <Route path="/Guideline" component={Guideline}/>
              <Route path="/Faq" component={Faq}/>
+             <Route path="/Event01" component={Events01}/>
+             <Route path="/Event02" component={Events02}/>
 
             <Route component={Error}/>
            </Switch>
