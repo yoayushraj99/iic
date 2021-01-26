@@ -74,7 +74,7 @@ function Header() {
               <i className="fas fa-arrow-circle-right fa-sm mr-1"></i>
               <NavLink to="/Events" style={{color :"blue"}}>Webinar invitation :Dr. Sanjiban Banerjee</NavLink>
             </p>
-            <p className="">
+            <p className="blink">
               <i className="fas fa-arrow-circle-right fa-sm mr-1"></i>
               <NavLink to="/Events" style={{color :"blue"}}>INNOVATION CONTEST 2020</NavLink>
             </p>

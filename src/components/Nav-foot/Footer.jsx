@@ -9,11 +9,13 @@ function Footer() {
     <footer className="footer-bs">
       <div className="row">
         <div className="col-md-3 footer-brand animated fadeInLeft">
+          <div className="d-flex justify-content-center">
           <img
-            src="https://nitdgp.ac.in/static/img/nitdgp_logo_white.png"
+            src="https://nitdgp.ac.in/front/assets/images/logo.png"
             alt="Nit Dgp Logo"
-            height="170"
+            height="100"
           />
+          </div>
           <ul className="footer-address">
             <li>
               <a
@@ -30,7 +32,7 @@ function Footer() {
             </li>
             <li>
               <i className="fas fa-envelope mr-2" style={iconStyle}></i>
-              <a href="mailto:iic@che.nitdgp.ac.in" className="text-white">iic@che.nitdgp.ac.in</a>
+              <a href="mailto:iic@che.nitdgp.ac.in" className="text-white" target="_top">iic@che.nitdgp.ac.in</a>
             </li>
             {/* <li>
               <i className="fas fa-phone mr-2" style={iconStyle}></i>

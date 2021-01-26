@@ -6,10 +6,6 @@ import Footer from "../Nav-foot/Footer";
 
 const Events02 = () => {
 
-    const styleEvent = {
-        margin: "5px 0px"
-    }
-
   return (
     <div>
       <Navbar />
