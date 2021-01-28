@@ -34,7 +34,7 @@ function Team() {
             <ul className="social-media">
               <li>
                 <a
-                  href="https://nitdgp.ac.in/director"
+                  href="https://nitdgp.ac.in/department/computer-science-engineering/faculty-1/anupam-basu-1"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -63,7 +63,7 @@ function Team() {
             <ul className="social-media">
               <li>
                 <a
-                  href="https://nitdgp.ac.in/faculty/a4d97a0c-0811-4640-81ad-8e3e7b65b127"
+                  href="https://nitdgp.ac.in/department/electrical-engineering/faculty-7/subrata-banerjee"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -88,7 +88,7 @@ function Team() {
             <ul className="social-media">
               <li>
                 <a
-                  href="https://nitdgp.ac.in/faculty/def47b6b-94fc-458b-b959-d748166145e2"
+                  href="https://nitdgp.ac.in/department/biotechnology/faculty-2/sudit-sekhar-mukhopadhyay"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -118,7 +118,7 @@ function Team() {
             <ul className="social-media">
               <li>
                 <a
-                  href="https://nitdgp.ac.in/faculty/6255455a-4eed-430a-9824-2cb2d9da51c4"
+                  href="https://nitdgp.ac.in/department/chemical-engineering/faculty-4/sandip-kumar-lahiri-1"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -143,7 +143,7 @@ function Team() {
             <ul className="social-media">
               <li>
                 <a
-                  href="https://nitdgp.ac.in/faculty/b7c68a97-60c4-4078-91ad-771cbdf14132"
+                  href="https://nitdgp.ac.in/department/electronics-and-communication-engineering/faculty-6/nilanjan-chattaraj"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -168,7 +168,7 @@ function Team() {
             <ul className="social-media">
               <li>
                 <a
-                  href="https://nitdgp.ac.in/faculty/29515f0c-7127-4ace-93d0-5212ce0f015d"
+                  href="https://nitdgp.ac.in/department/mechanical-engineering/faculty-11/arjyajyoti-goswami"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -195,7 +195,7 @@ function Team() {
             <ul className="social-media">
               <li>
                 <a
-                  href="https://nitdgp.ac.in/faculty/a3fdaab8-d50e-4fa9-b94a-ea85f6d9f339"
+                  href="https://nitdgp.ac.in/department/physics/faculty-14/sayantari-ghosh"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -220,7 +220,7 @@ function Team() {
             <ul className="social-media">
               <li>
                 <a
-                  href="https://nitdgp.ac.in/faculty/84bdb290-c4b9-40b5-8e04-16b75dc92693"
+                  href="https://nitdgp.ac.in/department/electrical-engineering/faculty-7/aniruddha-bhattacharya"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

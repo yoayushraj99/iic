@@ -72,11 +72,11 @@ function Header() {
           <div className="box">
             <p className="blink">
               <i className="fas fa-arrow-circle-right fa-sm mr-1"></i>
-              <NavLink to="/Events" style={{color :"blue"}}>Webinar invitation :Dr. Sanjiban Banerjee</NavLink>
+              <NavLink to="/Event02" style={{color :"blue"}}>Webinar invitation :Dr. Sanjiban Banerjee</NavLink>
             </p>
             <p className="blink">
               <i className="fas fa-arrow-circle-right fa-sm mr-1"></i>
-              <NavLink to="/Events" style={{color :"blue"}}>INNOVATION CONTEST 2020</NavLink>
+              <NavLink to="/Event01" style={{color :"blue"}}>INNOVATION CONTEST 2020</NavLink>
             </p>
           </div>
         </div>

@@ -11,7 +11,7 @@ const Events02 = () => {
       <Navbar />
       <div className="container-fluid">
         <div className="boxShadow">
-          <div className="container">
+          <div className="container d-flex justify-content-center">
             <img
               src={require("../../images/webinar_Flyer.png")}
               alt="Event02"
