@@ -10,7 +10,7 @@ function Achivement() {
         <div className="col-lg-3 col-md-6">
           <div className="text-center">
             <div>
-              <i className="fas fa-city fa-6x"></i>
+            <img src={require('../../images/icons/Startup.png')} alt="Startup" width="132"/>
             </div>
             <div className="achivement-wrap">
               <h4>
@@ -25,7 +25,7 @@ function Achivement() {
         <div className="col-lg-3 col-md-6">
           <div className="text-center">
             <div>
-              <i className="fas fa-user-tie fa-6x"></i>
+              <img src={require('../../images/icons/ENTREPRENEUR.png')} alt="entrepreneurs" width="120"/>
             </div>
             <div className="achivement-wrap">
               <h4>
@@ -40,7 +40,7 @@ function Achivement() {
         <div className="col-lg-3 col-md-6">
           <div className="text-center">
             <div>
-              <i className="fas fa-users fa-6x"></i>
+            <img src={require('../../images/icons/EMPLOYMENT.png')} alt="EMPLOYMENT" width="150"/>
             </div>
             <div className="achivement-wrap">
               <h4>
@@ -55,7 +55,7 @@ function Achivement() {
         <div className="col-lg-3 col-md-6">
           <div className="text-center">
             <div>
-              <i className="fas fa-hand-holding-usd fa-6x"></i>
+            <img src={require('../../images/icons/FundsRaised.png')} alt="FundsRaised" width="142"/>
             </div>
             <div className="achivement-wrap">
               <h4>

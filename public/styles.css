@@ -10,6 +10,15 @@ html {
 body {
   background: #eee;
 }
+
+/*** Svg component ***/
+#svgcenter{
+  position: absolute;
+  top: 38%;
+  left: 45%;
+  margin: auto;
+}
+
 /*** Card Component ***/
 
 .dictionary {
