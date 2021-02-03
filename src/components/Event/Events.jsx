@@ -11,7 +11,7 @@ function Events() {
       <Navbar />
       <div className="container">
         <img
-          src={require("../../images/upcoming_event.jpg")}
+          src={require("../../images/upcoming_event.webp")}
           alt="Upcoming Events"
           className="guideline-img"
         />
@@ -46,7 +46,7 @@ function Events() {
             <div className="col-md-5">
               <div className="card-image">
                 <img
-                  src={require("../../images/webinar_Flyer.png")}
+                  src={require("../../images/webinar_Flyer.webp")}
                   alt="event_image"
                 />
               </div>
@@ -78,7 +78,7 @@ function Events() {
             <div className="col-md-5">
               <div className="card-image">
                 <img
-                  src={require("../../images/event_1.png")}
+                  src={require("../../images/event_1.webp")}
                   alt="event_image"
                 />
               </div>

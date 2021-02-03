@@ -9,7 +9,7 @@ const Events01 = () => {
       <div className="container-fluid">
         <div className="boxShadow">
           <div className="container">
-            <img src={require("../../images/innovation_contest.png")} alt="Event01" />
+            <img src={require("../../images/innovation_contest.webp")} alt="Event01" />
           </div>
           <div className='mt-3'>
             <h2>INVITATION FOR INNOVATION CONTEST 2020, NIT DURGAPUR</h2>

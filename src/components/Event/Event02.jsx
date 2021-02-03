@@ -13,7 +13,7 @@ const Events02 = () => {
         <div className="boxShadow">
           <div className="container d-flex justify-content-center">
             <img
-              src={require("../../images/webinar_Flyer.png")}
+              src={require("../../images/webinar_Flyer.webp")}
               alt="Event02"
             />
           </div>

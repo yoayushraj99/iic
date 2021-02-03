@@ -62,21 +62,21 @@ function AsokeSen() {
               <div className="carousel-item active">
                 <img
                   className="d-block w-100"
-                  src={require('../../images/ashok_01.JPG')}
+                  src={require('../../images/ashok_01.webp')}
 
                   alt="First slide"></img>
               </div>
               <div className="carousel-item">
                 <img
                   className="d-block w-100"
-                  src={require('../../images/ashok_02.JPG')}
+                  src={require('../../images/ashok_02.webp')}
                   alt="Second slide"></img>
               </div>
 
               <div className="carousel-item">
                 <img
                   className="d-block w-100"
-                  src={require('../../images/ashok_03.JPG')}
+                  src={require('../../images/ashok_03.webp')}
                   alt="Fourth slide"></img>
               </div>
             </div>

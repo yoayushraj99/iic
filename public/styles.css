@@ -13,10 +13,7 @@ body {
 
 /*** Svg component ***/
 #svgcenter{
-  position: absolute;
-  top: 38%;
-  left: 45%;
-  margin: auto;
+  margin-top: 18%;
 }
 
 /*** Card Component ***/

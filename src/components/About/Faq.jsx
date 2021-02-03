@@ -15,7 +15,7 @@ function Faq() {
       <Navbar />
       <div className="container">
         <img
-          src={require("../../images/faq-img.jpeg")}
+          src={require("../../images/faq-img.webp")}
           alt="Faq"
           className="guideline-img"
         />

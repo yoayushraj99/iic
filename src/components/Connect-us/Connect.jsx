@@ -5,50 +5,39 @@ import IncubationNAv from "../Nav-foot/IncubationNav";
 
 function Connect() {
 
-  const one = {
-    margintop: "0px"
-  };
-
   return (
     <div>
       <IncubationNAv />
       <Navbar />
-      <section className="page-section" id="services" style={one}>
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12 text-center">
-              <h2 className="sec-title">Contact Us</h2>
-              <br></br>
-            </div>
+      <div className="container">
+        <img src={require("../../images/contact-banner.webp")} alt="GuideLine" className="guideline-img"/>
+        <div className="row text-center p-5">
+          <div className="col-md-4">
+            <span className="fa-stack fa-4x">
+              <i className="fa fa-circle fa-stack-2x "></i>
+              <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 className="service-heading">----------------</h4>
+
           </div>
-          <div className="row text-center">
-            <div className="col-md-4">
-              <span className="fa-stack fa-4x">
-                <i className="fa fa-circle fa-stack-2x "></i>
-                <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
-              </span>
-              <h4 className="service-heading">----------------</h4>
+          <div className="col-md-4">
+            <span className="fa-stack fa-4x">
+              <i className="fa fa-circle fa-stack-2x "></i>
+              <i className="fas fa-map-marker-alt fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 className="service-heading">Mahatma Gandhi Avenue, Durgapur, West Bengal, India, PIN 713209</h4>
 
-            </div>
-            <div className="col-md-4">
-              <span className="fa-stack fa-4x">
-                <i className="fa fa-circle fa-stack-2x "></i>
-                <i className="fas fa-map-marker-alt fa-stack-1x fa-inverse"></i>
-              </span>
-              <h4 className="service-heading">Mahatma Gandhi Avenue, Durgapur, West Bengal, India, PIN 713209</h4>
+          </div>
+          <div className="col-md-4">
+            <span className="fa-stack fa-4x">
+              <i className="fa fa-circle fa-stack-2x "></i>
+              <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 className="service-heading">iic@che.nitdgp.ac.in</h4>
 
-            </div>
-            <div className="col-md-4">
-              <span className="fa-stack fa-4x">
-                <i className="fa fa-circle fa-stack-2x "></i>
-                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-              </span>
-              <h4 className="service-heading">iic@che.nitdgp.ac.in</h4>
-
-            </div>
           </div>
         </div>
-      </section>
+      </div>
 
       <div className = "container">
       <div className="button-section">

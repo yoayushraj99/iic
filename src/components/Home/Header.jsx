@@ -26,21 +26,21 @@ function Header() {
               <div className="carousel-item active">
                 <img
                   className="d-block w-100"
-                  src={require('../../images/NitFrontGate.jpg')}
+                  src={require('../../images/NitFrontGate.webp')}
                   
                   alt="First slide"></img>
               </div>
               <div className="carousel-item">
                 <img
                   className="d-block w-100"
-                  src={require('../../images/carousel-1.png')}
+                  src={require('../../images/carousel-1.webp')}
                   alt="Second slide"></img>
               </div>
               
               <div className="carousel-item">
                 <img
                   className="d-block w-100"
-                  src={require('../../images/Apj.png')}
+                  src={require('../../images/Apj.webp')}
                   alt="Fourth slide"></img>
               </div>
             </div>

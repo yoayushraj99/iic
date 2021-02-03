@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "../Nav-foot/Navbar";
 import Footer from "../Nav-foot/Footer";
-import under_c from '../../assets/img/under_c.png';
+import under_c from '../../assets/img/under_c.webp';
 
 function Portfolio() {
   return (
