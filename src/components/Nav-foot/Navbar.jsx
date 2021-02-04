@@ -61,7 +61,7 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-            <NavLink to="/Connect" style={styleLink}>Connect</NavLink>
+            <NavLink to="/Connect" style={styleLink}>Contact-Us</NavLink>
             </a>
           </li>
           <li className="nav-item">
