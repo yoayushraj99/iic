@@ -3,15 +3,24 @@ import Navbar from "../Nav-foot/Navbar";
 import Footer from "../Nav-foot/Footer";
 
 const Events01 = () => {
+
+  const responsiveImg = {
+    width: '100%',
+    height: 'auto'
+  }
   return (
     <div>
       <Navbar />
-      <div className="container-fluid">
-        <div className="boxShadow">
-          <div className="container">
-            <img src={require("../../images/innovation_contest.webp")} alt="Event01" />
+      <div className="container">
+        <div className="bg-light p-4">
+          <div className="d-flex justify-content-center">
+            <img
+              src={require("../../images/innovation_contest.webp")}
+              alt="Event01"
+              style={responsiveImg}
+            />
           </div>
-          <div className='mt-3'>
+          <div className="mt-3">
             <h2>INVITATION FOR INNOVATION CONTEST 2020, NIT DURGAPUR</h2>
             <p>10th October 2020</p>
           </div>
@@ -36,20 +45,22 @@ const Events01 = () => {
               period of one year.
             </p>
             <h5>AWARD</h5>
-            <p>
-              <strong>
-                1. Top 3 best innovative ideas will be awarded by our Director
-                sir with certificate and trophy. [ Best innovative idea trophy,
-                2020 of our institute]
-              </strong>
-            </p>
-            <p>
-              <strong>
-                2. Students of top 25 ideas will be given in-house and external
-                training, incubation support and industry back up to make
-                prototype and commercialize.
-              </strong>
-            </p>
+            <ol>
+              <li>
+                <strong>
+                  Top 3 best innovative ideas will be awarded by our Director
+                  sir with certificate and trophy. [ Best innovative idea
+                  trophy, 2020 of our institute]
+                </strong>
+              </li>
+              <li>
+                <strong>
+                  Students of top 25 ideas will be given in-house and external
+                  training, incubation support and industry back up to make
+                  prototype and commercialize.
+                </strong>
+              </li>
+            </ol>
             <h5>TIMELINE OF EVENTS:</h5>
             <p>
               <h5>1. Proposal Round:</h5>
@@ -99,58 +110,72 @@ const Events01 = () => {
             </p>
             <h5>EVALUATION CRITERIA:</h5>
             <p>
-              <p>
-                <strong>
-                  The ideas will be judged and shortlisted on the following
-                  criteria:
-                </strong>
-                <div className="mt-2">
-                  <div>
-                    <strong>1.</strong> Whether the identified problem really
-                    exists in Society/Market/ Industry?
-                  </div>
-                  <div>
-                    <strong>2.</strong> How specifically the proposed solution
-                    resolves the identified problem?
-                  </div>{" "}
-                  <div>
-                    <strong>3.</strong> Given the resources available, how
-                    realistic is the student’s approach to achieve the solution
-                    in a time bound manner?
-                  </div>
-                  <div>
-                    <strong>4.</strong> Level of acceptance of Solution/Features
-                    among target group
-                  </div>
-                  <div>
-                    <strong>5.</strong> Potential of solution to Become
-                    profitable or financially viable
-                  </div>
-                </div>
-              </p>
+              <strong>
+                The ideas will be judged and shortlisted on the following
+                criteria:
+              </strong>
+              <ol>
+                <li>
+                  <strong>
+                    Whether the identified problem really exists in
+                    Society/Market/ Industry?
+                  </strong>
+                </li>
+                <li>
+                  <strong>
+                    How specifically the proposed solution resolves the
+                    identified problem?
+                  </strong>
+                </li>
+                <li>
+                  <strong>
+                    Given the resources available, how realistic is the
+                    student’s approach to achieve the solution in a time bound
+                    manner?
+                  </strong>
+                </li>
+                <li>
+                  <strong>
+                    Level of acceptance of Solution/Features among target group
+                  </strong>
+                </li>
+                <li>
+                  <strong>
+                    Potential of solution to Become profitable or financially
+                    viable
+                  </strong>
+                </li>
+              </ol>
             </p>
             <h5>WHY PARTICIPATE?</h5>
             <p>
-              <div className="mt-2">
-                <div>
-                  <strong>1.</strong> Participate and stand a chance to receive
-                  incubation services from the institute to give shape to your
-                  dream project.
-                </div>
-                <div>
-                  <strong>2.</strong> Get a chance to interact with industry
-                  experts and get year-round personal mentorship.
-                </div>{" "}
-                <div>
-                  <strong>3.</strong> Gain valuable insights into the process of
-                  building a successful startup.
-                </div>
-                <div>
-                  <strong>4.</strong> Certificate of recognition for the
-                  shortlisted students and Participation certificate for every
-                  student.
-                </div>
-              </div>
+              <ol>
+                <li>
+                  <strong>
+                    Participate and stand a chance to receive incubation
+                    services from the institute to give shape to your dream
+                    project.
+                  </strong>
+                </li>
+                <li>
+                  <strong>
+                    Get a chance to interact with industry experts and get
+                    year-round personal mentorship.
+                  </strong>
+                </li>
+                <li>
+                  <strong>
+                    Gain valuable insights into the process of building a
+                    successful startup.
+                  </strong>
+                </li>
+                <li>
+                  <strong>
+                    Certificate of recognition for the shortlisted students and
+                    Participation certificate for every student.
+                  </strong>
+                </li>
+              </ol>
             </p>
             <p>
               Bill Gates. Mark Zuckerberg. Larry Page. Sergey Brin. They share

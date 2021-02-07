@@ -15,7 +15,12 @@ function Connect() {
           className="guideline-img"
         />
         <div className="button-section">
-          <a href="https://forms.gle/4szgt8DmfaqnpwsBA" class="BUTTON_FKX">
+          <a
+            href="https://forms.gle/4szgt8DmfaqnpwsBA"
+            class="BUTTON_FKX"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Incubation Registration
           </a>
           <a
