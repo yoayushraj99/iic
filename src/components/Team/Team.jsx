@@ -138,7 +138,7 @@ function Team() {
               alt="profile"
               className="profile-img"
             ></img>
-            <h1>Dr.Nilanjan Chattoraj(ECE)</h1>
+            <h1>Dr.Nilanjan Chattaraj(ECE)</h1>
             <p className="job-title">Member</p>
             <ul className="social-media">
               <li>
