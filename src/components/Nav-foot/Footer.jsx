@@ -77,7 +77,7 @@ function Footer() {
           <h4>Follow Us</h4>
           <ul>
             <li>
-              <a href="#">Facebook</a>
+              <a href="https://www.facebook.com/IIICNITD/" target="_blank" rel="noopener noreferrer">Facebook</a>
             </li>
             <li>
               <a href="#">Twitter</a>
@@ -86,7 +86,7 @@ function Footer() {
               <a href="#">Instagram</a>
             </li>
             <li>
-              <a href="#">LinkedIn</a>
+              <a href="https://www.linkedin.com/company/iiicnitd/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </li>
           </ul>
         </div>

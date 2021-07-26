@@ -13,7 +13,7 @@ import Error from "./Error";
 import Tinkering from "./tinkering/Tinkering";
 import AsokeSen from "./AsokeSen/AsokeSen";
 import Team from "./Team/Team";
-import Events from "./Event/Events";
+import EventsPreview from "./Events-preview/events-preview.component";
 import Events01 from "./Event/Event01";
 import Events02 from "./Event/Event02";
 
@@ -35,7 +35,7 @@ function App() {
               <Route path="/Partners" component={Partners} />
               <Route path="/Portfolio" component={Portfolio} />
               <Route path="/Programmes" component={Programmes} />
-              <Route path="/Events" component={Events} />
+              <Route path="/Events" component={EventsPreview} />
               <Route path="/Tinkering" component={Tinkering} />
               <Route path="/AsokeSen" component={AsokeSen} />
               <Route path="/Team" component={Team} />

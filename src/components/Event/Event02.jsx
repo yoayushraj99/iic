@@ -2,19 +2,22 @@ import React from "react";
 import Navbar from "../Nav-foot/Navbar";
 import Footer from "../Nav-foot/Footer";
 
-
-
 const Events02 = () => {
+  const responsiveImg = {
+    width: "25%",
+    height: "auto",
+  };
 
   return (
     <div>
       <Navbar />
-      <div className="container-fluid">
-        <div className="boxShadow">
-          <div className="container d-flex justify-content-center">
+      <div className="container">
+        <div className="bg-light p-4">
+          <div className="d-flex justify-content-center">
             <img
               src={require("../../images/webinar_Flyer.webp")}
               alt="Event02"
+              style={responsiveImg}
             />
           </div>
           <div className="mt-3">
@@ -33,38 +36,38 @@ const Events02 = () => {
             </p>
             <p>
               <p>
-              <h4>
-                The theme of the webinar:{" "}
-                <span>
-                  The story- Motivational Session by successful Innovator
-                </span>
-              </h4>
+                <h4>
+                  The theme of the webinar:{" "}
+                  <span>
+                    The story- Motivational Session by successful Innovator
+                  </span>
+                </h4>
               </p>
               <p>
-              <h4>
-                Expert speaker: Dr. Sanjiban Banerjee, Co-founder, and Director
-                of AbGenics Lifesciences Private Ltd
-              </h4>
+                <h4>
+                  Expert speaker: Dr. Sanjiban Banerjee, Co-founder, and
+                  Director of AbGenics Lifesciences Private Ltd
+                </h4>
               </p>
               <p>
-              <h4>
-                <strong>
-                  Date of Webinar:- 16th December 2020 : Time :- 11:00 am
-                </strong>
-              </h4>
+                <h4>
+                  <strong>
+                    Date of Webinar:- 16th December 2020 : Time :- 11:00 am
+                  </strong>
+                </h4>
               </p>
               <p>
-              <h4>
-                Link for the webinar:{" "}
-                <a
-                  href="https://meet.google.com/vme-moyi-wuv"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary"
-                >
-                  https://meet.google.com/vme-moyi-wuv
-                </a>
-              </h4>
+                <h5>
+                  Link for the webinar:{" "}
+                  <a
+                    href="https://meet.google.com/vme-moyi-wuv"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary"
+                  >
+                    https://meet.google.com/vme-moyi-wuv
+                  </a>
+                </h5>
               </p>
             </p>
             <p>
