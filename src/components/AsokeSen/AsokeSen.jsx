@@ -6,12 +6,13 @@ import Divider from "../Dividers/Divider";
 
 function AsokeSen() {
   return (
+    <div>
     <div className="App">
       <nav
         className="navbar navbar-expand-lg navbar-dark fixed-top"
         id="mainNav"
       >
-        <div className="container">
+        <div className="container myNav">
           <a className="navbar-brand js-scroll-trigger" href="#page-top">
             <Link to="/">Back to IIC</Link>
           </a>
@@ -23,22 +24,20 @@ function AsokeSen() {
           <div className="intro-text">
             <div className="intro-lead-in">Welcome To </div>
             <div className="intro-heading text-uppercase text-warning">
-              ASOKE SEN DESIGN & INNOVATION CENTRE
+              ASOKE SEN DESIGN &amp; INNOVATION CENTRE
             </div>
           </div>
         </div>
       </header>
-
-      <div className="gall-posi">
-        <div className="container col-lg-7">
-          <div className="px-5">
-            <h1 className="sec-title">Vision</h1>
-            <h5 className="content" >
-              To be a globally recognised centre of excellence in the field of
-              product design and engineering imparting quality training,
-              interdisciplinary research and innovative design of products,
-              processes, services, and technologies for the betterment of our
-              society.
+      <div className="gall-posi myContainer">
+        <div className="container col-lg-7 myvisionContainer">
+          <h1 className="My-sec-title">Vision</h1>
+          <h5 className="content visionContent">
+            To be a globally recognised centre of excellence in the field of
+            product design and engineering imparting quality training,
+            interdisciplinary research and innovative design of products,
+            processes, services, and technologies for the betterment of our
+            society.
             </h5>
           </div>
         </div>
@@ -67,25 +66,22 @@ function AsokeSen() {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img
-                  className="d-block w-100"
-                  src={require("../../images/ashok_01.webp")}
-                  alt="First slide"
-                ></img>
-              </div>
-              <div className="carousel-item">
-                <img
-                  className="d-block w-100"
-                  src={require("../../images/ashok_02.webp")}
-                  alt="Second slide"
-                ></img>
-              </div>
+                  className="d-block w-100 myImage"
+                  src={require('../../images/ashok_01.webp')}
 
+                  alt="First slide"></img>
+              </div>
               <div className="carousel-item">
                 <img
-                  className="d-block w-100"
-                  src={require("../../images/ashok_03.webp")}
-                  alt="Fourth slide"
-                ></img>
+                  className="d-block w-100 myImage"
+                  src={require('../../images/ashok_02.webp')}
+                  alt="Second slide"></img>
+              </div>
+              <div className="carousel-item">
+                <img
+                  className="d-block w-100 myImage"
+                  src={require('../../images/ashok_03.webp')}
+                  alt="Fourth slide"></img>
               </div>
             </div>
             <a
@@ -120,8 +116,8 @@ function AsokeSen() {
       <div className="container">
         <div className="px-5">
           <h1 className="sec-title">About the Centre</h1>
-          <h5 className="content" style={{textAlign: 'justify'}}>
-            Asoke Sen Design& Innovation Centre is to provide a platform to
+          <h5 className="content">
+            Asoke Sen Design &amp; Innovation Centre is to provide a platform to
             students, Alumni and faculty members having zeal for learning and
             creativity, and passion to convert their creative ideas into
             significant, more viable design innovations. This Design Innovation
@@ -132,6 +128,7 @@ function AsokeSen() {
             Durgapur.
           </h5>
         </div>
+        <br />
         <Divider />
       </div>
       <section className="page-section" id="services">
@@ -200,7 +197,7 @@ function AsokeSen() {
               <h4 className="service-heading">Innovation</h4>
               <p className="text-muted" style={{textAlign: 'justify'}}>
                 To promote increased interaction and collaborations with
-                institute and R&D organizations world-wide working in the areas
+                institute and R&amp;D organizations world-wide working in the areas
                 of design and innovation
               </p>
             </div>

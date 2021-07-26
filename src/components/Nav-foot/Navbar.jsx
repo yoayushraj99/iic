@@ -5,11 +5,13 @@ function Navbar() {
 
   const styleLink = {
     color: 'yellow',
-    textDecoration: 'none'
+    textDecoration: 'none',
+    letterSpacing:'0.8px',
+    fontWeight: '500',
   }
   const styleNavbar = {
     boxShadow: '0 8px 6px -6px black',
-    backgroundColor: "#0f0f0f",
+    backgroundColor: "rgb(0,1,86)",
     marginBottom: "10px" 
   }
 
