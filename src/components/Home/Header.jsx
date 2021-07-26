@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from 'react-router-dom';
 
+import "./Style_header.css"
+
 function Header() {
   return (
     <div className="header-container">
@@ -25,21 +27,21 @@ function Header() {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img
-                  className="d-block w-100"
+                  className="d-block w-100 myPic"
                   src={require('../../images/NitFrontGate.webp')}
                   
                   alt="First slide"></img>
               </div>
               <div className="carousel-item">
                 <img
-                  className="d-block w-100"
+                  className="d-block w-100 myPic"
                   src={require('../../images/carousel-1.webp')}
                   alt="Second slide"></img>
               </div>
               
               <div className="carousel-item">
                 <img
-                  className="d-block w-100"
+                  className="d-block w-100 myPic"
                   src={require('../../images/Apj.webp')}
                   alt="Fourth slide"></img>
               </div>
@@ -67,16 +69,20 @@ function Header() {
           </div>
         </div>
         <div className="col-lg-3 update-box">
-          <i className="fas fa-bell fa-3x d-flex justify-content-center pb-1 pt-4"></i>
-          <p className="content pt-2 font-weight-bold">Updates & Events</p>
+
+        <div className="headerEvents">
+          <i className="fas fa-bell fa-3x d-flex justify-content-center pb-1 pt-4" />
+          <p className="content pt-2 font-weight-bold">Updates &amp; Events</p>
+        </div> 
+
           <div className="box">
-            <p className="blink">
-              <i className="fas fa-arrow-circle-right fa-sm mr-1"></i>
-              <NavLink to="/Event02" style={{color :"blue"}}>Webinar invitation :Dr. Sanjiban Banerjee</NavLink>
+            <p className="">
+              <NavLink to="/Event02" style={{color :"blue"}}>Webinar invitation: Dr. Sanjiban Banerjee</NavLink>
+              <i class="fas fa-angle-right"></i>
             </p>
-            <p className="blink">
-              <i className="fas fa-arrow-circle-right fa-sm mr-1"></i>
+            <p className="">
               <NavLink to="/Event01" style={{color :"blue"}}>INNOVATION CONTEST 2020</NavLink>
+              <i class="fas fa-angle-right"></i>
             </p>
           </div>
         </div>
