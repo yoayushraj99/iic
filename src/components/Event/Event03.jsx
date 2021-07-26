@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Nav-foot/Navbar";
 import Footer from "../Nav-foot/Footer";
+import Img from "../../images/Event03.PNG";
 
 const Events03 = () => {
   return (
@@ -10,7 +11,7 @@ const Events03 = () => {
         <div className="boxShadow">
           <div className="container">
             <img
-              src={require("../../images/innovation_contest.webp")}
+              src={Img}
               alt="Event01"
             />
           </div>
