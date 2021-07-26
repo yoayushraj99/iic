@@ -15,7 +15,7 @@ const Events02 = () => {
         <div className="bg-light p-4">
           <div className="d-flex justify-content-center">
             <img
-              src={require("../../images/webinar_Flyer.webp")}
+              src={require("../../images/webinar_Flyer.jpg")}
               alt="Event02"
               style={responsiveImg}
             />

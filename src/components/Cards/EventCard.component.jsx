@@ -23,10 +23,11 @@ const EventCard = ({title, context, link, imageName}) => (
             </div>
             {/* Carousel Start */}
             <div className="col-md-5">
-              <div className="card-image">
+              <div>
                 <img
                   src={require('../../images/'+imageName)}
                   alt="event_image"
+                  style={{width: '100%', objectFit: 'cover'}}
                 />
               </div>
             </div>
