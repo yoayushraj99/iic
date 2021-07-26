@@ -708,5 +708,48 @@ ul.social-buttons li a:hover {
   
   
   
-  
-  
+.myContainer{
+	padding: 50px !important;
+	padding-bottom: 10px !important;
+}
+.visionContent{
+	margin-top: 65px;
+	padding-left:  35px;
+	padding-right: 35px;
+}
+
+.myImage{
+	height: 100%;
+}
+.My-sec-title{
+	text-align: center;
+    text-transform: uppercase;
+    margin: 25px 0px 40px 0px;
+    font-weight: 800;
+}
+@media(max-width:1000px){
+	.visionContent{
+		margin-top: 0;
+		padding-left:  0px;
+		padding-right: 0px;
+	}	
+	.myContainer{
+		padding: 40px 0 10px 0 !important;
+	}
+	.myvisionContainer{
+		margin-bottom: 25px;
+	}
+}
+@media(max-width:574px){
+	.myNav{
+		padding-left: 18px !important;
+	}
+}
+
+@media(max-width: 500px){
+	.myImage{
+		height: 40vh;
+	}
+}
+
+
