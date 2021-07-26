@@ -11,7 +11,7 @@ function Navbar() {
   }
   const styleNavbar = {
     boxShadow: '0 8px 6px -6px black',
-    backgroundColor: "rgb(0,1,86)",
+    backgroundColor: "#161616",
     marginBottom: "10px" 
   }
 

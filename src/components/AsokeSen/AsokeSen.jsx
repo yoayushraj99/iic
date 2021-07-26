@@ -6,7 +6,6 @@ import Divider from "../Dividers/Divider";
 
 function AsokeSen() {
   return (
-    <div>
     <div className="App">
       <nav
         className="navbar navbar-expand-lg navbar-dark fixed-top"
@@ -29,6 +28,7 @@ function AsokeSen() {
           </div>
         </div>
       </header>
+
       <div className="gall-posi myContainer">
         <div className="container col-lg-7 myvisionContainer">
           <h1 className="My-sec-title">Vision</h1>
@@ -39,29 +39,24 @@ function AsokeSen() {
             processes, services, and technologies for the betterment of our
             society.
             </h5>
-          </div>
         </div>
 
         <div className="col-lg-5 py-1">
           <div
             id="carouselExampleIndicators"
             className="carousel slide"
-            data-ride="carousel"
-          >
+            data-ride="carousel">
             <ol className="carousel-indicators">
               <li
                 data-target="#carouselExampleIndicators"
                 data-slide-to="0"
-                className="active"
-              ></li>
+                className="active"></li>
               <li
                 data-target="#carouselExampleIndicators"
-                data-slide-to="1"
-              ></li>
+                data-slide-to="1"></li>
               <li
                 data-target="#carouselExampleIndicators"
-                data-slide-to="2"
-              ></li>
+                data-slide-to="2"></li>
             </ol>
             <div className="carousel-inner">
               <div className="carousel-item active">
@@ -77,6 +72,7 @@ function AsokeSen() {
                   src={require('../../images/ashok_02.webp')}
                   alt="Second slide"></img>
               </div>
+
               <div className="carousel-item">
                 <img
                   className="d-block w-100 myImage"
@@ -88,33 +84,31 @@ function AsokeSen() {
               className="carousel-control-prev"
               href="#carouselExampleIndicators"
               role="button"
-              data-slide="prev"
-            >
+              data-slide="prev">
               <span
                 className="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
+                aria-hidden="true"></span>
               <span className="sr-only">Previous</span>
             </a>
             <a
               className="carousel-control-next"
               href="#carouselExampleIndicators"
               role="button"
-              data-slide="next"
-            >
+              data-slide="next">
               <span
                 className="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
+                aria-hidden="true"></span>
               <span className="sr-only">Next</span>
             </a>
           </div>
         </div>
+
+
       </div>
       <Divider />
 
       <div className="container">
-        <div className="px-5">
+        <div className="container">
           <h1 className="sec-title">About the Centre</h1>
           <h5 className="content">
             Asoke Sen Design &amp; Innovation Centre is to provide a platform to
@@ -146,7 +140,7 @@ function AsokeSen() {
                 <i className="fas fa-brain fa-stack-1x fa-inverse"></i>
               </span>
               <h4 className="service-heading">Ideation</h4>
-              <p className="text-muted" style={{textAlign: 'justify'}}>
+              <p className="text-muted">
                 To promote and enhance culture of interdisciplinary
                 design-focused innovation and creativity among students
               </p>
@@ -157,7 +151,7 @@ function AsokeSen() {
                 <i className="fas fa-dna fa-stack-1x fa-inverse"></i>
               </span>
               <h4 className="service-heading">Innovation</h4>
-              <p className="text-muted"style={{textAlign: 'justify'}}>
+              <p className="text-muted">
                 To help the students with facilities and administrative support
                 to develop innovative ideas into products or processes
               </p>
@@ -168,7 +162,7 @@ function AsokeSen() {
                 <i className="fas fa-hands fa-stack-1x fa-inverse"></i>
               </span>
               <h4 className="service-heading">Incubation</h4>
-              <p className="text-muted"style={{textAlign: 'justify'}}>
+              <p className="text-muted">
                 To create an ecosystem facilitating students and faculty to take
                 their innovative ideas from className rooms/labs to people
               </p>
@@ -182,7 +176,7 @@ function AsokeSen() {
                 <i className="fas fa-brain fa-stack-1x fa-inverse"></i>
               </span>
               <h4 className="service-heading">Ideation</h4>
-              <p className="text-muted" style={{textAlign: 'justify'}}>
+              <p className="text-muted">
                 To constitute a working group of innovators comprising
                 academicians, scientists, Alumni and industry stakeholders,
                 MSMEs, traditional craftsmen and artisans, and social
@@ -195,7 +189,7 @@ function AsokeSen() {
                 <i className="fas fa-dna fa-stack-1x fa-inverse"></i>
               </span>
               <h4 className="service-heading">Innovation</h4>
-              <p className="text-muted" style={{textAlign: 'justify'}}>
+              <p className="text-muted">
                 To promote increased interaction and collaborations with
                 institute and R&amp;D organizations world-wide working in the areas
                 of design and innovation
@@ -207,7 +201,7 @@ function AsokeSen() {
                 <i className="fas fa-hands fa-stack-1x fa-inverse"></i>
               </span>
               <h4 className="service-heading">Incubation</h4>
-              <p className="text-muted" style={{textAlign: 'justify'}}>
+              <p className="text-muted">
                 To educate our budding engineers on product design and
                 development technologies and specialized skills development by
                 way of conducting workshops, seminars, awareness programs, short
