@@ -77,11 +77,32 @@ function Header() {
 
           <div className="box">
             <p className="">
-              <NavLink to="/Event02" style={{color :"blue"}}>Webinar invitation: Dr. Sanjiban Banerjee</NavLink>
+              <NavLink to="/Event22" style={{color :"blue"}}>Fostering
+        An Innovative Mindset</NavLink>
               <i class="fas fa-angle-right"></i>
             </p>
             <p className="">
-              <NavLink to="/Event01" style={{color :"blue"}}>INNOVATION CONTEST 2020</NavLink>
+              <NavLink to="/Event21" style={{color :"blue"}}>Prototype/Process Design and Development : Prototyping</NavLink>
+              <i class="fas fa-angle-right"></i>
+            </p>
+            <p className="">
+              <NavLink to="/Event20" style={{color :"blue"}}>Building an
+        innovative product fit for the market</NavLink>
+              <i class="fas fa-angle-right"></i>
+            </p>
+            <p className="">
+              <NavLink to="/Event19" style={{color :"blue"}}>How to plan
+        for startups- Legal and ethical steps" and "Knowing IPR's and IP
+        Management</NavLink>
+              <i class="fas fa-angle-right"></i>
+            </p>
+            <p className="">
+              <NavLink to="/Event18" style={{color :"blue"}}>INNOVATION - The new ENGINE of
+        the century</NavLink>
+              <i class="fas fa-angle-right"></i>
+            </p>
+            <p className="">
+              <NavLink to="/Event15" style={{color :"blue"}}>Startup of the Month</NavLink>
               <i class="fas fa-angle-right"></i>
             </p>
           </div>
