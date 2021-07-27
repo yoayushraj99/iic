@@ -96,15 +96,6 @@ function Header() {
         Management</NavLink>
               <i class="fas fa-angle-right"></i>
             </p>
-            <p className="">
-              <NavLink to="/Event18" style={{color :"blue"}}>INNOVATION - The new ENGINE of
-        the century</NavLink>
-              <i class="fas fa-angle-right"></i>
-            </p>
-            <p className="">
-              <NavLink to="/Event15" style={{color :"blue"}}>Startup of the Month</NavLink>
-              <i class="fas fa-angle-right"></i>
-            </p>
           </div>
         </div>
       </div>
