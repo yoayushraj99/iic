@@ -1,16 +1,18 @@
 import React from "react";
-import About from "../Home/About"
+import About from "../Home/About";
 import Navbar from "../Nav-foot/Navbar";
 import Footer from "../Nav-foot/Footer";
 import Header from "../Home/Header";
 import Container from "./Container";
 import IncubationNAv from "../Nav-foot/IncubationNav";
+import NavbarNew from "../Nav-foot/NavbarNew";
 
 function HomePage() {
   return (
     <div>
-      <IncubationNAv/>
-      <Navbar />
+      <IncubationNAv />
+      {/* <Navbar /> */}
+      <NavbarNew />
       <Header />
       <About />
       <Container />
