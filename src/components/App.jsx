@@ -6,6 +6,7 @@ import Homepage from "./Home/HomePage";
 import Connect from "./Connect-us/Connect";
 import Partners from "./Partners-Page/Partners";
 import Portfolio from "./Portfolio/Portfolio";
+import Gallery from "./Gallery/gallery";
 import Programmes from "./Programmes-Page/Programmes";
 import Guideline from "./About/Guideline";
 import Faq from "./About/Faq";
@@ -55,6 +56,7 @@ function App() {
               <Route path="/Partners" component={Partners} />
               <Route path="/Portfolio" component={Portfolio} />
               <Route path="/Programmes" component={Programmes} />
+              <Route path="/gallery" component={Gallery} />
               <Route path="/Events" component={EventsPreview} />
               <Route path="/Tinkering" component={Tinkering} />
               <Route path="/AsokeSen" component={AsokeSen} />
@@ -89,7 +91,7 @@ function App() {
         </BrowserRouter>
       ) : (
         <div id="svgcenter">
-            <LoadingScreen />
+          <LoadingScreen />
         </div>
       )}
     </>
