@@ -3,6 +3,7 @@ import Navbar from "../Nav-foot/Navbar";
 import Footer from "../Nav-foot/Footer";
 import Card from "../Cards/GuidelineCard";
 import guideline from "../../guidelineData";
+import ButtonsOnRight from '../ButtonsOnRight/ButtonsOnRight'
 
 function CreateGuidelineCard(policy){
     return (
@@ -19,6 +20,7 @@ function Guideline() {
     return(
         <div>
             <Navbar/>
+            <ButtonsOnRight/>
             <div className="container">
                 <img src={require("../../images/policy.jpg")} alt="GuideLine" className="guideline-img"/>
                 <div>
