@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
       <ButtonsOnRight/>
-      <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <nav className="navbar navbar-expand-lg  " id="mainNav">
     <div className="container">
       <a className="navbar-brand js-scroll-trigger" href="#page-top"><NavLink to="/">Back to IIC</NavLink></a>
     </div>
