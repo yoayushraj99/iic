@@ -9,7 +9,7 @@ export default function ButtonsOnRight() {
                 <a href="mailto:iicnitdgp@gmail.com" class="anchorBG-em">  <i class="far fa-envelope"></i></a>
                 </div>
                 <div className="feedback">
-                <a href="#">  feedback </a>
+                <a href="/Feedback">  feedback </a>
                 </div>
         </>
     )
