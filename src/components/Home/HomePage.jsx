@@ -11,8 +11,8 @@ function HomePage() {
   return (
     <div>
       <IncubationNAv />
-      {/* <Navbar /> */}
-      <NavbarNew />
+      <Navbar />
+      {/* <NavbarNew /> */}
       <Header />
       <About />
       <Container />

@@ -2,7 +2,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import IncubationNav from "./IncubationNav";
-import bootstrap from "bootstrap";
 
 function NavbarNew() {
   const styleYellow = {
