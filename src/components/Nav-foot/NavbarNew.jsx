@@ -1,8 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { NavLink } from "react-router-dom";
-import IncubationNav from "./IncubationNav";
-import bootstrap from "bootstrap";
 
 function NavbarNew() {
   const styleYellow = {
@@ -21,10 +19,9 @@ function NavbarNew() {
 
   return (
     <>
-      <IncubationNav />
       <nav
         style={styleNavbar}
-        class="navbar navbar-expand-lg navbar-light fixed-top"
+        class="navbar navbar-expand-lg navbar-light"
         id="mainNav"
       >
         <div class="container px-4 px-lg-5">

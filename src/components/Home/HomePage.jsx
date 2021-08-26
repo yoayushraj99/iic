@@ -1,6 +1,6 @@
 import React from "react";
 import About from "../Home/About";
-import Navbar from "../Nav-foot/Navbar";
+// import Navbar from "../Nav-foot/Navbar";
 import Footer from "../Nav-foot/Footer";
 import Header from "../Home/Header";
 import Container from "./Container";
@@ -10,8 +10,8 @@ import NavbarNew from "../Nav-foot/NavbarNew";
 function HomePage() {
   return (
     <div>
-      <IncubationNAv />
       {/* <Navbar /> */}
+      <IncubationNAv />
       <NavbarNew />
       <Header />
       <About />

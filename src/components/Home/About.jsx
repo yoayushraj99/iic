@@ -7,15 +7,15 @@ function About() {
   };
   const titleStyle = {
     fontSize: "36px",
-    margin: "7%",
+    margin: "6% 0 3% 0",
   };
   return (
-    <div className="container-fluid" style={{ padding: "7% " }}>
+    <div className="container-fluid">
       <div className="container">
         <h1 className="sec-title" style={titleStyle}>
           About iic
         </h1>
-        <h5 className="content px-5" style={textStyle}>
+        <h5 className="content" style={textStyle}>
           Innovation and Incubation Cell is an interface to foster innovation,
           explore the trends in the digital world and promote commercialization
           and technology. The IIC group of interdisciplinary researchers,
