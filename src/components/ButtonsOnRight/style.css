@@ -9,9 +9,9 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.319);
-    -webkit-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.319);
-    -moz-box-shadow:    0 0 15px 2px rgba(0, 0, 0, 0.319);
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow:    0 0 15px 2px rgba(0, 0, 0, 0.15);
     z-index: 1000;
 }
 .socialMedia a {
@@ -59,9 +59,9 @@
   border-top-left-radius: 10px;
   background: #fff;
   font-weight: 400;
-  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.319);
-  -webkit-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.319);
-  -moz-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.319);
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.15);
 }
 .feedback a:hover {
     background: rgb(0,1,96);

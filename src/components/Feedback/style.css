@@ -1,0 +1,105 @@
+.feedback-header{
+    padding: 50px;
+    padding-left: 0;
+}
+.feedback-header h1{
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: Roboto;
+    letter-spacing: 1.5px;
+}
+.feedback-form{
+    padding-top:    35px;
+    padding-bottom: 35px;
+    background-color: rgba(221, 221, 221, 0.616);
+
+    border-radius: 8px;
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.09);
+    transition: 0.5s;
+}
+.feedback-form:hover{
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.288);
+    transition: 0.5s;
+}
+.feedback-form h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    display: none;
+}
+.feedback-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.feedback-row .row-comp{
+    width: 100%;
+    padding: 10px;
+}
+.row-comp p{
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 16px;
+    letter-spacing: 0.5px;
+}
+.feedback-row .row-comp input{
+    padding: 20px !important;
+}
+.feedback-row textarea{
+    padding: 20px !important;
+    min-height: 200px;
+}
+.feedback-row button{
+    margin-left: 18px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+@media(max-width:600px){
+ .feedback-row{
+     flex-direction: column;
+ }   
+.feedback-row button{
+    margin-left: 0;
+}
+}
+@media(max-width:770px){
+    .feedback-header h1{
+        font-size: 55px;
+    }
+}
+@media(max-width:518px){
+    .feedback-header h1{
+        font-size: 45px;
+        font-weight: 600;
+    }
+}
+@media(max-width:400px){
+    .feedback-header h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .row-comp p{
+        font-size: 16px ;
+    }
+}
+
+.feedback-img{
+    display: none;
+    margin-bottom: 15px;
+    max-height: 350px;
+    width: 100%;
+}
+@media(max-width:800px){
+    .feedback-img{
+        display: block;
+    }
+    .feedback-form h1{
+        display: block;
+    }
+    .feedback-header{
+        display: none;
+    }
+}
