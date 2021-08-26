@@ -14,6 +14,7 @@ import Tinkering from "./tinkering/Tinkering";
 import AsokeSen from "./AsokeSen/AsokeSen";
 import Team from "./Team/Team";
 import EventsPreview from "./Events-preview/events-preview.component";
+import ButtonsOnRight from "./ButtonsOnRight/ButtonsOnRight";
 import Events01 from "./Event/Event01";
 import Events02 from "./Event/Event02";
 import Events03 from "./Event/Event03";
@@ -49,6 +50,7 @@ function App() {
       {loading === false ? (
         <BrowserRouter>
           <div>
+            <ButtonsOnRight />
             <Switch>
               <Route path="/" component={Homepage} exact />
               <Route path="/Connect" component={Connect} />

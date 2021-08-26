@@ -751,5 +751,9 @@ ul.social-buttons li a:hover {
 		height: 40vh;
 	}
 }
-
-
+#mainNav {
+	background-color: transparent;
+	position: absolute;
+	top: 0;
+	padding-left: 10vw;
+}
