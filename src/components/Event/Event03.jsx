@@ -2,13 +2,11 @@ import React from "react";
 import Navbar from "../Nav-foot/Navbar";
 import Footer from "../Nav-foot/Footer";
 import Img from "../../images/Event03.PNG";
-import ButtonsOnRight from '../ButtonsOnRight/ButtonsOnRight'
 
 const Events03 = () => {
   return (
     <div>
       <Navbar />
-      <ButtonsOnRight/>
       <div className="container-fluid">
         <div className="boxShadow">
           <div className="container">

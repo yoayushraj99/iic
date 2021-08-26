@@ -5,8 +5,6 @@ import "./css/bootstrap.min.css";
 import "./css/team.css";
 import "./css/styleCard.css";
 
-import ButtonsOnRight from '../ButtonsOnRight/ButtonsOnRight'
-
 function Team() {
 
     const styleIcon = {
@@ -16,7 +14,7 @@ function Team() {
   return (
     <div>
       <Navbar />
-        <ButtonsOnRight/>
+
       <div className="container-card">
         <h1 className="team_text">Meet Our Director</h1>
         <div className="card-wrapper">

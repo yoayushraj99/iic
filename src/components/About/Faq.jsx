@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../Nav-foot/Navbar";
 import Footer from "../Nav-foot/Footer";
-import ButtonsOnRight from '../ButtonsOnRight/ButtonsOnRight'
 
 function Faq() {
   const styleLink = {
@@ -14,7 +13,6 @@ function Faq() {
   return (
     <div>
       <Navbar />
-      <ButtonsOnRight/>
       <div className="container">
         <img
           src={require("../../images/faq-img.webp")}
