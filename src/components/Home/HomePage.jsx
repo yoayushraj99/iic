@@ -5,14 +5,15 @@ import Footer from "../Nav-foot/Footer";
 import Header from "../Home/Header";
 import Container from "./Container";
 import IncubationNAv from "../Nav-foot/IncubationNav";
-import NavbarNew from "../Nav-foot/NavbarNew";
+import Navbar from "../Nav-foot/Navbar";
 
 function HomePage() {
   return (
     <div>
-      {/* <Navbar /> */}
+
       <IncubationNAv />
-      <NavbarNew />
+      <Navbar />
+      {/* <NavbarNew /> */}
       <Header />
       <About />
       <Container />
