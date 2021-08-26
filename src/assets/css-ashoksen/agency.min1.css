@@ -106,10 +106,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-	background-color: #212529;
-	position: absolute;
-	top: 0;
-	padding-left: 10vw;
+	background-color: #212529
 }
 
 #mainNav .navbar-toggler {

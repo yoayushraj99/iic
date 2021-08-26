@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../Nav-foot/Navbar";
 import Footer from "../Nav-foot/Footer";
-import ButtonsOnRight from '../ButtonsOnRight/ButtonsOnRight'
 
 const Events01 = () => {
 
@@ -12,7 +11,6 @@ const Events01 = () => {
   return (
     <div>
       <Navbar />
-      <ButtonsOnRight/>
       <div className="container">
         <div className="bg-light p-4">
           <div className="d-flex justify-content-center">

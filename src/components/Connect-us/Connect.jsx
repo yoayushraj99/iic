@@ -3,14 +3,12 @@ import React from "react";
 import Navbar from "../Nav-foot/Navbar";
 import Footer from "../Nav-foot/Footer";
 import IncubationNAv from "../Nav-foot/IncubationNav";
-import ButtonsOnRight from '../ButtonsOnRight/ButtonsOnRight'
 
 function Connect() {
   return (
     <div>
       <IncubationNAv />
       <Navbar />
-      <ButtonsOnRight/>
       <div className="container">
         <img
           src={require("../../images/contact-banner.webp")}

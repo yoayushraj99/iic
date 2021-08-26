@@ -1,6 +1,5 @@
 import React from "react";
 import EventCard from '../Cards/EventCard.component'
-import ButtonsOnRight from '../ButtonsOnRight/ButtonsOnRight'
 
 const Events = ({posts, loading}) => {
   if (loading) {
@@ -9,7 +8,6 @@ const Events = ({posts, loading}) => {
 
   return (
     <div>
-        <ButtonsOnRight/>
       {posts.map((post, index) => {
         const { title, ...otherProps } = post;
         return (

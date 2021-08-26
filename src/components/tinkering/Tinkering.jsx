@@ -3,7 +3,6 @@ import React from 'react';
 import Footer from '../Nav-foot/Footer';
 import { NavLink } from 'react-router-dom';
 import '../../assets/css-tinkering/agency.min2.css';
-import ButtonsOnRight from '../ButtonsOnRight/ButtonsOnRight'
 function App() {
 
   
@@ -37,8 +36,7 @@ function App() {
 
   return (
     <div className="App">
-      <ButtonsOnRight/>
-      <nav className="navbar navbar-expand-lg  " id="mainNav">
+      <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div className="container">
       <a className="navbar-brand js-scroll-trigger" href="#page-top"><NavLink to="/">Back to IIC</NavLink></a>
     </div>
@@ -79,7 +77,7 @@ function App() {
             <i className="fa fa-circle fa-stack-2x text-warning"></i>
             <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
           </span>
-          <h4 className="service-heading">Computers, internet &amp; collaborative meeting space</h4>
+          <h4 className="service-heading">Computers, internet& collaborative meeting space</h4>
           
         </div>
         <div className="col-md-4">
