@@ -1,0 +1,69 @@
+.socialMedia{
+    position: fixed;
+    top: 55%;
+    right: 0%;
+    background-color: #fff;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.319);
+    -webkit-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.319);
+    -moz-box-shadow:    0 0 15px 2px rgba(0, 0, 0, 0.319);
+    z-index: 1000;
+}
+.socialMedia a {
+    display: block;
+    text-align: center;
+    padding: 5px 12px 5px 12px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 16px;
+}
+.anchorBG-fb{
+    background-color: blue;
+}
+.anchorBG-in{
+    background-color: teal;
+}
+.anchorBG-em{
+    background-color: red;
+    margin-bottom: 0 !important;
+}
+.feedback {
+  height: 0px;
+  width: 70px;
+  position: fixed;
+  right: 0;
+  top: 75%;
+  z-index: 1000;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.feedback a {
+  display: block;
+  height: 52px;
+  padding-top: 3px;
+  width: 100px;
+  text-align: center;
+  color: rgb(0,1,26);
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background: #fff;
+  font-weight: 400;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.319);
+  -webkit-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.319);
+  -moz-box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.319);
+}
+.feedback a:hover {
+    background: rgb(0,1,96);
+    color: white;
+}

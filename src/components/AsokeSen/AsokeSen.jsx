@@ -3,10 +3,12 @@ import Footer from "../Nav-foot/Footer";
 import { Link } from "react-router-dom";
 import "../../assets/css-ashoksen/agency.min1.css";
 import Divider from "../Dividers/Divider";
+import ButtonsOnRight from '../ButtonsOnRight/ButtonsOnRight'
 
 function AsokeSen() {
   return (
     <div className="App">
+      <ButtonsOnRight/>
       <nav
         className="navbar navbar-expand-lg navbar-dark fixed-top"
         id="mainNav"

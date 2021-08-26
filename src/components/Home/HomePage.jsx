@@ -5,12 +5,14 @@ import Footer from "../Nav-foot/Footer";
 import Header from "../Home/Header";
 import Container from "./Container";
 import IncubationNAv from "../Nav-foot/IncubationNav";
+import ButtonsOnRight from '../ButtonsOnRight/ButtonsOnRight'
 
 function HomePage() {
   return (
     <div>
       <IncubationNAv/>
       <Navbar />
+      <ButtonsOnRight/>
       <Header />
       <About />
       <Container />
