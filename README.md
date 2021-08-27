@@ -24,7 +24,7 @@ Read below to see how you can join an existing project or create your own.
 
     ```bash
     git remote add upstream https://github.com/yoayushraj99/iic.git
-    git pull upstream master
+    git pull upstream main
     ```
 
     If you run into a **merge conflict**, you have to resolve the conflict. There are a lot of guides online, or you can try this one by [opensource.com](https://opensource.com/article/20/4/git-merge-conflict).
