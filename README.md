@@ -1,68 +1,55 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Read below to see how you can join an existing project or create your own.
+## A Guide to Get Started
 
-## Available Scripts
+1. On the [GitHub page for this repository](https://github.com/yoayushraj99/iic.git), click on the Button "Fork".
 
-In the project directory, you can run:
+   ![fork image](https://help.github.com/assets/images/help/repository/fork_button.jpg)
 
-### `npm start`
+2. Clone _your forked repository_ to your computer:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+   ![code ui](https://docs.github.com/assets/images/help/repository/code-button.png)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+    For example, run this command inside your terminal:
 
-### `npm test`
+    ```bash
+    git clone https://github.com/<your-github-username>/iic.git
+    ```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    **Replace \<your-github-username\>!**
 
-### `npm run build`
+    Learn more about [forking](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) and [cloning a repo](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+3. Before you make any changes, [keep your fork in sync](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/) to avoid merge conflicts:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    git remote add upstream https://github.com/yoayushraj99/iic.git
+    git pull upstream main
+    ```
 
-### `npm run eject`
+    If you run into a **merge conflict**, you have to resolve the conflict. There are a lot of guides online, or you can try this one by [opensource.com](https://opensource.com/article/20/4/git-merge-conflict).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. On your computer, open your text editor, and add your name to the `CONTRIBUTORS.md` file.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Add the changes with `git add`, `git commit` ([write a good commit message](https://chris.beams.io/posts/git-commit/), if possible):
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    ```bash
+    git add CONTRIBUTORS.md
+    git commit -m "Add <your-github-username>"
+    ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    **Replace \<your-github-username\>!**
 
-## Learn More
+6. Push your changes _to your repository_:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    ```bash
+    git push origin main
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+7. Go to the GitHub page of _your fork_, and make a pull request:
 
-### Code Splitting
+    ![pull request image](https://help.github.com/assets/images/help/pull_requests/choose-base-and-compare-branches.png)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+    Read more about pull requests on the [GitHub help pages](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+8. Wait until one of the maintainers merges your pull request. If there are any conflicts, you will get a notification.
