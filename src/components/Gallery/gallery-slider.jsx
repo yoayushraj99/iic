@@ -46,7 +46,7 @@ export default function GallerySlider() {
             <div className="swiper-wrapper">
               <SwiperSlide className="swiper-slider">
                 <div className="cards">
-                  <div className="card ong">
+                  <div className="card one">
                     <img src="https://assets.codepen.io/5286152/pexels-wendy-wei-1886641_1.jpg" />
                     <div className="text"></div>
                     <div className="title-box">
@@ -130,12 +130,12 @@ export default function GallerySlider() {
           <div className="swiper-arrows">
             <div className="swiper-button-prev">
               <span>
-                <i class="fas fa-angle-double-left"></i>
+                <i className="fas fa-angle-double-right"></i>
               </span>
             </div>
             <div className="swiper-button-next">
               <span>
-                <i class="fas fa-angle-double-right"></i>
+                <i className="fas fa-angle-double-right"></i>
               </span>
             </div>
           </div>
