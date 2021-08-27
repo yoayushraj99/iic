@@ -43,7 +43,7 @@ Read below to see how you can join an existing project or create your own.
 6. Push your changes _to your repository_:
 
     ```bash
-    git push origin master
+    git push origin main
     ```
 
 7. Go to the GitHub page of _your fork_, and make a pull request:
