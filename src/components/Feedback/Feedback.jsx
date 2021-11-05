@@ -14,7 +14,7 @@ export default class Feedback extends Component {
             alt="Feedback"
             className="feedback-img"
           />
-          <form>
+          <form method="POST">
             <div className="feedback-form">
               <div className="feedback-header">
                 <h1>Feedback Form</h1>
@@ -26,6 +26,7 @@ export default class Feedback extends Component {
                     className="form-control my-2 p-2"
                     type="text"
                     placeholder="First Name"
+                    required
                   />
                 </div>
                 <div className="row-comp">
@@ -34,6 +35,7 @@ export default class Feedback extends Component {
                     className="form-control my-2 p-2"
                     type="text"
                     placeholder="Last Name"
+                    required
                   />
                 </div>
               </div>
@@ -44,6 +46,7 @@ export default class Feedback extends Component {
                     className="form-control my-2 p-2"
                     type="email"
                     placeholder="Email"
+                    required
                   />
                 </div>
                 <div className="row-comp">
@@ -61,6 +64,7 @@ export default class Feedback extends Component {
                   <textarea
                     className="form-control text-area"
                     placeholder="Enter your feedback"
+                    required
                   />
                 </div>
               </div>
