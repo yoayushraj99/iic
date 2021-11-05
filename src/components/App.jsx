@@ -14,6 +14,7 @@ import Error from "./Error";
 import Tinkering from "./tinkering/Tinkering";
 import AsokeSen from "./AsokeSen/AsokeSen";
 import Team from "./Team/Team";
+import Feedback from "./Feedback/Feedback";
 import EventsPreview from "./Events-preview/events-preview.component";
 import Events01 from "./Event/Event01";
 import Events02 from "./Event/Event02";
@@ -63,6 +64,7 @@ function App() {
               <Route path="/Team" component={Team} />
               <Route path="/Guideline" component={Guideline} />
               <Route path="/Faq" component={Faq} />
+              <Route path="/Feedback" component={Feedback} />
               <Route path="/Event01" component={Events01} />
               <Route path="/Event02" component={Events02} />
               <Route path="/Event03" component={Events03} />
