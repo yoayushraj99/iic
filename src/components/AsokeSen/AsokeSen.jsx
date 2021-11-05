@@ -8,11 +8,11 @@ function AsokeSen() {
   return (
     <div className="App">
       <nav
-        className="navbar navbar-expand-lg navbar-dark fixed-top"
+        className="navbar navbar-expand-lg position-absolute"
         id="mainNav"
       >
         <div className="container myNav">
-          <a className="navbar-brand js-scroll-trigger" href="#page-top">
+          <a className="navbar-brand " href="#page-top">
             <Link to="/">Back to IIC</Link>
           </a>
         </div>

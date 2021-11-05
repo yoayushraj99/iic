@@ -42,7 +42,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 2000);
+    setTimeout(() => setLoading(false), 0); // Default 2000 set to 0 during development
   }, []);
 
   return (
