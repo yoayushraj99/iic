@@ -5,6 +5,9 @@ function Footer() {
     fontSize: "18px",
   };
 
+  const date = new Date();
+  let year = date.getFullYear();
+
   return (
     <footer className="footer-bs">
       <div className="row">
@@ -32,14 +35,14 @@ function Footer() {
             </li>
             <li>
               <i className="fas fa-envelope mr-2" style={iconStyle}></i>
-              <a href="mailto:iic@che.nitdgp.ac.in" className="text-white" target="_top">iic@che.nitdgp.ac.in</a>
+              <a href="mailto:iic@admin.nitdgp.ac.in" className="text-white" target="_top">iic@admin.nitdgp.ac.in</a>
             </li>
             {/* <li>
               <i className="fas fa-phone mr-2" style={iconStyle}></i>
               +012-212-0123
             </li> */}
           </ul>
-          <p>Copyright © 2020 : IIC , NIT DGP. All Rights Reserved</p>
+          <p>Copyright © {year} : IIC , NIT DGP. All Rights Reserved</p>
         </div>
         <div className="col-md-4 footer-nav animated fadeInUp">
           <h4>Menu —</h4>

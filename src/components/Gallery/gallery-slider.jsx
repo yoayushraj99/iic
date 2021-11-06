@@ -47,7 +47,7 @@ export default function GallerySlider() {
               <SwiperSlide className="swiper-slider">
                 <div className="cards">
                   <div className="card one">
-                    <img src="https://assets.codepen.io/5286152/pexels-wendy-wei-1886641_1.jpg" />
+                    <img src="https://assets.codepen.io/5286152/pexels-wendy-wei-1886641_1.jpg" alt="pexel-wnedy"/>
                     <div className="text"></div>
                     <div className="title-box">
                       <h1 data-swiper-parallax="-300">CREATIVE COLLECTIVE.</h1>
