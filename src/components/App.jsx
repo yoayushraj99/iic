@@ -6,6 +6,7 @@ import Homepage from "./Home/HomePage";
 import Connect from "./Connect-us/Connect";
 import Partners from "./Partners-Page/Partners";
 import Portfolio from "./Portfolio/Portfolio";
+import Gallery from "./Gallery/gallery";
 import Programmes from "./Programmes-Page/Programmes";
 import Guideline from "./About/Guideline";
 import Faq from "./About/Faq";
@@ -13,6 +14,8 @@ import Error from "./Error";
 import Tinkering from "./tinkering/Tinkering";
 import AsokeSen from "./AsokeSen/AsokeSen";
 import Team from "./Team/Team";
+import Feedback from "./Feedback/Feedback";
+import ButtonsOnRight from "./ButtonsOnRight/Bar";
 import EventsPreview from "./Events-preview/events-preview.component";
 import Events01 from "./Event/Event01";
 import Events02 from "./Event/Event02";
@@ -41,7 +44,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 2000);
+    setTimeout(() => setLoading(false), 2000); // Default 2000 set to 0 during development
   }, []);
 
   return (
@@ -49,18 +52,21 @@ function App() {
       {loading === false ? (
         <BrowserRouter>
           <div>
+            <ButtonsOnRight />
             <Switch>
               <Route path="/" component={Homepage} exact />
               <Route path="/Connect" component={Connect} />
               <Route path="/Partners" component={Partners} />
               <Route path="/Portfolio" component={Portfolio} />
               <Route path="/Programmes" component={Programmes} />
+              <Route path="/gallery" component={Gallery} />
               <Route path="/Events" component={EventsPreview} />
               <Route path="/Tinkering" component={Tinkering} />
               <Route path="/AsokeSen" component={AsokeSen} />
               <Route path="/Team" component={Team} />
               <Route path="/Guideline" component={Guideline} />
               <Route path="/Faq" component={Faq} />
+              <Route path="/Feedback" component={Feedback} />
               <Route path="/Event01" component={Events01} />
               <Route path="/Event02" component={Events02} />
               <Route path="/Event03" component={Events03} />
@@ -89,7 +95,7 @@ function App() {
         </BrowserRouter>
       ) : (
         <div id="svgcenter">
-            <LoadingScreen />
+          <LoadingScreen />
         </div>
       )}
     </>

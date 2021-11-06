@@ -4,32 +4,29 @@ import Footer from "../Nav-foot/Footer";
 import Card from "../Cards/GuidelineCard";
 import guideline from "../../guidelineData";
 
-function CreateGuidelineCard(policy){
-    return (
-        <Card
-            key={policy.id}
-            policy={policy.policy}
-            link={policy.policyLink}
-        />
-    );
+function CreateGuidelineCard(policy) {
+  return (
+    <Card key={policy.id} policy={policy.policy} link={policy.policyLink} />
+  );
 }
 
 function Guideline() {
-
-    return(
+  return (
+    <div>
+      <Navbar />
+      <div className="container">
+        <img
+          src={require("../../images/policy.jpg")}
+          alt="GuideLine"
+          className="guideline-img"
+        />
         <div>
-            <Navbar/>
-            <div className="container">
-                <img src={require("../../images/policy.jpg")} alt="GuideLine" className="guideline-img"/>
-                <div>
-                    <dl class="dictionary">
-                        {guideline.map(CreateGuidelineCard)}
-                    </dl>
-                </div>
-            </div>
-            <Footer/>
+          <dl className="dictionary">{guideline.map(CreateGuidelineCard)}</dl>
         </div>
-    )
+      </div>
+      <Footer />
+    </div>
+  );
 }
 
 export default Guideline;

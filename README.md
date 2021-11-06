@@ -2,6 +2,7 @@ Read below to see how you can join an existing project or create your own.
 ## A Guide to Get Started
 
 1. On the [GitHub page for this repository](https://github.com/yoayushraj99/iic.git), click on the Button "Fork".
+## Available Scripts
 
    ![fork image](https://help.github.com/assets/images/help/repository/fork_button.jpg)
 
