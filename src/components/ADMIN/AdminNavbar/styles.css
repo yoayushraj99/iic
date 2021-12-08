@@ -1,0 +1,23 @@
+.admin-navbar{
+    background: rgb(4,8,73);
+    width: 320px;
+    height: 100vh;
+}
+.admin-navbar h4:first-of-type{
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+}
+.admin-navbar .admin-link-container{
+    padding: 0.75rem;
+}
+.admin-navbar .admin-link-container:hover{
+    background: rgba(255, 255, 255, 0.178);
+}
+.admin-navbar .admin-link-container i{
+    background: rgba(255, 255, 255, 0.125);
+    font-size: 1.25rem;
+    padding: 0.6rem;
+}
+.cursorP{
+    cursor: pointer;
+}
