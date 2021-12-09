@@ -8,8 +8,8 @@ import AdminNavbar from './AdminNavbar/AdminNavbar'
 import CreateEvent from './Createevent/CreateEvent'
 
 const Admin = (props) => {
-    console.log(props)
     const [navshow, setNavshow] = useState(true)
+    require('./AdminNavbar/hideBtnsOnRight.css')
     return (
         
         <div className="admin-parent-container d-flex">
