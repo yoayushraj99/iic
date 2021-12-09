@@ -32,12 +32,13 @@
   left: 0;
 }
 .admin-events-container .event-item img{
-  width:  180px;
+  width:  160px;
   height: 120px;
   border-radius: 6px;
+  object-fit: cover;
 }
 .admin-events-container .event-item i{
-  top: 0.3rem;
+  top: 0.4rem;
   right: 0.75rem;
   cursor: pointer;
   color: #1F51FF;
@@ -70,8 +71,8 @@
     z-index: 100;
   }
   .admin-events-container .event-item img{
-    height: 100px;
-    width: 150px;
+    height: 100px !important;
+    width: 150px !important;
   }
   .admin-events-container .event-item .title{
     -webkit-line-clamp: 4;
