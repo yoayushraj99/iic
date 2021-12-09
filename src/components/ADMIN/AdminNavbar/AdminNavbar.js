@@ -5,7 +5,10 @@ import './styles.css'
 const AdminNavbar = () => {
     return (
         <div className="admin-navbar">
-            <h4 className="text-center text-white py-3 mb-5">IIC Admin Panel</h4>
+            <h4 className="d-flex justify-content-center align-items-center text-white py-3 mb-5" style={{marginLeft:-20}}> 
+                <img src={require('../../../images/icons/iic.png')} alt="" className="img-fluid" width="60"/>
+                IIC Admin
+            </h4>
             <AdminLink title="Dashboard" link="/admin" icon="fas fa-border-all" />
             <AdminLink title="Events" link="/admin/events" icon="far fa-calendar-alt" />
             <AdminLink title="Create Event" link="/admin/create-event" icon="fas fa-plus" />
