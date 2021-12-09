@@ -53,7 +53,7 @@ const CreateEvent = () => {
     <div className="admin-create-event-container">
       <h2 className="heading p-4">Create Event</h2>
 
-      <div className="create-event-form px-3 py-2">
+      <div className="create-event-form">
         <h5 className="py-3 pl-2 m-0">Title</h5>
         <input className="form-control" type="text" placeholder="Enter Event Name" onChange={(e) => setTitle(e.target.value)} />
         <h5 className="py-3 pl-2 m-0">Event Date</h5>
@@ -72,8 +72,7 @@ const CreateEvent = () => {
           name="mainDescription"
         />
         <button
-          className="btn text-white py-2 px-3 my-4 ml-3"
-          style={{ background: '#1F51FF' }}
+          className="btn text-white my-4 ml-3"
           onClick={HandleSubmit}
         >
           Create Event
