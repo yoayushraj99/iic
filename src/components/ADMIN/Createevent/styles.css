@@ -1,0 +1,23 @@
+.admin-right-content-container{
+    background: rgba(173, 216, 230, 0.125);
+    flex: 1;
+    padding-bottom: 1.5rem;
+}
+.admin-create-event-container .heading{
+    font-weight: 600;
+}
+.create-event-form h5{
+    font-weight: 600;
+}
+.create-event-form input,
+.create-event-form textarea{
+
+}
+.minh600{
+    min-height: 600px;
+    padding: 0.5rem;
+}
+.create-event-form textarea:first-of-type{
+    resize: none;
+    height: 200px;
+}
