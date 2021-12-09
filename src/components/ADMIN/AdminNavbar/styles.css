@@ -61,3 +61,7 @@
         right: 0;
     }
 }
+.admin-right-content-container{
+    background: rgba(173, 216, 230, 0.125);
+    flex: 1;
+}
