@@ -1,5 +1,7 @@
 .admin-events-container {
   background: rgba(173, 216, 230, 0.125);
+  min-height: 200vh;
+  height: max-content;
   flex: 1;
 }
 .admin-events-container .heading{

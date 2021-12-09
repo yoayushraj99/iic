@@ -1,17 +1,18 @@
 import React from "react";
 
-const EventListItem = () => {
+const EventListItem = (param) => {
+
   return (
     <div className="event-item bg-white d-flex align-items-center position-relative">
-      <div className="date text-white">27/02/2001</div>
-        <img src={require('../../../images/Event15.PNG')} alt="" />
+      <div className="date text-white">{param.date}</div>
+        <img src={param.thumbnail} alt="" />
       <a className="title text-dark" href="/">
-      IIIC Session with Dr. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab amet sequi voluptatem alias, molestias, quaerat vel eos fuga reiciendis nulla fugit distinctio. Minima, natus eligendi.
+        {param.title}
       </a>
       <i className="fas fa-ellipsis-h position-absolute" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></i>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-        <li><a class="dropdown-item" href="#">Edit</a></li>
-        <li><a class="dropdown-item" href="#">Delete</a></li>
+        <li><a class="dropdown-item" href={`edit-event/${param.id}`}>Edit</a></li>
+        <li><h6 class="dropdown-item py-1 cursorP" >Delete</h6></li>
       </ul>
 
     </div>
