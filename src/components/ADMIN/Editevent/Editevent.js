@@ -5,6 +5,7 @@ import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
 import axios from 'axios'
 import Swal from 'sweetalert2';
 import '../Createevent/styles.css'
+import './styles.css'
 
 const EditEvent = (param) => {
 	const [loading, setLoading] = useState(true)
@@ -14,18 +15,25 @@ const EditEvent = (param) => {
 	const [thumbnail, setThumbnail] = useState('')
 	const [smallDesc, setSmallDesc] = useState('')
 	const [mainDesc, setMainDesc] = useState(() => EditorState.createEmpty())
-
+	const [lastUpdatedBy,setLastUpdatedBy] = useState()
+	const [createdBy,setCreatedBy] = useState()
+	const [createdAt,setCreatedAt] = useState()
+	const [updatedAt,setUpdatedAt] = useState()
+	
 	useEffect(() => {
 		axios({
 			method: 'GET',
 			url: `http://localhost:4000/events/${param.location.state}`
 		}).then(res => {
-			console.log(JSON.stringify(res.data, null, 4))
 			setTitle(res.data.title)
 			setDate(res.data.date)
 			setThumbnail(res.data.thumbnail)
 			setSmallDesc(res.data.smallDescription)
+			setCreatedAt(DateTimeConverter(res.data.createdAt))
+			setUpdatedAt(DateTimeConverter(res.data.updatedAt))
 			setMainDesc(EditorState.createWithContent(convertFromRaw(JSON.parse(res.data.mainDescription))))
+			setCreatedBy(res.data.createdBy)
+			setLastUpdatedBy(res.data.lastUpdatedBy)
 			setLoading(false)
 		}).catch(err => {
 			Swal.fire('Error', `${err}`, 'error')
@@ -48,14 +56,14 @@ const EditEvent = (param) => {
 		}
 		axios({
 			method: 'PUT',
-			url: 'http://localhost:4000/events/create',
+			url: `http://localhost:4000/events/${param.location.state}`,
 			headers: { 'Authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjFiMjE1ZTgwZjVmZjYxNjlkNjY3NDk3In0sImlhdCI6MTYzOTEyMjM0NCwiZXhwIjoxNjM5NzI3MTQ0fQ.PJJ7VuqH-I1iA1LPkviFLinHMScZTFFOgsIXrWhTISY' },
 			data: {
 				"title": title,
 				"date": date,
 				"thumbnail": thumbnail,
 				"smallDescription": smallDesc,
-				"mainDescription": JSON.stringify(convertToRaw(mainDesc.getCurrentContent()))
+				"mainDescription": JSON.stringify(convertToRaw(content))
 			}
 		}).then(res => {
 			Swal.fire('Event Updated Successfully', '', 'success')
@@ -72,6 +80,14 @@ const EditEvent = (param) => {
 			<h2 className="heading p-4">Edit Event</h2>
 			{loading ? <h1 className="text-center">Loading ...</h1>:
 			<div className="create-event-form">
+				<div className="update-info">
+					<h6 className="py-2 m-0">Created At: {createdAt}</h6>
+					<h6 className="py-2 m-0">Created By: {createdBy}</h6>
+				</div>
+				<div className="update-info">
+					<h6 className="py-2 m-0">Last Updated At: {(updatedAt == createdAt)? 'None': updatedAt}</h6>
+					<h6 className="py-2 m-0">Last Updated By: {lastUpdatedBy ? lastUpdatedBy : 'None'}</h6>
+				</div>
 				<h5 className="py-3 pl-2 m-0">Title</h5>
 				<input className="form-control" type="text" placeholder="Enter Event Name" value={title} onChange={(e) => setTitle(e.target.value)} />
 				<h5 className="py-3 pl-2 m-0">Event Date</h5>
@@ -101,4 +117,8 @@ const EditEvent = (param) => {
 	);
 };
 
+const DateTimeConverter = (UTC_DATE) => {
+	const date = new Date(UTC_DATE)
+	return `${date.toLocaleDateString()}   ${date.toLocaleTimeString()}`
+}
 export default EditEvent;
