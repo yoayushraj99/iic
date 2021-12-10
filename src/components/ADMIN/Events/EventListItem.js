@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const EventListItem = (param) => {
 
@@ -11,7 +12,7 @@ const EventListItem = (param) => {
       </a>
       <i className="fas fa-ellipsis-h position-absolute" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></i>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-        <li><a class="dropdown-item" href={`edit-event/${param.id}`}>Edit</a></li>
+        <li><Link class="dropdown-item" to= {{ pathname:`edit-event/${param.id}`, state: param.id}}  >Edit</Link></li>
         <li><h6 class="dropdown-item py-1 cursorP" onClick={() =>param.DeleteEvent(param.id)}>Delete</h6></li>
       </ul>
 

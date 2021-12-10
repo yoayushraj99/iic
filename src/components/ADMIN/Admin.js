@@ -6,6 +6,7 @@ import ContactSupport from './Contactsupport/Contactsupport'
 import Feedback from './Feedback/Feedback'
 import AdminNavbar from './AdminNavbar/AdminNavbar'
 import CreateEvent from './Createevent/CreateEvent'
+import EditEvent from './Editevent/Editevent'
 
 const Admin = (props) => {
     const [navshow, setNavshow] = useState(true)
@@ -24,6 +25,7 @@ const Admin = (props) => {
                 <Route exact path={props.match.path} component={Dashboard} />
                 <Route path={ `${props.match.path}/events`} component={Events} />
                 <Route path={ `${props.match.path}/create-event`} component={CreateEvent} />
+                <Route path={ `${props.match.path}/edit-event`} component={EditEvent} />
                 <Route path={ `${props.match.path}/contact-support`} component={ContactSupport} />
                 <Route path={ `${props.match.path}/feedback`} component={Feedback} />
             </div>

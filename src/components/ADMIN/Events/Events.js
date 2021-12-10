@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios'
 import EventListItem from "./EventListItem";
-import "./css/styles.css";
+import "./styles.css";
 import Swal from "sweetalert2";
 
 const Events = () => {
@@ -13,11 +13,11 @@ const Events = () => {
         method: 'GET',
         url: 'http://localhost:4000/events/list'
       }).then(res =>{
-        console.log(JSON.stringify(res.data))
 		setEventData(res.data)
 		setLoading(false)
       }).catch(err =>{
 		  console.error(err)
+		  Swal.fire('Error !',`${err}`,'error')
 	  })
     }, [loading])
 
@@ -33,7 +33,7 @@ const Events = () => {
 			if (result.isConfirmed) {
 			  axios({
 				  method: 'DELETE',
-				  headers: {'Authorization' : 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjFiMjE1ZTgwZjVmZjYxNjlkNjY3NDk3In0sImlhdCI6MTYzOTA2MDk2OCwiZXhwIjoxNjM5MDk2OTY4fQ.bcXx3HPI06XHTA7xYDQKEvymdZo_paTFsjD26ZpOZS8'},
+				  headers: {'Authorization' : 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjFiMjE1ZTgwZjVmZjYxNjlkNjY3NDk3In0sImlhdCI6MTYzOTEyMjM0NCwiZXhwIjoxNjM5NzI3MTQ0fQ.PJJ7VuqH-I1iA1LPkviFLinHMScZTFFOgsIXrWhTISY'},
 				  url: `http://localhost:4000/events/${eventId}`
 			  }).then(res =>{
 				  setLoading(true)

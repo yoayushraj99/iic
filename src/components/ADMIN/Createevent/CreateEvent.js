@@ -30,7 +30,7 @@ const CreateEvent = () => {
     axios({
       method: 'POST',
       url:'http://localhost:4000/events/create',
-      headers: {'Authorization' : 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjFiMjE1ZTgwZjVmZjYxNjlkNjY3NDk3In0sImlhdCI6MTYzOTA2MDk2OCwiZXhwIjoxNjM5MDk2OTY4fQ.bcXx3HPI06XHTA7xYDQKEvymdZo_paTFsjD26ZpOZS8'},
+      headers: {'Authorization' : 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjFiMjE1ZTgwZjVmZjYxNjlkNjY3NDk3In0sImlhdCI6MTYzOTEyMjM0NCwiZXhwIjoxNjM5NzI3MTQ0fQ.PJJ7VuqH-I1iA1LPkviFLinHMScZTFFOgsIXrWhTISY'},
       data: {
         "title": title,
         "date": date,
@@ -40,9 +40,14 @@ const CreateEvent = () => {
       }
     }).then(res =>{
         Swal.fire('Event Created Successfully','','success')
-        console.log(res)
+        // console.log(res)
+        setTitle('')
+        setDate('')
+        setThumbnail('')
+        setSmallDesc('')
+        setMainDesc(EditorState.createEmpty())
     }).catch(err =>{
-      console.error(err)
+      Swal.fire('Error',`${err}`,'error')
     })
     var POST =  convertToRaw(mainDesc.getCurrentContent())
 
@@ -55,13 +60,13 @@ const CreateEvent = () => {
 
       <div className="create-event-form">
         <h5 className="py-3 pl-2 m-0">Title</h5>
-        <input className="form-control" type="text" placeholder="Enter Event Name" onChange={(e) => setTitle(e.target.value)} />
+        <input className="form-control" type="text" placeholder="Enter Event Name" value={title} onChange={(e) => setTitle(e.target.value)} />
         <h5 className="py-3 pl-2 m-0">Event Date</h5>
-        <input className="form-control" type="date" onChange={(e) => setDate(e.target.value)} />
+        <input className="form-control" type="date" value={date}  onChange={(e) => setDate(e.target.value)} />
         <h5 className="py-3 pl-2 m-0">Thumbnail Url</h5>
-        <input className="form-control" type="url" placeholder="Enter thumbnail url" onChange={(e) => setThumbnail(e.target.value)} />
+        <input className="form-control" type="url" value={thumbnail} placeholder="Enter thumbnail url" onChange={(e) => setThumbnail(e.target.value)} />
         <h5 className="py-3 pl-2 m-0">Small Description</h5>
-        <textarea className="form-control" name="smallDescription" placeholder="Enter small description of the event" onChange={(e) => setSmallDesc(e.target.value)}></textarea>
+        <textarea className="form-control" name="smallDescription" value={smallDesc} placeholder="Enter small description of the event" onChange={(e) => setSmallDesc(e.target.value)}></textarea>
         <h5 className="py-3 pl-2 m-0">Main Description</h5>
         <Editor
           defaultEditorState={mainDesc}
