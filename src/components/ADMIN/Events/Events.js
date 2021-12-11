@@ -11,12 +11,12 @@ const Events = () => {
 	const [eventData,setEventData] = useState({})
 	const [noOfEvents,setNoOfEvents] = useState(0)
 	const [currentPage,setCurrentPage] = useState(1)
-
+	const [sort,setSort] = useState(-1)
 
     useEffect(() => {
       axios({
         method: 'GET',
-        url: `http://localhost:4000/events/list?page=${currentPage}`
+        url: `http://localhost:4000/events/list?page=${currentPage}&sort=${sort}`
       }).then(res =>{
 		setNoOfEvents(res.data.totalEvents)
 		setEventData(res.data.resultArray)
@@ -25,7 +25,7 @@ const Events = () => {
 		  console.error(err)
 		  Swal.fire('Error !',`${err}`,'error')
 	  })
-    }, [loading,currentPage])
+    }, [loading,currentPage,sort])
 
 	const DeleteEvent = (eventId) =>{
 		Swal.fire({
@@ -39,7 +39,7 @@ const Events = () => {
 			if (result.isConfirmed) {
 			  axios({
 				  method: 'DELETE',
-				  headers: {'Authorization' : 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjFiMjE1ZTgwZjVmZjYxNjlkNjY3NDk3In0sImlhdCI6MTYzOTEyMjM0NCwiZXhwIjoxNjM5NzI3MTQ0fQ.PJJ7VuqH-I1iA1LPkviFLinHMScZTFFOgsIXrWhTISY'},
+				  headers: {'Authorization' : 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjFiMjE1ZTgwZjVmZjYxNjlkNjY3NDk3In0sImlhdCI6MTYzOTI1MjUyMSwiZXhwIjoxNjM5ODU3MzIxfQ.XQQMNCdJYf3WO-YUVjqERhsSkJPKrZph7NW9yG66cIs'},
 				  url: `http://localhost:4000/events/${eventId}`
 			  }).then(res =>{
 				  setLoading(true)
@@ -60,8 +60,8 @@ const Events = () => {
         <div className="control-bar mx-3 my-4 d-flex justify-content-between">
           <button className="btn text-white" style={{background:'#1F51FF'}} type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Sort By</button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">Newer</a></li>
-            <li><a class="dropdown-item" href="#">Older</a></li>
+            <li class="dropdown-item cursorP" onClick={() =>setSort(-1)}>Newer</li>
+            <li class="dropdown-item cursorP" onClick={() =>setSort(1)}>Older</li>
           </ul>
 		  <Pagination
 			count={Math.ceil(noOfEvents / 2)}
