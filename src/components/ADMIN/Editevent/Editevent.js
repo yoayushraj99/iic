@@ -32,8 +32,10 @@ const EditEvent = (param) => {
 			setCreatedAt(DateTimeConverter(res.data.createdAt))
 			setUpdatedAt(DateTimeConverter(res.data.updatedAt))
 			setMainDesc(EditorState.createWithContent(convertFromRaw(JSON.parse(res.data.mainDescription))))
-			setCreatedBy(res.data.createdBy)
-			setLastUpdatedBy(res.data.lastUpdatedBy)
+			setCreatedBy(res.data.createdBy.name)
+			if ((res.data.lastUpdatedBy) !== null){
+				setLastUpdatedBy(res.data.lastUpdatedBy.name)
+			}
 			setLoading(false)
 		}).catch(err => {
 			Swal.fire('Error', `${err}`, 'error')
@@ -57,7 +59,7 @@ const EditEvent = (param) => {
 		axios({
 			method: 'PUT',
 			url: `http://localhost:4000/events/${param.location.state}`,
-			headers: { 'Authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjFiMjE1ZTgwZjVmZjYxNjlkNjY3NDk3In0sImlhdCI6MTYzOTEyMjM0NCwiZXhwIjoxNjM5NzI3MTQ0fQ.PJJ7VuqH-I1iA1LPkviFLinHMScZTFFOgsIXrWhTISY' },
+			headers: { 'Authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjFiMjE1ZTgwZjVmZjYxNjlkNjY3NDk3In0sImlhdCI6MTYzOTI1MjgwMywiZXhwIjoxNjM5ODU3NjAzfQ.zbkcJRO3RrzIp4I18I1YF52F8dZYCE1Qq2is4eFrSbk' },
 			data: {
 				"title": title,
 				"date": date,
@@ -85,7 +87,7 @@ const EditEvent = (param) => {
 					<h6 className="py-2 m-0">Created By: {createdBy}</h6>
 				</div>
 				<div className="update-info">
-					<h6 className="py-2 m-0">Last Updated At: {(updatedAt == createdAt)? 'None': updatedAt}</h6>
+					<h6 className="py-2 m-0">Last Updated: {(updatedAt == createdAt)? 'None': updatedAt}</h6>
 					<h6 className="py-2 m-0">Last Updated By: {lastUpdatedBy ? lastUpdatedBy : 'None'}</h6>
 				</div>
 				<h5 className="py-3 pl-2 m-0">Title</h5>

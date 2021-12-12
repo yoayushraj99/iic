@@ -12,7 +12,6 @@ const Events = () => {
 	const [noOfEvents,setNoOfEvents] = useState(0)
 	const [currentPage,setCurrentPage] = useState(1)
 	const [sort,setSort] = useState(-1)
-
     useEffect(() => {
       axios({
         method: 'GET',
@@ -57,7 +56,7 @@ const Events = () => {
   return (<>
     <div className="admin-events-container">
         <h2 className="heading p-4">Events List</h2>
-        <div className="control-bar mx-3 my-4 d-flex justify-content-between">
+        <div className="control-bar mx-3 my-4">
           <button className="btn text-white" style={{background:'#1F51FF'}} type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Sort By</button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
             <li class="dropdown-item cursorP" onClick={() =>setSort(-1)}>Newer</li>
@@ -70,6 +69,7 @@ const Events = () => {
 			color="primary"
 		/>
         </div>
+		<p className="text-center total-events">Total: {noOfEvents}</p>
           <div className="events-list-container">
 			{loading ? <h1>Loading</h1>:
 				eventData.map((data,index) => {
