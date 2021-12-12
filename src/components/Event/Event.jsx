@@ -3,14 +3,12 @@ import Navbar from "../Nav-foot/Navbar"
 import Footer from "../Nav-foot/Footer"
 import { useParams } from "react-router-dom"
 import axios from "axios"
-import Swal from "sweetalert2"
 import { convertFromRaw } from 'draft-js';
-import { stateToHTML } from "draft-js-export-html"
 import { Editor } from 'react-draft-wysiwyg';
 import { EditorState } from 'draft-js';
 
 
-const Event = (props) => {
+const Event = () => {
     require('./styles.css')
 
     const [loading,setLoading] = useState(true)

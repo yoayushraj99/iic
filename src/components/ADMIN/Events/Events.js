@@ -12,11 +12,11 @@ const Events = () => {
 	const [noOfEvents,setNoOfEvents] = useState(0)
 	const [currentPage,setCurrentPage] = useState(1)
 	const [sort,setSort] = useState(-1)
-	var totalEvents = 0
+
     useEffect(() => {
       axios({
         method: 'GET',
-        url: `http://localhost:4000/events/list?page=${currentPage}&sort=${sort}`
+        url: `http://localhost:4000/events/list?page=${currentPage}&sort=${sort}&limit=10`
       }).then(res =>{
 		setNoOfEvents(res.data.totalEvents)
 		setEventData(res.data.resultArray)
@@ -64,13 +64,13 @@ const Events = () => {
             <li class="dropdown-item cursorP" onClick={() =>setSort(1)}>Older</li>
           </ul>
 		  <Pagination
-			count={Math.ceil(noOfEvents / 2)}
+			count={Math.ceil(noOfEvents / 10)}
 			page={currentPage}
 			onChange={(event, value) => setCurrentPage(value)}
 			color="primary"
 		/>
         </div>
-		<p className="text-center total-events">Total: {totalEvents}</p>
+		<p className="text-center total-events">Total: {noOfEvents}</p>
           <div className="events-list-container">
 			{loading ? <h1>Loading</h1>:
 				eventData.map((data,index) => {

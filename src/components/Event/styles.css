@@ -17,6 +17,9 @@
     width: 100%;
     border-radius: 6px;
 }
+.unone{
+    user-select: none;
+}
 @media(max-width:600px){
     .event-detail-container .event-card{
         padding: 1rem 0.75rem;   
@@ -33,6 +36,4 @@
         display: none;
     }
 }
-.unone{
-    user-select: none;
-}
+/* Event's Card's CSS */
