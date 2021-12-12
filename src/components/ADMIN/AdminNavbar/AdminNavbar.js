@@ -1,5 +1,5 @@
 import React from "react"
-import AdminLink from "./AdminLink"
+import { AdminLink, LogoutBtn } from "./AdminLink"
 import './styles.css'
 
 const AdminNavbar = () => {
@@ -14,6 +14,7 @@ const AdminNavbar = () => {
             <AdminLink title="Create Event" link="/admin/create-event" icon="fas fa-plus" />
             <AdminLink title="Feedback" link="/admin/feedback" icon="far fa-smile" />
             <AdminLink title="Contact Support" link="/admin/contact-support" icon="far fa-address-card" />
+            <LogoutBtn title="Log Out"  icon="fas fa-sign-out-alt" />
         </div>
     )
 }
