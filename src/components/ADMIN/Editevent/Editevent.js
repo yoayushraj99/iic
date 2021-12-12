@@ -106,6 +106,36 @@ const EditEvent = (param) => {
 					wrapperClassName="demo-wrapper bg-white overflow-hidden"
 					editorClassName="demo-editor form-control minh600"
 					name="mainDescription"
+					toolbar={{
+						options: ['inline', 'blockType', 'list', 'textAlign', 'link','colorPicker', 'embedded','image',],
+						inline: {
+						  inDropdown: false,
+						  options: ['bold', 'italic', 'underline',],
+						},
+						list: {
+						  options: ['unordered', 'ordered'],
+						},
+						textAlign: {
+						  inDropdown: false,
+						  className: undefined,
+						  component: undefined,
+						  dropdownClassName: undefined,
+						  options: ['left', 'center', 'right'],
+						},
+						embedded:{
+						  defaultSize: {
+							height: '400',
+							width: '100%',
+						  },              
+						},
+						image: {
+						  urlEnabled: true,
+						  defaultSize: {
+							height: 'auto',
+							width: '100%',
+						  },},
+						}
+					  }
 				/>
 				<button
 					className="btn text-white my-4 ml-3"
