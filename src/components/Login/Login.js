@@ -1,11 +1,57 @@
-import React from "react"
+import React, { useState } from "react"
 import IncubationNav from '../Nav-foot/IncubationNav'
 import Footer from '../Nav-foot/Footer'
 import './style.css'
+import Swal from "sweetalert2"
+import axios from "axios"
 
 // const Background = require ('../../images/collegeEntranceAlt.jpg')
 
 const Login = () => {
+
+    const [email, setEmail] = useState("")
+    const [password, setPassword] = useState("")
+
+    const handleLogin = () => {
+        if(email !== "" && password !== ""){
+            axios({
+                method: 'POST',
+                url: 'http://localhost:4000/user/login',
+                data:{
+                    "email" : email,
+                    "password": password
+                }
+            }).then(res =>{
+                console.log(res)
+                Swal.fire('Login Successful','','success').then(modal =>{
+                    console.log(res.data.token)
+                    localStorage.setItem("authToken",res.data.token)
+                    if(modal.isDismissed || modal.isConfirmed){
+                        window.location.href="/admin"
+                    }
+                })
+            }).catch(err =>{
+                if (err.response.status === 400) {
+                    Swal.fire('Error !','Wrong Email or Password entered.','error')
+                }else if(err.response.status === 500) {
+                    Swal.fire('Server Error !','Contact Support Immediately !','error')
+                }else{
+                    Swal.fire('Unexpected Error Occured !','Contact Support Immediately !','error')
+                }
+            })
+        }else{
+            if(email==="" && password===""){
+                Swal.fire('Warning !','Email & Password Field are Empty','warning')
+            }
+            else if(email===""){
+                Swal.fire('Warning !','Email Field Empty','warning')
+            }
+            else if(password===""){
+                Swal.fire('Warning !','Password Field Empty','warning')
+            }
+        }
+    }
+
     return (<>
         <IncubationNav />
             <div className="login-bg-pic-container d-flex align-items-center justify-content-center">
@@ -15,10 +61,10 @@ const Login = () => {
                         <h3 className="text-center">Innovation and Incubation Cell</h3>
                         <h1 className="my-4 text-center">Login</h1>
                             <p> Email</p>
-                                <input className="form-control mb-3" type="email" placeholder="Enter Email" />
+                                <input className="form-control mb-3" type="email" placeholder="Enter Email" onChange={e => setEmail(e.target.value)} />
                             <p> Password</p>
-                                <input className="form-control mb-3" type="password" placeholder="Enter Password" />
-                            <button className="btn btn-lg btn-primary w-100 mt-4" >Login</button>
+                                <input className="form-control mb-3" type="password" placeholder="Enter Password" onChange={e => setPassword(e.target.value)} />
+                            <button className="btn btn-lg btn-primary w-100 mt-4" onClick={() => handleLogin()} >Login</button>
                     {/* <div className="new-user">
                         <p>New user ? <a href="/signup">Signup</a> </p>
                         <p><a href="/forgotpassword">Forgot Password</a> </p>

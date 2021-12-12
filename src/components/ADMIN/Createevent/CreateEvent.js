@@ -7,6 +7,7 @@ import Swal from 'sweetalert2';
 import './styles.css'
 
 const CreateEvent = () => {
+	const AuthToken = localStorage.getItem('authToken')
   const [title, setTitle] = useState('')
   const [date, setDate] = useState('')
   const [thumbnail, setThumbnail] = useState('')
@@ -30,7 +31,7 @@ const CreateEvent = () => {
     axios({
       method: 'POST',
       url:'http://localhost:4000/events/create',
-      headers: {'Authorization' : 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjFiMjE1ZTgwZjVmZjYxNjlkNjY3NDk3In0sImlhdCI6MTYzOTEyMjM0NCwiZXhwIjoxNjM5NzI3MTQ0fQ.PJJ7VuqH-I1iA1LPkviFLinHMScZTFFOgsIXrWhTISY'},
+      headers: {'Authorization' : AuthToken },
       data: {
         "title": title,
         "date": date,
@@ -47,7 +48,13 @@ const CreateEvent = () => {
         setSmallDesc('')
         setMainDesc(EditorState.createEmpty())
     }).catch(err =>{
-      Swal.fire('Error',`${err}`,'error')
+			if (err.response.status === 401) {
+				window.location.href="/login"
+			}else if(err.response.status === 500) {
+				Swal.fire('Server Error !','Contact Support Immediately !','error')
+			}else{
+				Swal.fire('Unexpected Error Occured !','Contact Support Immediately !','error')
+			}
     })
     var POST =  convertToRaw(mainDesc.getCurrentContent())
 

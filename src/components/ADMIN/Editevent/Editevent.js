@@ -9,6 +9,7 @@ import './styles.css'
 
 const EditEvent = (param) => {
 	const [loading, setLoading] = useState(true)
+	const AuthToken = localStorage.getItem("authToken")
 
 	const [title, setTitle] = useState('')
 	const [date, setDate] = useState('')
@@ -45,7 +46,6 @@ const EditEvent = (param) => {
 	const onEditorStateChange = (mainDesc) => {
 		setMainDesc(mainDesc);
 	}
-
 	const HandleSubmit = () => {
 		const content = mainDesc.getCurrentContent()
 		const isEditorEmpty = !content.hasText();
@@ -59,7 +59,7 @@ const EditEvent = (param) => {
 		axios({
 			method: 'PUT',
 			url: `http://localhost:4000/events/${param.location.state}`,
-			headers: { 'Authorization': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjFiMjE1ZTgwZjVmZjYxNjlkNjY3NDk3In0sImlhdCI6MTYzOTI1MjgwMywiZXhwIjoxNjM5ODU3NjAzfQ.zbkcJRO3RrzIp4I18I1YF52F8dZYCE1Qq2is4eFrSbk' },
+			headers: { 'Authorization': 'AuthToken' },
 			data: {
 				"title": title,
 				"date": date,
@@ -70,11 +70,15 @@ const EditEvent = (param) => {
 		}).then(res => {
 			Swal.fire('Event Updated Successfully', '', 'success')
 		}).catch(err => {
-			Swal.fire('Error', `${err}`, 'error')
+			setLoading(false)
+			if (err.response.status === 401) {
+				window.location.href="/login"
+			}else if(err.response.status === 500) {
+				Swal.fire('Server Error !','Contact Support Immediately !','error')
+			}else{
+				Swal.fire('Unexpected Error Occured !','Contact Support Immediately !','error')
+			}
 		})
-		var POST = convertToRaw(mainDesc.getCurrentContent())
-
-		console.log(JSON.stringify(POST, null, 4))
 	}
 
 	return (

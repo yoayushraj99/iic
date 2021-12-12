@@ -8,6 +8,7 @@ import Swal from "sweetalert2";
 
 const Events = () => {
     const [loading,setLoading]  = useState(true)
+	const AuthToken = localStorage.getItem('authToken')
 	const [eventData,setEventData] = useState({})
 	const [noOfEvents,setNoOfEvents] = useState(0)
 	const [currentPage,setCurrentPage] = useState(1)
@@ -39,16 +40,20 @@ const Events = () => {
 			if (result.isConfirmed) {
 			  axios({
 				  method: 'DELETE',
-				  headers: {'Authorization' : 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjFiMjE1ZTgwZjVmZjYxNjlkNjY3NDk3In0sImlhdCI6MTYzOTI1MjUyMSwiZXhwIjoxNjM5ODU3MzIxfQ.XQQMNCdJYf3WO-YUVjqERhsSkJPKrZph7NW9yG66cIs'},
+				  headers: {'Authorization' : AuthToken },
 				  url: `http://localhost:4000/events/${eventId}`
 			  }).then(res =>{
 				  setLoading(true)
 				  Swal.fire('Event Deleted Successfully','','success')
 			  }).catch(err =>{
-				  console.error(err)
-				  Swal.fire(
-					  `Error !`,`${err}`,'error'
-				  )
+				setLoading(false)
+				if (err.response.status === 401) {
+					window.location.href="/login"
+				}else if(err.response.status === 500) {
+					Swal.fire('Server Error !','Contact Support Immediately !','error')
+				}else{
+					Swal.fire('Unexpected Error Occured !','Contact Support Immediately !','error')
+				}
 			  })
 			}
 		  })
