@@ -12,6 +12,7 @@ const Events = () => {
 	const [noOfEvents,setNoOfEvents] = useState(0)
 	const [currentPage,setCurrentPage] = useState(1)
 	const [sort,setSort] = useState(-1)
+	var totalEvents = 0
     useEffect(() => {
       axios({
         method: 'GET',
@@ -69,7 +70,7 @@ const Events = () => {
 			color="primary"
 		/>
         </div>
-		<p className="text-center total-events">Total: {noOfEvents}</p>
+		<p className="text-center total-events">Total: {totalEvents}</p>
           <div className="events-list-container">
 			{loading ? <h1>Loading</h1>:
 				eventData.map((data,index) => {

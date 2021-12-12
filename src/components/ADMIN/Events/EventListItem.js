@@ -7,7 +7,7 @@ const EventListItem = (param) => {
     <div className="event-item bg-white d-flex align-items-center position-relative">
       <div className="date text-white">{param.date}</div>
         <img src={param.thumbnail} alt="" onError={e => {e.target.onerror = null; e.target.src="https://1080motion.com/wp-content/uploads/2018/06/NoImageFound.jpg.png"} }/>
-      <a className="title text-dark" href="/">
+      <a className="title text-dark" href={`/event${param.id}`}>
         {param.title}
       </a>
       <i className="fas fa-ellipsis-h position-absolute" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"></i>
