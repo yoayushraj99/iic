@@ -17,6 +17,9 @@ import Team from "./Team/Team";
 import Feedback from "./Feedback/Feedback";
 import ButtonsOnRight from "./ButtonsOnRight/Bar";
 import EventsPreview from "./Events-preview/events-preview.component";
+import Login from './Login/Login';
+import Admin from './ADMIN/Admin'
+import Event from './Event/Event'
 import Events01 from "./Event/Event01";
 import Events02 from "./Event/Event02";
 import Events03 from "./Event/Event03";
@@ -44,7 +47,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 2000); // Default 2000 set to 0 during development
+    setTimeout(() => setLoading(false), 0); // Default 2000 set to 0 during development
   }, []);
 
   return (
@@ -67,6 +70,9 @@ function App() {
               <Route path="/Guideline" component={Guideline} />
               <Route path="/Faq" component={Faq} />
               <Route path="/Feedback" component={Feedback} />
+              <Route path="/Login" component={Login} />
+              <Route path="/admin" component={Admin} />
+              <Route path="/Event:id" component={Event} />
               <Route path="/Event01" component={Events01} />
               <Route path="/Event02" component={Events02} />
               <Route path="/Event03" component={Events03} />

@@ -1,0 +1,67 @@
+.admin-parent-container{
+    height: 100vh;
+    overflow-y: hidden;
+}
+.admin-right-content-container{
+    min-height: 100vh;
+    overflow-y: scroll;
+}
+.admin-navbar{
+    background: rgb(4,8,73);
+    width: 320px;
+    height: 100vh;
+    z-index: 1000;
+}
+.admin-hamburger{
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    z-index: 1005;
+}
+.admin-navbar h4:first-of-type{
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+}
+.admin-navbar .admin-link-container{
+    padding: 0.75rem;
+}
+.admin-navbar .admin-link-container:hover{
+    background: rgba(255, 255, 255, 0.178);
+}
+.admin-navbar .admin-link-container i{
+    background: rgba(255, 255, 255, 0.125);
+    font-size: 1.25rem;
+    padding: 0.6rem;
+}
+.cursorP{
+    cursor: pointer;
+}
+.mobile{
+    display: none;
+}
+@media(max-width:800px){
+    .d-flexy{
+        display: flex;
+    }
+    .dispNone-800{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .admin-navbar{
+        display: none;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+}
+.admin-right-content-container{
+    background: rgba(173, 216, 230, 0.125);
+    flex: 1;
+}
