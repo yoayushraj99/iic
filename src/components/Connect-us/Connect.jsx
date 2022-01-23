@@ -55,7 +55,7 @@ function Connect() {
               <i className="fa fa-circle fa-stack-2x "></i>
               <i className="fas fa-envelope fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 className="service-heading">iic@che.nitdgp.ac.in</h4>
+            <h4 className="service-heading">iic@admin.nitdgp.ac.in</h4>
           </div>
         </div>
       </div>

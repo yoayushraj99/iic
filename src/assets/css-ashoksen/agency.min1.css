@@ -106,7 +106,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-	background-color: #212529
+	background:  transparent
 }
 
 #mainNav .navbar-toggler {
@@ -740,10 +740,9 @@ ul.social-buttons li a:hover {
 		margin-bottom: 25px;
 	}
 }
-@media(max-width:574px){
-	.myNav{
-		padding-left: 18px !important;
-	}
+#mainNav{
+	top:  3%;
+	left: 6%;
 }
 
 @media(max-width: 500px){
