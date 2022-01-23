@@ -271,7 +271,7 @@ function Team() {
               className="profile-img"
             ></img>
             <h1>Ayush Raj</h1>
-            <p className="job-title">Member</p>
+            <p className="job-title">Lead</p>
             <ul className="social-media">
               <li>
                 <a
