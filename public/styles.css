@@ -9,10 +9,11 @@ html {
 }
 body {
   background: #eee;
+  font-family: "Lora", serif !important;
 }
 
 /*** Svg component ***/
-#svgcenter{
+#svgcenter {
   margin-top: 18%;
 }
 
@@ -27,7 +28,7 @@ body {
 }
 .dictionary > .term {
   text-align: center;
-  max-width: 20rem;
+  max-width: 17rem;
   margin-bottom: 3rem;
   padding: 2rem;
   border-radius: 3px;
@@ -84,7 +85,7 @@ dd dl .term {
   box-shadow: 9px 7px 10px -10px rgba(0, 0, 0, 0.46);
 }
 .blink {
-  animation: blinker 2.0s linear infinite;
+  animation: blinker 2s linear infinite;
   color: #1c87c9;
 }
 @keyframes blinker {
@@ -100,6 +101,7 @@ dd dl .term {
   text-transform: uppercase;
   margin: 60px 0px 40px 0px;
   font-weight: 800;
+  font-size: 36px;
 }
 
 /*** Section Content ***/
@@ -289,7 +291,7 @@ li a {
   margin: 0;
   padding: 1em;
   border: none;
-  border-top: 1px solid rgba(34, 36, 38, .1);
+  border-top: 1px solid rgba(34, 36, 38, 0.1);
   box-shadow: none;
 }
 
@@ -298,24 +300,24 @@ li a {
   overflow: hidden;
   padding: 5;
   border: none;
-  border-radius: .28571429rem;
+  border-radius: 0.28571429rem;
   box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
-  margin-top:20px;
+  margin-top: 20px;
 }
 
 .btn {
-margin-top: auto;
+  margin-top: auto;
 }
 
 /*** Event Details ***/
 .boxShadow {
   width: 55%;
-	margin: 2rem 1rem; 
-	padding: 10px 40px;
-	margin: 1rem auto;
-  
+  margin: 2rem 1rem;
+  padding: 10px 40px;
+  margin: 1rem auto;
+
   background: #f7f7f7;
-	box-shadow: -6px -7px 51px #dadada;
+  box-shadow: -6px -7px 51px #dadada;
 }
 
 /*** Footer ***/

@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import "./Style_header.css"
 
-function Header() {
+function Header () {
   return (
     <div className="header-container">
       <div className="row" >
@@ -28,21 +28,21 @@ function Header() {
               <div className="carousel-item active">
                 <img
                   className="d-block w-100 myPic"
-                  src={require('../../images/NitFrontGate.webp')}
-                  
+                  src={ require( '../../images/NitFrontGate.webp' ) }
+
                   alt="First slide"></img>
               </div>
               <div className="carousel-item">
                 <img
                   className="d-block w-100 myPic"
-                  src={require('../../images/carousel-1.webp')}
+                  src={ require( '../../images/carousel-1.webp' ) }
                   alt="Second slide"></img>
               </div>
-              
+
               <div className="carousel-item">
                 <img
                   className="d-block w-100 myPic"
-                  src={require('../../images/Apj.webp')}
+                  src={ require( '../../images/Apj.webp' ) }
                   alt="Fourth slide"></img>
               </div>
             </div>
@@ -70,30 +70,30 @@ function Header() {
         </div>
         <div className="col-lg-3 update-box">
 
-        <div className="headerEvents">
-          <i className="fas fa-bell fa-3x d-flex justify-content-center pb-1 pt-4" />
-          <p className="content pt-2 font-weight-bold">Updates &amp; Events</p>
-        </div> 
+          <div className="headerEvents">
+            <i className="fas fa-bell fa-3x d-flex justify-content-center pb-1 pt-4" />
+            <p className="content pt-2 font-weight-bold">Updates &amp; Events</p>
+          </div>
 
           <div className="box">
             <p className="">
-              <NavLink to="/Event22" style={{color :"blue"}}>Fostering
-        An Innovative Mindset</NavLink>
+              <NavLink to="/Event22" style={ { color: "blue" } }>Fostering
+                An Innovative Mindset</NavLink>
               <i class="fas fa-angle-right"></i>
             </p>
             <p className="">
-              <NavLink to="/Event21" style={{color :"blue"}}>Prototype/Process Design and Development : Prototyping</NavLink>
+              <NavLink to="/Event21" style={ { color: "blue" } }>Prototype/Process Design and Development : Prototyping</NavLink>
               <i class="fas fa-angle-right"></i>
             </p>
             <p className="">
-              <NavLink to="/Event20" style={{color :"blue"}}>Building an
-        innovative product fit for the market</NavLink>
+              <NavLink to="/Event20" style={ { color: "blue" } }>Building an
+                innovative product fit for the market</NavLink>
               <i class="fas fa-angle-right"></i>
             </p>
             <p className="">
-              <NavLink to="/Event19" style={{color :"blue"}}>How to plan
-        for startups- Legal and ethical steps" and "Knowing IPR's and IP
-        Management</NavLink>
+              <NavLink to="/Event19" style={ { color: "blue" } }>How to plan
+                for startups- Legal and ethical steps" and "Knowing IPR's and IP
+                Management</NavLink>
               <i class="fas fa-angle-right"></i>
             </p>
           </div>
