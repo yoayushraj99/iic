@@ -17,6 +17,9 @@ import Team from "./Team/Team";
 import Feedback from "./Feedback/Feedback";
 import ButtonsOnRight from "./ButtonsOnRight/Bar";
 import EventsPreview from "./Events-preview/events-preview.component";
+import Login from './Login/Login';
+import Admin from './ADMIN/Admin'
+import Event from './Event/Event'
 import Events01 from "./Event/Event01";
 import Events02 from "./Event/Event02";
 import Events03 from "./Event/Event03";

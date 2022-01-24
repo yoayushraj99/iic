@@ -1,0 +1,36 @@
+.admin-create-event-container{
+    background:rgba(173, 216, 230, 0.125);
+    min-height: 100vh;
+}
+.admin-create-event-container .heading{
+    font-weight: 600;
+}
+.create-event-form{
+    padding: 1rem 2rem;
+}
+.create-event-form h5{
+    font-weight: 600;
+}
+.create-event-form input:focus,
+.create-event-form textarea:focus,
+.create-event-form .btn:focus{
+    box-shadow: 0 0 4px 2px #1f50ff48;
+}
+.minh600{
+    min-height: 600px;
+    padding: 0.5rem;
+}
+.create-event-form textarea:first-of-type{
+    resize: none;
+    height: 200px;
+}
+.create-event-form .btn{
+    background: #1F51FF;
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+}
+@media(max-width:600px){
+    .create-event-form{
+        padding: 1rem 0.5rem;
+    }
+}

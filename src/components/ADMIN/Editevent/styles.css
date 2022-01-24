@@ -1,0 +1,15 @@
+.update-info{
+    display: flex;
+    justify-content: space-between;
+}
+.update-info h6{
+    font-weight: 600;
+}
+@media(max-width:800px){
+    .update-info{
+        display: block;
+    }
+    .update-info h6{
+        font-size: 0.75rem;
+    }
+}

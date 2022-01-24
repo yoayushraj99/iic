@@ -1,0 +1,39 @@
+.loading{
+    height: 80vh;
+}
+.event-detail-container{
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.event-detail-container .event-card{
+    padding: 1rem 1.5rem;
+    width: 75%;
+    max-width: 800px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.082);
+}
+.event-detail-container .event-card img{
+    width: 100%;
+    border-radius: 6px;
+}
+.unone{
+    user-select: none;
+}
+@media(max-width:600px){
+    .event-detail-container .event-card{
+        padding: 1rem 0.75rem;   
+        box-shadow: none;
+    }
+    .event-detail-container .event-card h2{
+        font-size: 1.5rem;
+    }
+    .event-detail-container{
+        padding: 0;
+    }
+    .socialMedia,
+    .feedback{
+        display: none;
+    }
+}
+/* Event's Card's CSS */
