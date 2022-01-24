@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-function Navbar() {
+function Navbar () {
   const styleLink = {
     color: "yellow",
     textDecoration: "none",
@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <nav
       className="navbar navbar-expand-lg navbar-light py-3"
-      style={styleNavbar}
+      style={ styleNavbar }
     >
       <button
         className="navbar-toggler"
@@ -33,12 +33,12 @@ function Navbar() {
       <div
         className="collapse navbar-collapse"
         id="navbarNav"
-        style={{ justifyContent: "center" }}
+        style={ { justifyContent: "center" } }
       >
         <ul className="navbar-nav">
           <li className="nav-item">
             <a className="nav-link active" href="#">
-              <NavLink to="/" style={styleLink}>
+              <NavLink to="/" style={ styleLink }>
                 Home
               </NavLink>
             </a>
@@ -48,7 +48,7 @@ function Navbar() {
               className="nav-link dropdown-toggle"
               href="#"
               data-toggle="dropdown"
-              style={styleLink}
+              style={ styleLink }
             >
               About
             </a>
@@ -77,14 +77,14 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              <NavLink to="/Programmes" style={styleLink}>
+              <NavLink to="/Programmes" style={ styleLink }>
                 Programmes
               </NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              <NavLink to="/gallery" style={styleLink}>
+              <NavLink to="/gallery" style={ styleLink }>
                 Gallery
               </NavLink>
             </a>
@@ -96,36 +96,43 @@ function Navbar() {
           </li> */}
           <li className="nav-item">
             <a className="nav-link" href="#">
-              <NavLink to="/Guideline" style={styleLink}>
+              <NavLink to="/Guideline" style={ styleLink }>
                 GuideLines
               </NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              <NavLink to="/Connect" style={styleLink}>
+              <NavLink to="/Connect" style={ styleLink }>
                 Contact-Us
               </NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              <NavLink to="/Events" style={styleLink}>
+              <NavLink to="/Events" style={ styleLink }>
                 Events
               </NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              <NavLink to="/Tinkering" style={styleLink}>
+              <NavLink to="/Tinkering" style={ styleLink }>
                 Tinkering Lab
               </NavLink>
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="#">
-              <NavLink to="/AsokeSen" style={styleLink}>
+              <NavLink to="/AsokeSen" style={ styleLink }>
                 AsokeSen-DIC
+              </NavLink>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="#">
+              <NavLink to="/Flowchart" style={ styleLink }>
+                Policies
               </NavLink>
             </a>
           </li>

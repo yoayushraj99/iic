@@ -42,60 +42,58 @@ import Events19 from "./Event/Event19";
 import Events20 from "./Event/Event20";
 import Events21 from "./Event/Event21";
 import Events22 from "./Event/Event22";
+import Flowchart from "./Flowchart/flowchart";
 
-function App() {
-  const [loading, setLoading] = useState(true);
+function App () {
+  const [ loading, setLoading ] = useState( true );
 
-  useEffect(() => {
-    setTimeout(() => setLoading(false), 0); // Default 2000 set to 0 during development
-  }, []);
+  useEffect( () => {
+    setTimeout( () => setLoading( false ), 2000 );
+  }, [] );
 
   return (
     <>
-      {loading === false ? (
+      { loading === false ? (
         <BrowserRouter>
           <div>
             <ButtonsOnRight />
             <Switch>
-              <Route path="/" component={Homepage} exact />
-              <Route path="/Connect" component={Connect} />
-              <Route path="/Partners" component={Partners} />
-              <Route path="/Portfolio" component={Portfolio} />
-              <Route path="/Programmes" component={Programmes} />
-              <Route path="/gallery" component={Gallery} />
-              <Route path="/Events" component={EventsPreview} />
-              <Route path="/Tinkering" component={Tinkering} />
-              <Route path="/AsokeSen" component={AsokeSen} />
-              <Route path="/Team" component={Team} />
-              <Route path="/Guideline" component={Guideline} />
-              <Route path="/Faq" component={Faq} />
-              <Route path="/Feedback" component={Feedback} />
-              <Route path="/Login" component={Login} />
-              <Route path="/admin" component={Admin} />
-              <Route path="/Event:id" component={Event} />
-              <Route path="/Event01" component={Events01} />
-              <Route path="/Event02" component={Events02} />
-              <Route path="/Event03" component={Events03} />
-              <Route path="/Event04" component={Events04} />
-              <Route path="/Event05" component={Events05} />
-              <Route path="/Event06" component={Events06} />
-              <Route path="/Event07" component={Events07} />
-              <Route path="/Event08" component={Events08} />
-              <Route path="/Event09" component={Events09} />
-              <Route path="/Event10" component={Events10} />
-              <Route path="/Event11" component={Events11} />
-              <Route path="/Event12" component={Events12} />
-              <Route path="/Event13" component={Events13} />
-              <Route path="/Event14" component={Events14} />
-              <Route path="/Event15" component={Events15} />
-              <Route path="/Event16" component={Events16} />
-              <Route path="/Event17" component={Events17} />
-              <Route path="/Event18" component={Events18} />
-              <Route path="/Event19" component={Events19} />
-              <Route path="/Event20" component={Events20} />
-              <Route path="/Event21" component={Events21} />
-              <Route path="/Event22" component={Events22} />
-              <Route component={Error} />
+              <Route path="/" component={ Homepage } exact />
+              <Route path="/Connect" component={ Connect } />
+              <Route path="/Partners" component={ Partners } />
+              <Route path="/Portfolio" component={ Portfolio } />
+              <Route path="/Programmes" component={ Programmes } />
+              <Route path="/gallery" component={ Gallery } />
+              <Route path="/Events" component={ EventsPreview } />
+              <Route path="/Tinkering" component={ Tinkering } />
+              <Route path="/AsokeSen" component={ AsokeSen } />
+              <Route path="/Team" component={ Team } />
+              <Route path="/Guideline" component={ Guideline } />
+              <Route path="/Faq" component={ Faq } />
+              <Route path="/Flowchart" component={ Flowchart } />
+              <Route path="/Event01" component={ Events01 } />
+              <Route path="/Event02" component={ Events02 } />
+              <Route path="/Event03" component={ Events03 } />
+              <Route path="/Event04" component={ Events04 } />
+              <Route path="/Event05" component={ Events05 } />
+              <Route path="/Event06" component={ Events06 } />
+              <Route path="/Event07" component={ Events07 } />
+              <Route path="/Event08" component={ Events08 } />
+              <Route path="/Event09" component={ Events09 } />
+              <Route path="/Event10" component={ Events10 } />
+              <Route path="/Event11" component={ Events11 } />
+              <Route path="/Event12" component={ Events12 } />
+              <Route path="/Event13" component={ Events13 } />
+              <Route path="/Event14" component={ Events14 } />
+              <Route path="/Event15" component={ Events15 } />
+              <Route path="/Event16" component={ Events16 } />
+              <Route path="/Event17" component={ Events17 } />
+              <Route path="/Event18" component={ Events18 } />
+              <Route path="/Event19" component={ Events19 } />
+              <Route path="/Event20" component={ Events20 } />
+              <Route path="/Event21" component={ Events21 } />
+              <Route path="/Event22" component={ Events22 } />
+              <Route component={ Error } />
             </Switch>
           </div>
         </BrowserRouter>
@@ -103,7 +101,7 @@ function App() {
         <div id="svgcenter">
           <LoadingScreen />
         </div>
-      )}
+      ) }
     </>
   );
 }
