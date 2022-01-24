@@ -1,0 +1,86 @@
+.login-bg-pic-container {
+  /* background: linear-gradient() no-repeat center center ; */
+  background-color: #6617cb;
+  background-image: linear-gradient(300deg, #6617cb 0%, #cb218e 74%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 90vh;
+  background-blend-mode: color;
+  background-color: rgba(0, 0, 0, 0.15);
+}
+.right-container .login-form{
+    background-color: #fff;
+    height: auto;
+    margin: 1.5rem 0.5rem;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);
+    /* margin-bottom: -50px; */
+}
+.right-container .login-form h3:first-of-type{
+    font-size: 1.5rem;
+}
+.right-container .login-form h1:first-of-type{
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.right-container .login-form p{
+    margin: 0.5rem 0;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.right-container .new-user{
+    background-color: rgb(235, 235, 235);
+    padding: 0.7rem;
+    border-top: 1px solid   rgba(0, 0, 0,  0.08);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: space-between;
+}
+.right-container .new-user p{
+    text-align: center;
+    margin-bottom: 0;
+}
+.right-container .new-user p a{
+    color: blue;
+}
+.right-container .cont-google{
+    border-radius: 0 0 8px 8px;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 600;
+    align-items: center;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.right-container .cont-google:hover{
+    background-color: #ddd;
+    transition: 0.5s;
+}
+.right-container .login-form h1:first-of-type,
+.right-container .login-form h3:first-of-type,
+.right-container .login-form p,
+.right-container .new-user p,
+.right-container .cont-google{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media(max-width:600px){
+    .login-bg-pic-container {
+        min-height: unset;
+        display: block;
+        height: auto;
+    }
+    .right-container{
+        min-width: 94%;
+        /* min-width: 300px; */
+    }
+    .right-container .login-form{
+        width: auto;
+    }
+    .right-container .login-form h3:first-of-type{
+        font-size: 1rem;
+    }
+}
