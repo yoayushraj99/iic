@@ -13,33 +13,33 @@ import "./gallery-slider.css";
 import SwiperCore, { Parallax, Pagination, Navigation } from "swiper/core";
 
 // install Swiper modules
-SwiperCore.use( [ Parallax, Pagination, Navigation ] );
+SwiperCore.use([Parallax, Pagination, Navigation]);
 
-export default function GallerySlider () {
+export default function GallerySlider() {
   return (
     <>
       <Swiper
-        style={ {
+        style={{
           "--swiper-navigation-color": "#fff",
           "--swiper-pagination-color": "#fff",
-        } }
-        speed={ 600 }
-        parallax={ true }
-        pagination={ {
+        }}
+        speed={600}
+        parallax={true}
+        pagination={{
           clickable: true,
-        } }
-        autoplay={ {
+        }}
+        autoplay={{
           delay: 2500,
           disableOnInteraction: true,
-        } }
-        navigation={ true }
+        }}
+        navigation={true}
         className="introcontainer"
-        centeredSlides={ true }
-        paginationClickable={ true }
-        watchSlidesProgress={ true }
-        loop={ true }
-        slidesPerView={ 2 }
-        spaceBetween={ 30 }
+        centeredSlides={true}
+        paginationClickable={true}
+        watchSlidesProgress={true}
+        loop={true}
+        slidesPerView={2}
+        spaceBetween={30}
       >
         <div className="introcontainer">
           <div className="swiper-container">
@@ -113,7 +113,7 @@ export default function GallerySlider () {
                     <div className="title-box">
                       <h1 data-swiper-parallax="-300">FOR DESIGNERS.</h1>
                       <p data-swiper-parallax="-200">
-                        { " " }
+                        {" "}
                         We design your digital presence and collaborate to
                         develop your ideas into engaging, interactive, art and
                         visual experiences that keep you in control and in the
