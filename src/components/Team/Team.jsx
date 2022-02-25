@@ -6,10 +6,9 @@ import "./css/team.css";
 import "./css/styleCard.css";
 
 function Team() {
-
-    const styleIcon = {
-        color: "#0A66C2"
-    }
+  const styleIcon = {
+    color: "#0A66C2",
+  };
 
   return (
     <div>
@@ -98,7 +97,6 @@ function Team() {
             </ul>
           </div>
         </div>
-
 
         <h1 className="team_text">Executive Committee</h1>
         <div className="card-wrapper">
@@ -231,7 +229,6 @@ function Team() {
           </div>
         </div>
 
-        
         <h1 className="team_text">Web Development Team</h1>
         <div className="card-wrapper">
           <div className="card-team">
@@ -246,7 +243,7 @@ function Team() {
               className="profile-img"
             ></img>
             <h1>Anwer Sayeed</h1>
-            <p className="job-title">Member</p>
+            <p className="job-title">Co-Lead</p>
             <ul className="social-media">
               <li>
                 <a
@@ -296,11 +293,136 @@ function Team() {
               className="profile-img"
             ></img>
             <h1>Om Saswat Sahoo</h1>
-            <p className="job-title">Member</p>
+            <p className="job-title">Co-Lead</p>
             <ul className="social-media">
               <li>
                 <a
                   href="https://www.linkedin.com/in/om-saswat-sahoo-850346192/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-linkedin" style={styleIcon}></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="card-team">
+            <img
+              src={require("./images/2.jpg")}
+              alt="card background"
+              className="card-img"
+            ></img>
+            <img
+              src={require("./images/rishav_pic.jpg")}
+              alt="profile"
+              className="profile-img"
+            ></img>
+            <h1>Rishav Jha</h1>
+            <p className="job-title">Member</p>
+            <ul className="social-media">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/rishav-jha-549b45203/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-linkedin" style={styleIcon}></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="card-team">
+            <img
+              src={require("./images/2.jpg")}
+              alt="card background"
+              className="card-img"
+            ></img>
+            <img
+              src={require("./images/rishita_pic.jpg")}
+              alt="profile"
+              className="profile-img"
+            ></img>
+            <h1>Rishita Shaw</h1>
+            <p className="job-title">Member</p>
+            <ul className="social-media">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/theseregrets/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-linkedin" style={styleIcon}></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="card-team">
+            <img
+              src={require("./images/2.jpg")}
+              alt="card background"
+              className="card-img"
+            ></img>
+            <img
+              src={require("./images/somwrik_pic.jpg")}
+              alt="profile"
+              className="profile-img"
+            ></img>
+            <h1>Somwrik Dubey</h1>
+            <p className="job-title">Member</p>
+            <ul className="social-media">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/somwrik-dubey-8b35771ba/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-linkedin" style={styleIcon}></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="card-team">
+            <img
+              src={require("./images/2.jpg")}
+              alt="card background"
+              className="card-img"
+            ></img>
+            <img
+              src={require("./images/garima_pic.JPG")}
+              alt="profile"
+              className="profile-img"
+            ></img>
+            <h1>Garima Singh</h1>
+            <p className="job-title">Member</p>
+            <ul className="social-media">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/garima-singh-289494215/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-linkedin" style={styleIcon}></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="card-team">
+            <img
+              src={require("./images/2.jpg")}
+              alt="card background"
+              className="card-img"
+            ></img>
+            <img
+              src={require("./images/arya_pic.jpg")}
+              alt="profile"
+              className="profile-img"
+            ></img>
+            <h1>Garima Singh</h1>
+            <p className="job-title">Member</p>
+            <ul className="social-media">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/arya-sah-5100121b3/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
