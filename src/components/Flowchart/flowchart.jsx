@@ -5,17 +5,17 @@ import Bounce from 'react-reveal/Bounce';
 import Rotate from 'react-reveal/Rotate';
 import Pulse from 'react-reveal/Pulse';
 
-export default function Flowchart () {
+export default function Flowchart() {
     return (
         <>
             <Navbar />
             <>
                 <body className="body">
 
-                    {/* <!-- Wrapper --> */ }
+                    {/* <!-- Wrapper --> */}
                     <div id="wrapper">
 
-                        {/* <!-- Intro --> */ }
+                        {/* <!-- Intro --> */}
                         <section class="intro">
                             <header>
                                 <Bounce right>
@@ -26,19 +26,19 @@ export default function Flowchart () {
                                     <li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
                                 </ul>
                             </header>
-                            <div class="content">
+                            <div class="content text-left">
                                 <span class="image fill" data-position="center"><img src="https://media-exp1.licdn.com/dms/image/C511BAQFjlhSFYhrHUA/company-background_10000/0/1577766850103?e=2159024400&v=beta&t=AyHRnbJ6vYorEH0X-LopNAIfYM_j4IYP2L6wI_WstYw" alt="" /></span>
                             </div>
                         </section>
 
-                        {/* <!-- Section --> */ }
+                        {/* <!-- Section --> */}
                         <section id="first">
                             <header>
                                 <Rotate top right>
                                     <h2>Eligibility</h2>
                                 </Rotate>
                             </header>
-                            <div class="content">
+                            <div class="content text-left">
                                 <p><strong>Check Eligibility</strong> according to document “Policies and
                                     Procedure for Incubation”. Institutions Innovation Council (IIC) at institute is a unique model based on Hub-Spoke and
                                     coherence approach to align with the innovation and entrepreneurship promotion and support
@@ -47,60 +47,60 @@ export default function Flowchart () {
                                     among student and faculty community.
                                 </p>
                                 <ul class="actions">
-                                    <li><a href="#" class="button large">Learn More</a></li>
+                                    <li><a href="https://drive.google.com/file/d/1s3M8GESz4rjaAg9oC8rg57u44ijPdwDT/view" target="_blank" rel="noopener noreferrer" class="button large">Learn More</a></li>
                                 </ul>
 
                                 <span class="image main"><img src="" alt="" /></span>
                             </div>
                         </section>
 
-                        {/* <!-- Section --> */ }
+                        {/* <!-- Section --> */}
                         <section>
                             <header>
                                 <Rotate top right>
                                     <h2>Incubation Admission Procedure</h2>
                                 </Rotate>
                             </header>
-                            <div class="content">
+                            <div class="content text-left">
                                 <p>Procedure include filling up of “Incubation Application
                                     form"</p>
-                                <ul class="feature-icons">
-                                    <li class="icon fa-laptop">Consequat tempus</li>
-                                    <li class="icon fa-bolt">Etiam adipiscing</li>
-                                    <li class="icon fa-signal">Libero nullam</li>
-                                    <li class="icon fa-award">Blandit condimentum</li>
-                                    <li class="icon fa-map-marker">Lorem ipsum dolor</li>
-                                    <li class="icon fa-code">Nibh amet venenatis</li>
+                                <ul class="feature-icons text-left">
+                                    <li class="icon fa-laptop">Institute</li>
+                                    <li class="icon fa-bolt">Research</li>
+                                    <li class="icon fa-signal">Faculty</li>
+                                    <li class="icon fa-award">Industry</li>
+                                    <li class="icon fa-map-marker">National Mission</li>
+                                    <li class="icon fa-code">Support</li>
                                 </ul>
                                 <p>After providing the following information you can proceed to the next step.
                                 </p>
                                 <ul class="actions">
-                                    <li><a href="#" class="button large">Learn More</a></li>
+                                    <li><a href="https://drive.google.com/file/d/1thgY-Q1b7cM3_4-ZP_fWvDTV1cqjTO-O/view" target="_blank" rel="noopener noreferrer" class="button large">Learn More</a></li>
                                 </ul>
 
                             </div>
                         </section>
 
-                        {/* <!-- Section --> */ }
+                        {/* <!-- Section --> */}
                         <section>
                             <header>
                                 <Rotate top right>
                                     <h2>Infrastructure and Services provided to Incubate</h2>
                                 </Rotate>
                             </header>
-                            <div class="content">
+                            <div class="content text-left">
                                 <p>
                                     Currently, more than 950 IICs have been established in institutes across India.
                                 </p>
 
-                                {/* <!-- Section --> */ }
+                                {/* <!-- Section --> */}
                                 <section>
                                     <header>
                                         <h3>Check
                                             “Policies and Procedure for Incubation"</h3>
 
                                     </header>
-                                    <div class="content">
+                                    <div class="content text-left">
 
                                         <div class="gallery">
 
@@ -113,33 +113,33 @@ export default function Flowchart () {
                                         </div>
 
                                         <ul class="actions">
-                                            <li><a href="#" class="button mt-4 large">Learn More</a></li>
+                                            <li><a href="https://drive.google.com/file/d/1s3M8GESz4rjaAg9oC8rg57u44ijPdwDT/view" target="_blank" rel="noopener noreferrer" class="button mt-4 large">Learn More</a></li>
                                         </ul>
                                     </div>
                                 </section>
 
-                                {/* <!-- Section --> */ }
+                                {/* <!-- Section --> */}
 
                             </div>
                         </section>
 
-                        {/* <!-- Section --> */ }
+                        {/* <!-- Section --> */}
                         <section>
                             <header>
                                 <Rotate top right>
                                     <h2>Mandatory Mentorship</h2>
                                 </Rotate>
                             </header>
-                            <div class="content">
+                            <div class="content text-left">
                                 <p><strong>Check " Mentoring and Advisory Services"</strong>IIC-MHRD is going to launch and bring various
                                     programs for IICs on time to time to enhance the skill and mentoring capacity IIC
                                     members on ideation, innovation, entrepreneurship and startup, floating a task for
                                     IICs to accept and complete and also channelize the programs and schemes with
                                     various ministries through convergence, collaboration and connect approach.</p>
-                                {/* <a href="images/gallery/fulls/03.jpg"><Pulse><img class="landscape" src="https://nitdgp.ac.in/uploads/acadimg/assets/images/infra/img2.jpg" /> */ }
-                                {/* </a> */ }
+                                {/* <a href="images/gallery/fulls/03.jpg"><Pulse><img class="landscape" src="https://nitdgp.ac.in/uploads/acadimg/assets/images/infra/img2.jpg" /> */}
+                                {/* </a> */}
                                 <ul class="actions">
-                                    <li><a href="#" class="button large">Learn More</a></li>
+                                    <li><a href="https://drive.google.com/file/d/1zQpKWrbYlZ3ddII0_6RW6ZVRKr_rFr10/view" target="_blank" rel="noopener noreferrer" class="button large">Learn More</a></li>
                                 </ul>
                             </div>
                         </section>
@@ -151,10 +151,10 @@ export default function Flowchart () {
                                     </h2>
                                 </Rotate>
                             </header>
-                            <div class="content">
+                            <div class="content text-left">
                                 <p><strong>Check "Incubation Agreement &amp; Annexures"</strong></p>
-                                {/* <a href="images/gallery/fulls/03.jpg"><Pulse><img class="landscape" src="https://nitdgp.ac.in/uploads/acadimg/assets/images/infra/img2.jpg" /> */ }
-                                {/* </a> */ }
+                                {/* <a href="images/gallery/fulls/03.jpg"><Pulse><img class="landscape" src="https://nitdgp.ac.in/uploads/acadimg/assets/images/infra/img2.jpg" /> */}
+                                {/* </a> */}
 
                                 <div class="gallery">
                                     <a href="images/gallery/fulls/01.jpg" class="landscape"><Pulse><img
@@ -166,7 +166,7 @@ export default function Flowchart () {
 
                                 </div>
                                 <ul class="actions">
-                                    <li><a href="#" class="button mt-4 large">Learn More</a></li>
+                                    <li><a href="https://drive.google.com/file/d/19cY2fQ0JUkOJ3hvcXYAVAp_zylRd4aGP/view" target="_blank" rel="noopener noreferrer" class="button mt-4 large">Learn More</a></li>
                                 </ul>
                             </div>
                         </section>
@@ -176,7 +176,7 @@ export default function Flowchart () {
                                     <h2>Intellectual Property Evaluation</h2>
                                 </Rotate>
                             </header>
-                            <div class="content">
+                            <div class="content text-left">
                                 <p><strong>Check
                                     "Faculty Guidelines for Incubation"
                                 </strong>IIC is
@@ -184,8 +184,8 @@ export default function Flowchart () {
                                     incubation sphere and bridging the gap between two, therefore, identifying, preparing and
                                     creating string pipeline of student & faculty innovations ready for commercialization through
                                     startup and enterprise mode which is generally lacking in HEIs.</p>
-                                {/* <a href="images/gallery/fulls/03.jpg"><Pulse><img class="landscape" src="https://nitdgp.ac.in/uploads/acadimg/assets/images/infra/img2.jpg" /> */ }
-                                {/* </a> */ }
+                                {/* <a href="images/gallery/fulls/03.jpg"><Pulse><img class="landscape" src="https://nitdgp.ac.in/uploads/acadimg/assets/images/infra/img2.jpg" /> */}
+                                {/* </a> */}
 
                                 <div class="gallery">
 
@@ -197,7 +197,7 @@ export default function Flowchart () {
                                 </div>
                                 <ul class="actions">
 
-                                    <li><a href="#" class="button large mt-2">Learn More</a></li>
+                                    <li><a href="https://drive.google.com/file/d/1B08fc3Q80G1PvOlFWofh7X1-45f98qGL/view" target="_blank" rel="noopener noreferrer" class="button large mt-2">Learn More</a></li>
                                 </ul>
 
                             </div>
@@ -208,18 +208,18 @@ export default function Flowchart () {
                                     <h2>Seed Funding</h2>
                                 </Rotate>
                             </header>
-                            <div class="content">
+                            <div class="content text-left">
                                 <p><strong>Check " Seed Funding (IIC Seed Loan)"
                                 </strong>IIC ensures to overcome seasonality nature of functioning of EDC and other centers
                                     and ensures round the year activities in campus to give multiple exposure
                                     opportunity for students and faculties to take part and understand the importance of
                                     Innovation, inculcating entrepreneurship skill and mindset and encouraging taking
                                     startup as an alternative career option</p>
-                                {/* <a href="images/gallery/fulls/03.jpg"><Pulse><img class="landscape" src="https://nitdgp.ac.in/uploads/acadimg/assets/images/infra/img2.jpg" /> */ }
-                                {/* </a> */ }
+                                {/* <a href="images/gallery/fulls/03.jpg"><Pulse><img class="landscape" src="https://nitdgp.ac.in/uploads/acadimg/assets/images/infra/img2.jpg" /> */}
+                                {/* </a> */}
 
                                 <ul class="actions">
-                                    <li><a href="#" class="button  large">Learn More</a></li>
+                                    <li><a href="https://drive.google.com/file/d/1RafUvgW0O8G0FuNvbwVkfexYbrKGQIDq/view" target="_blank" rel="noopener noreferrer" class="button  large">Learn More</a></li>
                                 </ul>
                             </div>
                         </section>
@@ -230,7 +230,7 @@ export default function Flowchart () {
                                     <h2>Periodic Assessment</h2>
                                 </Rotate>
                             </header>
-                            <div class="content">
+                            <div class="content text-left">
                                 <p><strong>Check
                                     Check "Policies and Procedure forIncubation"
                                 </strong> To engage key stakeholders (Student, Faculty an Institute) get engaged through in
@@ -244,10 +244,10 @@ export default function Flowchart () {
 
 
                                 </div>
-                                {/* <a href="images/gallery/fulls/03.jpg"><Pulse><img class="landscape" src="https://nitdgp.ac.in/uploads/acadimg/assets/images/infra/img2.jpg" /> */ }
-                                {/* </a> */ }
+                                {/* <a href="images/gallery/fulls/03.jpg"><Pulse><img class="landscape" src="https://nitdgp.ac.in/uploads/acadimg/assets/images/infra/img2.jpg" /> */}
+                                {/* </a> */}
                                 <ul class="actions">
-                                    <li><a href="#" class="button mt-4  large">Learn More</a></li>
+                                    <li><a href="https://drive.google.com/file/d/1s3M8GESz4rjaAg9oC8rg57u44ijPdwDT/view" target="_blank" rel="noopener noreferrer" class="button mt-4  large">Learn More</a></li>
                                 </ul>
                             </div>
                         </section>
@@ -259,15 +259,16 @@ export default function Flowchart () {
 
                                 </Rotate>
                             </header>
-                            <div class="content">
+                            <div class="content text-left">
                                 <p><strong>Check "Policies and Procedure forIncubation"
                                 </strong> During the implementation, following challenges pertain to various functional, structural and
                                     academic challenges have been encountered by IICs to carryout activities in campus.</p>
-                                {/* <a href="images/gallery/fulls/03.jpg"><Pulse><img class="landscape" src="https://nitdgp.ac.in/uploads/acadimg/assets/images/infra/img2.jpg" /> */ }
-                                {/* </a> */ }
+                                {/* <a href="images/gallery/fulls/03.jpg"><Pulse><img class="landscape" src="https://nitdgp.ac.in/uploads/acadimg/assets/images/infra/img2.jpg" /> */}
+                                {/* </a> */}
 
                                 <ul class="actions">
-                                    <li><a href="#" class="button large">Learn More</a></li>
+                                    <li><a href="https://drive.google.com/file/d/1s3M8GESz4rjaAg9oC8rg57u44ijPdwDT/view" target="_blank" rel="noopener noreferrer" class="button mt-4  large">Learn More</a></li>
+
                                 </ul>
                             </div>
                         </section>
@@ -279,7 +280,7 @@ export default function Flowchart () {
                                 </Rotate>
                             </header>
 
-                            <div class="content">
+                            <div class="content text-left">
                                 <p><strong>Check
                                     "Disclaimer & Agreement" page
                                 </strong></p>
@@ -289,12 +290,12 @@ export default function Flowchart () {
 
 
                                 </div>
-                                {/* <a href="images/gallery/fulls/03.jpg"><Pulse><img class="landscape" src="https://nitdgp.ac.in/uploads/acadimg/assets/images/infra/img2.jpg" /> */ }
-                                {/* </a> */ }
+                                {/* <a href="images/gallery/fulls/03.jpg"><Pulse><img class="landscape" src="https://nitdgp.ac.in/uploads/acadimg/assets/images/infra/img2.jpg" /> */}
+                                {/* </a> */}
                                 <ul class="actions mt-4">
-                                    <li><a href="#" class="button primary large">Get Started</a></li>
+                                    <li><a href="https://drive.google.com/file/d/1thgY-Q1b7cM3_4-ZP_fWvDTV1cqjTO-O/view" target="_blank" rel="noopener noreferrer" class="button primary large">Get Started</a></li>
 
-                                    <li><a href="#" class="button  large">Learn More</a></li>
+                                    <li><a href="/Guideline" class="button  large">Learn More</a></li>
                                 </ul>
                             </div>
                         </section>
@@ -303,14 +304,13 @@ export default function Flowchart () {
 
 
 
-                        {/* <!-- Section --> */ } */}
+                        {/* <!-- Section --> */}
                         <section>
                             <header>
                                 <h2>Get in touch</h2>
                             </header>
-                            <div class="content">
-                                <p><strong>Auctor commodo</strong> interdum et malesuada fames ac ante ipsum primis in faucibus.
-                                    Pellentesque venenatis dolor imperdiet dolor mattis sagittis.</p>
+                            <div class="content text-left">
+                                <p><strong>NEWSLETTER:</strong> Sign Up to Our Newsletter to Get Latest Updates &amp; Services or leave a message to get in touch.</p>
                                 <form>
                                     <div class="fields">
                                         <div class="field half">
@@ -332,32 +332,27 @@ export default function Flowchart () {
                                 <ul class="items">
                                     <li>
                                         <h3>Email</h3>
-                                        <a href="#">information@untitled.ext</a>
+                                        <a href="#">iic@admin.nitdgp.ac.in</a>
                                     </li>
-                                    <li>
-                                        <h3>Phone</h3>
-                                        <a href="#">(000) 000-0000</a>
-                                    </li>
+
                                     <li>
                                         <h3>Address</h3>
-                                        <span>1234 Somewhere Road, Nashville, TN 00000</span>
+                                        <span>Mahatma Gandhi Avenue, Durgapur, West Bengal, India, PIN 713209</span>
                                     </li>
                                     <li>
-                                        <h3>Elsewhere</h3>
+                                        <h3>Our Socials</h3>
                                         <ul class="icons">
-                                            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                                            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                                            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                                            <li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                                            <li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
-                                            <li><a href="#" class="icon fa-codepen"><span class="label">Codepen</span></a></li>
+                                            {/* <li><a href="https://www.twitter.com/IIICNITD/" target="_blank" rel="noopener noreferrer" class="icon fa-twitter"><span class="label">Twitter</span></a></li> */}
+                                            <li><a href="https://www.facebook.com/IIICNITD/" target="_blank" rel="noopener noreferrer" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                                            {/* <li><a href="https://www.instagram.com/IIICNITD/" target="_blank" rel="noopener noreferrer" class="icon fa-instagram"><span class="label">Instagram</span></a></li> */}
+                                            <li><a href="https://www.linkedin.com/company/IIICNITD/" target="_blank" rel="noopener noreferrer" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </footer>
                         </section>
 
-                        {/* <!-- Copyright --> */ }
+                        {/* <!-- Copyright --> */}
                         <div class="copyright">&copy; IIC. All rights reserved.</div>
 
                     </div>
